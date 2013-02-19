@@ -1,0 +1,17 @@
+// Orbit
+#featured { 
+  background-color: #f4f4f4;
+  height: 300px;
+  margin-top: 10px;
+
+  img { 
+    display: none;
+  }
+}
+
+#featured.orbit { 
+  background: none; 
+}
+#featured.orbit img { 
+  display: block; 
+}

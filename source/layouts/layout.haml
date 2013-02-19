@@ -9,21 +9,26 @@
     %meta{:charset => "utf-8"}/
     / Set the viewport width to device width for mobile
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
-    %title= data.page.title || "ZURB Foundation"
+    %title= data.page.title || "Lateral Fitness"
     / Included CSS Files
     = stylesheet_link_tag "app"
+    = stylesheet_link_tag "lateral"
     = javascript_include_tag "foundation/modernizr.foundation"
     
   %body{:class => page_classes}
     .row
       .eight.columns
-        %h2 Welcome to Foundation on Middleman
+        %h2 Lateral Fitness
       .four.columns
-        %p This is version 3.2.3.
+        %p Social Icons
       %hr
       .twelve.columns
         %nav.top-bar
           %ul
+            %li.name
+              %h1
+                %a(href="#")
+                  Title
             %li.toggle-topbar
               %a(href="#")
           %section
@@ -32,6 +37,11 @@
                 %li
                   %a(href="#")
                     =i
+            %ul.right
+              %li
+                %a(href="#")
+                  Link
     = yield
     / Application Javascript, safe to override
     = javascript_include_tag "app"
+    = javascript_include_tag "main"
