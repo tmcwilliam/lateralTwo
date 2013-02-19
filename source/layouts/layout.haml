@@ -9,16 +9,16 @@
     %meta{:charset => "utf-8"}/
     / Set the viewport width to device width for mobile
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
-    %title= data.page.title || "Lateral Fitness"
+    %title= data.page.title || "Middleman/Foundation"
     / Included CSS Files
     = stylesheet_link_tag "app"
     = stylesheet_link_tag "lateral"
     = javascript_include_tag "foundation/modernizr.foundation"
-    
+
   %body{:class => page_classes}
     .row
       .eight.columns
-        %h2 Lateral Fitness
+        %h2 Middleman / Foundation
       .four.columns
         %p Social Icons
       %hr
@@ -28,7 +28,7 @@
             %li.name
               %h1
                 %a(href="#")
-                  Title
+                  Nav Bar
             %li.toggle-topbar
               %a(href="#")
           %section
