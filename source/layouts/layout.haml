@@ -26,21 +26,19 @@
         %nav.top-bar
           %ul
             %li.name
-              %h1
-                %a(href="#")
-                  Nav Bar
             %li.toggle-topbar
               %a(href="#")
           %section
             %ul.left
-              - data.header.navigation.each do |i|
-                %li
-                  %a(href="#")
-                    =i
+              %li
+                %a(href="#")
+                  test
             %ul.right
               %li
                 %a(href="#")
                   Link
+
+        = render_navigation
     = yield
     / Application Javascript, safe to override
     = javascript_include_tag "app"
