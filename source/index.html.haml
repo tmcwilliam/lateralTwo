@@ -4,21 +4,22 @@ title: Middleman/Foundation
 
 .row
   .nine.columns
-    #featured
-      %img{:src => "../images/slider/bottle.jpg"}
-      %img{:src => "../images/slider/table.jpg"}
-      %img{:src => "../images/slider/weights.jpg"}
+    .row
+      #featured
+        %img{:src => "../images/slider/bottle.jpg"}
+        %img{:src => "../images/slider/table.jpg"}
+        %img{:src => "../images/slider/weights.jpg"}
 
-  %ul.block-grid.three-up.mobile-five-up
-    %li
+  .row
+    .four.columns
       .panel
-        one
-    %li
+        %p Four columns
+    .four.columns
       .panel
-        two
-    %li
+        %p Four columns
+    .four.columns
       .panel
-        three
+        %p Four columns
 
   .eight.columns
     %h3 The Grid

@@ -22,6 +22,14 @@
       .four.columns
         %p Social Icons
       %hr
+
+      %ul
+        %li{nav_active("index")}= link_to 'Home', '/'
+        %li{nav_active("about")}= link_to 'About', '/about.html'
+        %li{nav_active("services")}= link_to 'Services', '/services.html'
+
+      %hr
+
       .twelve.columns
         %nav.top-bar
           %ul
@@ -37,8 +45,6 @@
               %li
                 %a(href="#")
                   Link
-
-        = render_navigation
     = yield
     / Application Javascript, safe to override
     = javascript_include_tag "app"
