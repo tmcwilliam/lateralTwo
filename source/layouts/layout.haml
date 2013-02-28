@@ -50,30 +50,16 @@
                 = link_to 'Schedule a Class', '#'
     = yield
 
-    %footer
-      .footer_wrapper
-        = link_to 'Lateral Fitness Chicago', '/'
+    %footer.row
+      .footer_wrapper.twelve.columns
+        = link_to 'Lateral Fitness Chicago', '/', :class => "logo"
         %ul.footer_socials.main_socials
           %li 
             %a{:href => "/", :class => "ico_social-facebook", "original-title" => "Facebook"}
           %li 
             %a{:href => "/", :class => "ico_social-vimeo", "original-title" => "Vimeo"}
-        .copyright
-          © 2020 CLEANSPACE HTML5&amp;CSS3 Business Theme. All Rights Reserved.
-        %nav
-          %ul.menu.sf-js-enabled.sf-shadow
-            %li
-              = link_to 'Home', '/'
-            %li
-              = link_to 'About', '/about.html'
-            %li
-              = link_to 'Pricing', '/pricing.html'
-            %li
-              = link_to 'Services', '/services.html'
-            %li
-              = link_to 'Trainers', '/trainers.html'
-            %li
-              = link_to 'Sample', '/sample.html'
+        %span
+          314 West Superior LL-E Chicago, IL 60654 - 312-291-9466
     / Application Javascript, safe to override
     = javascript_include_tag "app"
     = javascript_include_tag "main"
