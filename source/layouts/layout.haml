@@ -12,22 +12,17 @@
     %title= data.page.title || "Middleman/Foundation"
     / Included CSS Files
     = stylesheet_link_tag "app"
+    = stylesheet_link_tag "fonts"
+    = stylesheet_link_tag "colors"
     = stylesheet_link_tag "lateral"
     = javascript_include_tag "foundation/modernizr.foundation"
 
   %body{:class => page_classes}
     .row
       .eight.columns
-        %h2 Middleman / Foundation
+        %h2 Lateral Fitness Chicago
       .four.columns
         %p Social Icons
-      %hr
-
-      %ul
-        %li{nav_active("index")}= link_to 'Home', '/'
-        %li{nav_active("about")}= link_to 'About', '/about.html'
-        %li{nav_active("services")}= link_to 'Services', '/services.html'
-
       %hr
 
       .twelve.columns
@@ -39,13 +34,46 @@
           %section
             %ul.left
               %li
-                %a(href="#")
-                  test
+                = link_to 'Home', '/'
+              %li
+                = link_to 'About', '/about.html'
+              %li
+                = link_to 'Pricing', '/pricing.html'
+              %li
+                = link_to 'Services', '/services.html'
+              %li
+                = link_to 'Trainers', '/trainers.html'
+              %li
+                = link_to 'Sample', '/sample.html'
             %ul.right
               %li
-                %a(href="#")
-                  Link
+                = link_to 'Schedule a Class', '#'
     = yield
+
+    %footer
+      .footer_wrapper
+        = link_to 'Lateral Fitness Chicago', '/'
+        %ul.footer_socials.main_socials
+          %li 
+            %a{:href => "/", :class => "ico_social-facebook", "original-title" => "Facebook"}
+          %li 
+            %a{:href => "/", :class => "ico_social-vimeo", "original-title" => "Vimeo"}
+        .copyright
+          © 2020 CLEANSPACE HTML5&amp;CSS3 Business Theme. All Rights Reserved.
+        %nav
+          %ul.menu.sf-js-enabled.sf-shadow
+            %li
+              = link_to 'Home', '/'
+            %li
+              = link_to 'About', '/about.html'
+            %li
+              = link_to 'Pricing', '/pricing.html'
+            %li
+              = link_to 'Services', '/services.html'
+            %li
+              = link_to 'Trainers', '/trainers.html'
+            %li
+              = link_to 'Sample', '/sample.html'
     / Application Javascript, safe to override
     = javascript_include_tag "app"
     = javascript_include_tag "main"
