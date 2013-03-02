@@ -5,9 +5,94 @@ body {
 .row, .column {
   background-color: white;
 }
+.header {
+  background: none;
+}
+.headline_socials {
+  padding:10px;
+  float: right;
+  li {
+    height:16px;
+    display:inline-block;
+    float:left;
+    margin-left:15px;
+  }
+}
+.headline_socials li:first-child {
+  margin-left:0;
+}
+.headline_socials li a {
+  width:16px; 
+  height:16px;
+  display:block;
+}
+.main_socials a {
+  opacity:0.44;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=44);
+  transition: opacity 300ms;
+  -webkit-transition: opacity 300ms;
+  -moz-transition:opacity 300ms;
+  -o-transition: opacity 300ms;
+}
+.main_socials a:hover {
+  opacity:1;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);  
+}
+
+.navigation {
+  padding-top: 20px;
+}
+
+/*-- Icons --*/
+.ico_social-facebook { 
+  background:url(/images/icons/ico_social-facebook.png) 0 0;
+}
+.ico_social-delicious { 
+  background:url(/images/icons/ico_social-delicious.png) 0 0;
+}
+.ico_social-tumbler { 
+  background:url(/images/icons/ico_social-tumbler.png) 0 0;
+}
+.ico_social-twitter { 
+  background:url(/images/icons/ico_social-twitter.png) 0 0;
+  width:20px!important;
+}
+.ico_social-vimeo { 
+  background:url(/images/icons/ico_social-vimeo.png) 0 0;
+}
+
+.smallproflinks {
+  a {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin: 0 2px 0 1px;
+    padding: 0;
+    background-color: #dcdcdc;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-color 300ms;
+    -webkit-transition: background-color 300ms;
+    -moz-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
+
+    &:hover {
+      background-color: #5a5a5a;
+    }
+  }
+  .facebook_link { 
+    background-image:url(/images/icons/ico_carousel_facebook.png);
+  }
+  .twitter_link { 
+    background-image:url(/images/icons/ico_carousel_twitter.png);
+  }
+} 
 
 
 // Orbit
+.orbit-wrapper {
+  height: 350px !important;
+}
 #featured { 
   background-color: #f4f4f4;
   height: 300px;
@@ -25,139 +110,53 @@ body {
   display: block; 
 }
 
-/*-- Price Table --*/
-.module_price_table {
-
-  .price_item {
-    padding:7px 0 0 0;
-    float:left;
-
-    .price_item_wrapper {
-      margin:0 0 0 1px;
-      border-bottom: #5a5a5a 3px solid;
-    }
-    .price_item_title {
-      display:block;
-
-      h2 {
-        color:#ffffff;
-        background:#5a5a5a;
-        padding:0;
-        text-align:center;
-        margin-bottom:0;
-        font-size:22px;
-        line-height:46px;
-        text-transform:uppercase;
-        font-weight:normal!important;
-      }
-    }
-  }
-  .price_item:first-child .price_item_wrapper {
-    margin:0 0 0 0px!important;
-  }
-  &.price_five .price_item{
-    width: 20%;
-  }
-  &.price_three .price_item{
-    width: 33%;
-  }
-
-  .price_item.most_popular {
-    padding:0px;
+// Promos
+.promos .panel {
+  min-height: 250px;
+}
+@media only screen and (max-width: 767px) {
+  .promos .panel {
+    min-height: auto;
   }
 }
 
-.price_item_cost {
-  padding:18px 0 8px 0;
-  h1 {
-    color:#5a5a5a;
-    text-align:center;
-    margin:0;
-    font-size:60px;
-    line-height:62px;
+// Pricing Table
+.pricing-table {
+  border: none;
+  padding: 1px;
 
-    span {
-      margin:0;
-      text-transform:none;
-      font-size:22px;
-      line-height:62px;
-      font-weight:normal!important;
-      color:#5a5a5a;
-    }
+  .title {
+    line-height:46px;
+    text-transform:uppercase;
   }
-}
-
-.price_item_text {
-  background:#dcdcdc;
-  color:#5a5a5a;
-  padding:7px 10px;
-  text-align:center;
-  margin-bottom:1px;
-  a {
-    color:#5a5a5a;
+  &.most-popular .title {
+    background-color: red;
   }
-}
+  .cta-button {
+    padding:21px 40px 22px 40px;
 
-.price_item_btn {
-  padding:21px 40px 22px 40px;
-  background:#dcdcdc;
-  a {
-    margin:0;
-    padding:0 20px;
-    text-align:center;
-    height:36px;
-    font-size:18px;
-    line-height:36px;
-    display:block;
-    text-decoration:none!important;
-    border:none;
-    color:#5a5a5a;
-    float:none;
-    background:#ffffff;
-    overflow:hidden;
-    transition: color 300ms, background-color 300ms;
-    -webkit-transition: color 300ms, background-color 300ms;
-    -moz-transition: color 300ms, background-color 300ms;
-    -o-transition: color 300ms, background-color 300ms;
-
-    &:hover {
-      background:#5a5a5a;
-      color:#ffffff;
-    }    
-  }
-}
-
-.most_popular {
-
-  .price_item_cost {
-    border-bottom:#dcdcdc 1px solid;
-  }
-  .price_item_text {
-    background:#ffffff;
-    color:#5a5a5a;
-    margin-top:0px;
-    margin-bottom:1px;
-    border-bottom:#dcdcdc 1px solid;
-    padding:7px 10px 6px 10px;
-  }
-  .price_item_btn {
-    background:#ffffff;
-    padding:23px 40px 27px 40px!important;    
     a {
-      background:#5a5a5a;
-      color:#ffffff;
-      padding:0 20px;
+      margin:0;
+      padding: 0 20px;
+      height:36px;
+      font-size:18px;
+      line-height:36px;
+      display:block;
+      text-decoration:none!important;
+      border:none;
+      color:#5a5a5a;
+      float:none;
+      background:#ffffff;
       overflow:hidden;
+      transition: color 300ms, background-color 300ms;
+      -webkit-transition: color 300ms, background-color 300ms;
+      -moz-transition: color 300ms, background-color 300ms;
+      -o-transition: color 300ms, background-color 300ms;
+
       &:hover {
+        background:#5a5a5a;
         color:#ffffff;
-        background:#2c2c2c;
-      }
-    }
-  }
-  .price_item_title {
-    padding:3px 0 4px 0;
-    h2 {
-      background: none !important;
+      }    
     }
   }
 }
@@ -174,55 +173,111 @@ body {
 
 /*-- Team --*/
 .member {
-  border-bottom: #dcdcdc 3px solid;
-}
 
-/*-- Footer --*/
-footer {
-  height:141px;
-  margin-top: 20px;
-  display:block;
-  background:#6b6b6b !important;
-  position:relative;
-  border-bottom:4px solid #6b6b6b;
-}
-footer .footer_wrapper {
-  width:1000px;
-  position:relative;
-  margin:0 auto;
-  text-align:left;
-  height:141px;
-  display:block;
-}
+  .panel {
+    border-bottom: #dcdcdc 3px solid;
+    transition: border-color 400ms;
+    -webkit-transition: border-color 400ms;
+    -moz-transition: border-color 400ms;
+    -o-transition: border-color 400ms;
 
-footer .footer_socials {
-  position:absolute; 
-  top:45px;
-  right:250px;
-  li {
-    height:16px;
-    display:inline-block;
-    float:left;
-    margin-left:15px;
+    &:hover {
+      border-bottom-color: #ff4b28;
 
-    &:first-child {
-      margin-left:0;
+      h5 {
+        color: #ff4b28;
+      }
     }
-    a {
-      width:16px; 
-      height:16px;
-      display:block;
+  }
+
+  .th {
+    display: block;
+    margin: 0px auto 10px
+  }
+
+  h5 {
+    text-align: center;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #5a5a5a;
+    font-size: 22px;
+    transition: color 400ms;
+    -webkit-transition: color 400ms;
+    -moz-transition: color 400ms;
+    -o-transition: color 400ms;
+  }
+
+  .op {
+    display: block;
+    clear: both;
+    color: #a9a9a9;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .member_desc {
+    border-top: #dcdcdc 1px solid;
+    padding: 9px 0 16px 0;
+    font-size: 15px;
+    line-height: 20px;
+
+    .exc {
+      padding: 0;
+      text-align: center;
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .smallproflinks {
+      text-align: center;
+      padding: 16px 0 0 0;
     }
   }
 }
 
-footer .logo {
-  position:absolute;
-  left:0px;
-  top:40px;
+/*-- Footer --*/
+footer {
+  height:140px;
   display:block;
-  width:225px;
-  height:40px;
+  background-color:#FFF;
+  position:relative;
+
+  .footer_wrapper {
+    background-color:#6b6b6b;
+    position:relative;
+    height:100px;
+    width:1000px;
+    margin-top: 40px;
+  }
+
+  .logo {
+    position:absolute;
+    left:0px;
+    top:40px;
+    display:block;
+    width:225px;
+    height:40px;
+  }
+
+  .footer_socials {
+    position:absolute; 
+    top:45px;
+    right:250px;
+    li {
+      height:16px;
+      display:inline-block;
+      float:left;
+      margin-left:15px;
+
+      &:first-child {
+        margin-left:0;
+      }
+      a {
+        width:16px; 
+        height:16px;
+        display:block;
+      }
+    }
+  }
 }
 
 footer span {

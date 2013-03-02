@@ -18,13 +18,21 @@
     = javascript_include_tag "foundation/modernizr.foundation"
 
   %body{:class => page_classes}
-    .row
-      .eight.columns
-        %h2 Lateral Fitness Chicago
-      .four.columns
-        %p Social Icons
-      %hr
+    .row.header
+      .six.columns
+        %img{:src => "/images/branding/logo.png", :alt => "Lateral Fitness Chicago"}
+      .three.columns.header_social
+        %ul.headline_socials.main_socials
+          %li
+            %a.ico_social-facebook{:href => "#"}
+          %li
+            %a.ico_social-delicious{:href => "#"}
+          %li
+            %a.ico_social-tumbler{:href => "#"}
+          %li
+            %a.ico_social-twitter{:href => "#"}
 
+    .row.navigation
       .twelve.columns
         %nav.top-bar
           %ul
@@ -48,6 +56,7 @@
             %ul.right
               %li
                 = link_to 'Schedule a Class', '#'
+    
     = yield
 
     %footer.row

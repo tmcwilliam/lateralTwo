@@ -145,25 +145,25 @@
 // Pricing Table Settings
 
 // $priceTableBorder: solid 1px #ddd;
-// $priceTitleBgColor: #ddd;
-// $priceTitlePadding: 15px 20px;
-// $priceTitleAlign: center;
-// $priceTitleColor: #333;
-// $priceTitleWeight: bold;
-// $priceTitleSize: 16px;
+$priceTitleBgColor: #5a5a5a;
+$priceTitlePadding: 0;
+$priceTitleAlign: center;
+$priceTitleColor: #FFF;
+$priceTitleWeight: normal;
+$priceTitleSize: 22px;
 
 // $priceMoneyBgColor: #eee;
 // $priceMoneyPadding: 15px 20px;
 // $priceMoneyAlign: center;
 // $priceMoneyColor: #333;
 // $priceMoneyWeight: normal;
-// $priceMoneySize: 20px;
+$priceMoneySize: 40px;
 
 // $priceBgColor: #fff;
 // $priceDescColor: #777;
 // $priceDescPadding: 15px;
 // $priceDescAlign: center;
-// $priceDescFontSize: 12px;
+$priceDescFontSize: 18px;
 // $priceDescWeight: normal;
 // $priceDescLineHeight: 1.4;
 // $priceDescBtmBorder: dotted 1px #ddd;
@@ -175,7 +175,7 @@
 // $priceItemWeight: normal;
 // $priceItemBtmBorder: dotted 1px #ddd;
 
-// $priceCtaBgColor: #f5f5f5;
+$priceCtaBgColor: #dcdcdc;
 // $priceCtaAlign: center;
 // $priceCtaPadding: 20px;
 
