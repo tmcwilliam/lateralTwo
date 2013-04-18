@@ -3,23 +3,17 @@ title: Lateral Fitness Chicago
 ---
 
 .row.slider
-  .twelve.columns
+  .nine.columns.centered
     #featured.slider
-      .slide
-        %img.eight.columns{:src => "/images/slider/bottle.jpg"}
-        %h3 Think Lateral. Train Lateral.  
-        %p Understanding that sustaining a healthy lifestyle is a process, we are committed to provide a knowledgeable, detailed environment, where our clients will be able to achieve their fitness outcomes in a safe, progressive manner.
-        %a{:href => "#"} Read More >>
-      .slide
-        %img.eight.columns{:src => "/images/slider/table.jpg"}
-        %h3 Muscle Activation Technique
-        %p Lateral Fitness offers Muscle Activation Technique a range of motion assessment, non-invasive, manual manipulation to correct asymmetrical limitations.
-        %a{:href => "#"} Read More >>
-      .slide
-        %img.eight.columns{:src => "/images/slider/weights.jpg"}
-        %h3 Group Classes
-        %p Lateral Fitness offers group classes to fit everyone's needs and goals by top professionals in the Chicago land area.
-        %a{:href => "#"} Read More >>
+      %img{:src => "/images/slider/bottle.jpg", :'data-caption' => "#captionOne"}
+      %img{:src => "/images/slider/table.jpg", :'data-caption' => "#captionTwo"}
+      %img{:src => "/images/slider/weights.jpg", :'data-caption' => "#captionThree"}
+    %span.orbit-caption#captionOne
+      Think Lateral. Train Lateral.
+    %span.orbit-caption#captionTwo
+      Muscle Activation Technique
+    %span.orbit-caption#captionThree
+      Group Classes
 
 .row.promos
   .ten.centered.columns

@@ -13,6 +13,7 @@
     / Included CSS Files
     = stylesheet_link_tag "app"
     = stylesheet_link_tag "fonts"
+    = stylesheet_link_tag "font-awesome"
     = stylesheet_link_tag "colors"
     = stylesheet_link_tag "lateral"
     = javascript_include_tag "foundation/modernizr.foundation"
@@ -27,20 +28,27 @@
             = link_to 'Pricing', '/pricing.html'
           %li
             = link_to 'Services', '/services.html'
+          %li
+            = link_to 'Instructors', '/instructors.html'
+          %li
+            = link_to 'Contact Us', '/contact.html'
+          %li
+            = link_to 'Schedule a Class', '#'
+          %li
+            = link_to 'Facebook', '#'
     %section.main-content{:role => "main"}
       .row.header
         .mobile-one.columns.show-for-small
           %a{:href => "#sidebar", :class => "sidebar-button", :id => "sidebarButton"}
-            Menu
+            %i.icon-reorder
         .eight.mobile-three.columns
           %a{:href => "/"}
             %img{:src => "/images/branding/logo.png", :alt => "Lateral Fitness Chicago"}
         .four.columns.header_social.hide-for-small
           %ul.headline_socials.main_socials
             %li 
-              %a{:href => "#", :class => "ico_socialize_facebook1 ico_socialize type1"}
-            %li 
-              %a{:href => "#", :class => "ico_socialize_twitter1 ico_socialize type1"}
+              %a{:href => "#", :class => "facebook"}
+                %i.icon-facebook-sign
           %p.phone
             Feel free to call us: 312-291-9466
 
@@ -55,10 +63,13 @@
               %ul.nav-links
                 %li
                   = link_to 'About', '/about.html'
+                %li.divider
                 %li
                   = link_to 'Pricing', '/pricing.html'
+                %li.divider
                 %li
                   = link_to 'Services', '/services.html'
+                %li.divider
                 %li.has-dropdown
                   = link_to 'Instructors', '/instructors.html'
                   %ul.dropdown
@@ -66,6 +77,7 @@
                       = link_to 'Scott McWilliam', '/scott.html'
                     %li
                       = link_to 'Scotts McWilliams', '/scotts.html'
+                %li.divider
                 %li
                   = link_to 'Sample', '/sample.html'
               %ul.right

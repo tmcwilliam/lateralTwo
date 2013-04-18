@@ -11,7 +11,9 @@ var Lateral = (function() {
       $("#featured").orbit({
         timer: false,
         pauseOnHover: true,
-        fluid: lateral.aspectRatio
+        fluid: true,
+        captions: true,
+        bullets: true
       });
     }
   };

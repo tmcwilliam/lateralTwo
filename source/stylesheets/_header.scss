@@ -1,0 +1,38 @@
+.main-content .header {
+  background: none;
+  padding-top: 10px;
+}
+.sidebar-button,
+.sidebar-button:active,
+.sidebar-button:hover,
+.sidebar-button:focus {
+  color: #111;
+  font-size: 30px;
+}
+.headline_socials {
+  float: right;
+  li {
+    display:inline-block;
+    float:left;
+    margin-left:15px;
+  }
+  a {
+    color: #C0C0C0;
+    font-size: 30px;
+    
+    &.facebook:hover {
+      color: #3b5998;
+    }
+  }
+  
+  .twitter {
+    color: #4099FF; 
+  }
+}
+.phone {
+  clear: both;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+  margin: 10px 0 0;
+}
