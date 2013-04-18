@@ -1,0 +1,226 @@
+@import "settings";
+@import "header";
+@import "navigation";
+
+/*-- Layout -- */
+body {
+  background-color: $backgroundColor;
+}
+.row, .column {
+  background-color: white;
+}
+
+// Orbit
+.slider {
+  padding-top: 10px;
+}
+
+#featured { 
+  background: url(/images/spinner.gif) center center #f4f4f4 no-repeat; height: 300px; 
+}
+#featured img { 
+  display: none; 
+}
+#featured.orbit { 
+  background: none; 
+}
+#featured.orbit img { 
+  display: block; 
+}
+
+@media only screen and (max-width: 767px) {
+  .orbit-wrapper .slide h3 {
+    font-size: 16px;
+    line-height: 14px;
+  }
+}
+
+
+// Promos
+.promos {
+  h3 {
+    text-align: center;
+  }
+  .panel {
+    min-height: 250px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .promos .panel {
+    min-height: 100px;
+  }
+}
+
+
+// Pricing Table
+.pricing-table {
+  border: none;
+  padding: 1px;
+
+  .title {
+    line-height:46px;
+    text-transform:uppercase;
+  }
+  &.most-popular .title {
+    background-color: red;
+  }
+  .cta-button {
+    padding:21px 40px 22px 40px;
+
+    a {
+      margin:0;
+      padding: 0 20px;
+      height:36px;
+      font-size:18px;
+      line-height:36px;
+      display:block;
+      text-decoration:none!important;
+      border:none;
+      color:#5a5a5a;
+      float:none;
+      background:#ffffff;
+      overflow:hidden;
+      transition: color 300ms, background-color 300ms;
+      -webkit-transition: color 300ms, background-color 300ms;
+      -moz-transition: color 300ms, background-color 300ms;
+      -o-transition: color 300ms, background-color 300ms;
+
+      &:hover {
+        background:#5a5a5a;
+        color:#ffffff;
+      }    
+    }
+  }
+}
+
+/*-- Services --*/
+.services .right {
+  float: right !important;
+}
+@media only screen and (max-width: 767px) {
+  .services .right {
+    float: none !important;
+  }
+}
+
+/*-- Team --*/
+.member {
+
+  .panel {
+    border-bottom: #dcdcdc 3px solid;
+    transition: border-color 400ms;
+    -webkit-transition: border-color 400ms;
+    -moz-transition: border-color 400ms;
+    -o-transition: border-color 400ms;
+
+    &:hover {
+      border-bottom-color: #ff4b28;
+
+      h5 {
+        color: #ff4b28;
+      }
+    }
+  }
+
+  .th {
+    display: block;
+    margin: 0px auto 10px
+  }
+
+  h5 {
+    text-align: center;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #5a5a5a;
+    font-size: 22px;
+    transition: color 400ms;
+    -webkit-transition: color 400ms;
+    -moz-transition: color 400ms;
+    -o-transition: color 400ms;
+  }
+
+  .op {
+    display: block;
+    clear: both;
+    color: #a9a9a9;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .member_desc {
+    border-top: #dcdcdc 1px solid;
+    padding: 9px 0 16px 0;
+    font-size: 15px;
+    line-height: 20px;
+
+    .exc {
+      padding: 0;
+      text-align: center;
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .smallproflinks {
+      text-align: center;
+      padding: 16px 0 0 0;
+    }
+  }
+}
+
+/*-- Footer --*/
+.main-content footer {
+  background-color: $backgroundColor;
+  padding: 10px 0;
+
+  .logo {
+    position:absolute;
+    left:0px;
+    top:40px;
+    display:block;
+    width:225px;
+    height:40px;
+  }
+
+  .footer_socials {
+    position:absolute; 
+    top:45px;
+    right:250px;
+    li {
+      height:16px;
+      display:inline-block;
+      float:left;
+      margin-left:15px;
+
+      &:first-child {
+        margin-left:0;
+      }
+      a {
+        width:16px; 
+        height:16px;
+        display:block;
+      }
+    }
+  }
+
+  .address {
+    font-weight: bold;
+    text-align: right;
+    line-height: 16px;
+    font-size: 12px;
+  }
+  
+}
+
+@media only screen and (max-width: 767px) {
+  .main-content footer .address {
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+footer span {
+  padding:0px 0px 0px 0;
+  position:absolute;
+  right:0px;
+  top:78px;
+}

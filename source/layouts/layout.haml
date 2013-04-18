@@ -1,0 +1,99 @@
+!!! 5
+/ paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+/[if IE 8] <html class="no-js lt-ie9" lang="en">
+:plain
+  <!--[if gt IE 8] -->
+%html{:lang => "en"}
+  /<![endif]
+  %head
+    %meta{:charset => "utf-8"}/
+    / Set the viewport width to device width for mobile
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+    %title= data.page.title || "Lateral Fitness - Chicago boutique fitness gym"
+    / Included CSS Files
+    = stylesheet_link_tag "app"
+    = stylesheet_link_tag "fonts"
+    = stylesheet_link_tag "font-awesome"
+    = stylesheet_link_tag "colors"
+    = stylesheet_link_tag "lateral"
+    = javascript_include_tag "foundation/modernizr.foundation"
+
+  %body{:class => page_classes}
+    .show-for-small{:role => "complementary", :id => "sidebar"}
+      %nav{:role => "navigation", :id => "sideMenu"}
+        %ul{:class => "nav-bar", :id => "sideMainNav"}
+          %li
+            = link_to 'About', '/about.html'
+          %li
+            = link_to 'Pricing', '/pricing.html'
+          %li
+            = link_to 'Services', '/services.html'
+          %li
+            = link_to 'Instructors', '/instructors.html'
+          %li
+            = link_to 'Contact Us', '/contact.html'
+          %li
+            = link_to 'Schedule a Class', '#'
+          %li
+            = link_to 'Facebook', '#'
+    %section.main-content{:role => "main"}
+      .row.header
+        .mobile-one.columns.show-for-small
+          %a{:href => "#sidebar", :class => "sidebar-button", :id => "sidebarButton"}
+            %i.icon-reorder
+        .eight.mobile-three.columns
+          %a{:href => "/"}
+            %img{:src => "/images/branding/logo.png", :alt => "Lateral Fitness Chicago"}
+        .four.columns.header_social.hide-for-small
+          %ul.headline_socials.main_socials
+            %li 
+              %a{:href => "#", :class => "facebook"}
+                %i.icon-facebook-sign
+          %p.phone
+            Feel free to call us: 312-291-9466
+
+      .row.navigation.hide-for-small
+        .twelve.columns
+          %nav.top-bar
+            %ul
+              %li.name
+              %li.toggle-topbar
+                %a(href="#")
+            %section
+              %ul.nav-links
+                %li
+                  = link_to 'About', '/about.html'
+                %li.divider
+                %li
+                  = link_to 'Pricing', '/pricing.html'
+                %li.divider
+                %li
+                  = link_to 'Services', '/services.html'
+                %li.divider
+                %li.has-dropdown
+                  = link_to 'Instructors', '/instructors.html'
+                  %ul.dropdown
+                    %li
+                      = link_to 'Scott McWilliam', '/scott.html'
+                    %li
+                      = link_to 'Scotts McWilliams', '/scotts.html'
+                %li.divider
+                %li
+                  = link_to 'Sample', '/sample.html'
+              %ul.right
+                %li
+                  = link_to 'Schedule a Class', '#'
+          
+      = yield
+
+      %footer.row
+        .eight.columns
+          %a{:href => "/"}
+            %img{:src => "/images/branding/logo.png", :alt => "Lateral Fitness Chicago", :width => "250", :height => "48"}
+        .four.columns.address
+          314 West Superior LL-E<br/>
+          Chicago, IL 60654<br/>
+          312-291-9466
+    / Application Javascript, safe to override
+    = javascript_include_tag "app"
+    = javascript_include_tag "main"

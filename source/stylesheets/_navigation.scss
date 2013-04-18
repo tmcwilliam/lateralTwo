@@ -1,0 +1,25 @@
+/*-- Navigation --*/
+.navigation {
+  padding-top: 10px;
+  overflow: visible;
+}
+[role="main"] {
+  width: 100%;
+  padding: 0;
+}
+#sidebar {
+  padding: 0;
+}
+#sideMainNav {
+  margin: 0;
+}
+
+
+/*-- Top Bar Overrides --*/
+.top-bar .nav-links > li:hover, 
+.top-bar .nav-links > li.active, 
+.top-bar .nav-links > li:focus {
+  // background: none;
+  // border-top: 3px solid $secondaryColor;
+  // margin-top: -3px;
+}

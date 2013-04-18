@@ -1,0 +1,1 @@
+# My attempt to learn [Middleman](http://middlemanapp.com/) [ZURB Foundation](http://foundation.zurb.com/) using [HAML](http://haml-lang.com/)
