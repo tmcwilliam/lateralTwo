@@ -9,7 +9,7 @@
     %meta{:charset => "utf-8"}/
     / Set the viewport width to device width for mobile
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
-    %title= data.page.title || "Middleman/Foundation"
+    %title= data.page.title || "Lateral Fitness - Chicago boutique fitness gym"
     / Included CSS Files
     = stylesheet_link_tag "app"
     = stylesheet_link_tag "fonts"
@@ -18,57 +18,70 @@
     = javascript_include_tag "foundation/modernizr.foundation"
 
   %body{:class => page_classes}
-    .row.header
-      .six.columns
-        %img{:src => "/images/branding/logo.png", :alt => "Lateral Fitness Chicago"}
-      .three.columns.header_social
-        %ul.headline_socials.main_socials
+    .show-for-small{:role => "complementary", :id => "sidebar"}
+      %nav{:role => "navigation", :id => "sideMenu"}
+        %ul{:class => "nav-bar", :id => "sideMainNav"}
           %li
-            %a.ico_social-facebook{:href => "#"}
+            = link_to 'About', '/about.html'
           %li
-            %a.ico_social-delicious{:href => "#"}
+            = link_to 'Pricing', '/pricing.html'
           %li
-            %a.ico_social-tumbler{:href => "#"}
-          %li
-            %a.ico_social-twitter{:href => "#"}
+            = link_to 'Services', '/services.html'
+    %section.main-content{:role => "main"}
+      .row.header
+        .mobile-one.columns.show-for-small
+          %a{:href => "#sidebar", :class => "sidebar-button", :id => "sidebarButton"}
+            Menu
+        .eight.mobile-three.columns
+          %a{:href => "/"}
+            %img{:src => "/images/branding/logo.png", :alt => "Lateral Fitness Chicago"}
+        .four.columns.header_social.hide-for-small
+          %ul.headline_socials.main_socials
+            %li 
+              %a{:href => "#", :class => "ico_socialize_facebook1 ico_socialize type1"}
+            %li 
+              %a{:href => "#", :class => "ico_socialize_twitter1 ico_socialize type1"}
+          %p.phone
+            Feel free to call us: 312-291-9466
 
-    .row.navigation
-      .twelve.columns
-        %nav.top-bar
-          %ul
-            %li.name
-            %li.toggle-topbar
-              %a(href="#")
-          %section
-            %ul.left
-              %li
-                = link_to 'Home', '/'
-              %li
-                = link_to 'About', '/about.html'
-              %li
-                = link_to 'Pricing', '/pricing.html'
-              %li
-                = link_to 'Services', '/services.html'
-              %li
-                = link_to 'Trainers', '/trainers.html'
-              %li
-                = link_to 'Sample', '/sample.html'
-            %ul.right
-              %li
-                = link_to 'Schedule a Class', '#'
-    
-    = yield
+      .row.navigation.hide-for-small
+        .twelve.columns
+          %nav.top-bar
+            %ul
+              %li.name
+              %li.toggle-topbar
+                %a(href="#")
+            %section
+              %ul.nav-links
+                %li
+                  = link_to 'About', '/about.html'
+                %li
+                  = link_to 'Pricing', '/pricing.html'
+                %li
+                  = link_to 'Services', '/services.html'
+                %li.has-dropdown
+                  = link_to 'Instructors', '/instructors.html'
+                  %ul.dropdown
+                    %li
+                      = link_to 'Scott McWilliam', '/scott.html'
+                    %li
+                      = link_to 'Scotts McWilliams', '/scotts.html'
+                %li
+                  = link_to 'Sample', '/sample.html'
+              %ul.right
+                %li
+                  = link_to 'Schedule a Class', '#'
+          
+      = yield
 
-    %footer.row
-      .footer_wrapper.twelve.columns
-        = link_to 'Lateral Fitness Chicago', '/', :class => "logo"
-        %ul.footer_socials.main_socials
-          %li 
-            %a{:href => "/", :class => "ico_social-facebook", "original-title" => "Facebook"}
-          %li 
-            %a{:href => "/", :class => "ico_social-vimeo", "original-title" => "Vimeo"}
-        %span
-          314 West Superior LL-E Chicago, IL 60654 - 312-291-9466
+      %footer.row
+        .eight.columns
+          %a{:href => "/"}
+            %img{:src => "/images/branding/logo.png", :alt => "Lateral Fitness Chicago", :width => "250", :height => "48"}
+        .four.columns.address
+          314 West Superior LL-E<br/>
+          Chicago, IL 60654<br/>
+          312-291-9466
     / Application Javascript, safe to override
     = javascript_include_tag "app"
     = javascript_include_tag "main"

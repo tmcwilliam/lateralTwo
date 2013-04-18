@@ -1,18 +1,32 @@
 var Lateral = (function() {
   var lateral = {
+
+    aspectRatio: getAspectRatio(),
+
+    init: function() {
+      lateral.orbit();
+    },
+
     orbit: function() {
-      console.log("start orbit");
       $("#featured").orbit({
         timer: false,
         pauseOnHover: true,
-        captions: true
+        fluid: lateral.aspectRatio
       });
     }
   };
 
+  function getWindowWidth() {
+    return $(window).width();
+  }
+
+  function getAspectRatio() {
+    return getWindowWidth() > 767 ? "16x5" : "16x20";
+  }
+
   return {
-    setupOrbit: lateral.orbit
+    init: lateral.init
   }
 })();
 
-Lateral.setupOrbit();
+Lateral.init();

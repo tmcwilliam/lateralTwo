@@ -1,16 +1,11 @@
-# navigation:
-#   - title: Home
-#     link: /home
-#   - title: About Us
-#     link: /about
-#   - title: Services
-#     link: /services
-#     level2:
-
 navigation:
-- Home: /
-- About: /about
-- Services:
-  - self: /services
-  - First: /first
-  - Second: /second
+- title: Home
+  link: /
+- title: About
+  link: /about
+- title: Services
+  link: /services
+- title: Instructors
+  link: /instructors
+  css: has-dropdown
+
