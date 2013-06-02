@@ -2,3 +2,6 @@ sitemap.xml
 _site
 .include_tree
 .spinto_data
+.DS_Store
+source/.DS_Store
+.sass-cache
