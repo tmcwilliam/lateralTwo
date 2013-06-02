@@ -5,3 +5,5 @@ _site
 .DS_Store
 source/.DS_Store
 .sass-cache
+/.DS_Store
+/source/.DS_Store
