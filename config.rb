@@ -41,12 +41,11 @@ page "humans.txt", :layout => false
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def nav_active(page)
-#     @page_id.inspect
-#     @page_id == page ? {:class => "Active"} : {}
-#   end
-# end
+helpers do
+  def nav_active(page)
+    current_page.data.page_id == page ? {:class => "active"} : {}
+  end
+end
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
@@ -54,6 +53,7 @@ set :images_dir, 'images'
 activate :livereload
 # Use relative URLs
 activate :relative_assets
+activate :directory_indexes
 
 # activate :blog do |blog|
 #   # set options on blog

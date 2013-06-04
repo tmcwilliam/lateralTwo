@@ -16,10 +16,40 @@
 
 
 /*-- Top Bar Overrides --*/
-.top-bar .nav-links > li:hover, 
-.top-bar .nav-links > li.active, 
-.top-bar .nav-links > li:focus {
-  // background: none;
-  // border-top: 3px solid $secondaryColor;
-  // margin-top: -3px;
+.top-bar {
+  margin-bottom: 0;
+}
+.top-bar .nav-links a,
+.top-bar .right a {
+  text-transform: uppercase;
+}
+.navigation .top-bar .right a {
+  color: $secondaryColor;
+}
+.top-bar ul.nav-links,
+.top-bar ul.right {
+  & > li {
+
+    &:hover,
+    &:focus {
+      background-color: white;
+
+      a:hover {
+        color: $backgroundColor;
+      }
+    }
+
+    &.active a {
+      background-color: white;
+      color: $secondaryColor;
+
+      &:hover {
+        color: $backgroundColor;  
+      }
+    }
+  }
+}
+
+.nav-dropdown {
+  border-top: 4px solid $secondaryColor;
 }

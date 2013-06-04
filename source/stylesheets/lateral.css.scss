@@ -6,8 +6,15 @@
 body {
   background-color: $backgroundColor;
 }
+p, td, div { 
+  font-size:15px; 
+  line-height:20px;
+}
 .row, .column {
   background-color: white;
+}
+.puff-bottom {
+  padding-bottom: 15px;
 }
 
 // Orbit
@@ -38,16 +45,44 @@ body {
 
 // Promos
 .promos {
-  h3 {
+  i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  h4 {
     text-align: center;
   }
   .panel {
-    min-height: 250px;
+    
+    border-bottom: 4px solid $secondaryColor;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 25px 20px;
+    min-height: 225px;
+
+    h4 {
+      display: inline;
+    }
+
+    & > p {
+      margin-top: 5px;
+    }
   }
 }
 @media only screen and (max-width: 767px) {
   .promos .panel {
     min-height: 100px;
+  }
+}
+
+// About Us
+.about-image {
+  margin-right: 20px;
+}
+.about {
+  blockquote.left {
+    width: 30%;
   }
 }
 
@@ -202,10 +237,18 @@ body {
   }
 
   .address {
-    font-weight: bold;
+    color: #000;
     text-align: right;
     line-height: 16px;
-    font-size: 12px;
+    font-size: 11px;
+  }
+
+  i {
+    font-size: 6px;
+    line-height: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 0 4px;
   }
   
 }
@@ -223,4 +266,74 @@ footer span {
   position:absolute;
   right:0px;
   top:78px;
+}
+
+// Dropcaps
+.dropcap {
+  font-size: 50px;
+  line-height: 42px;
+  font-weight: bold;
+  margin: -3px 9px -2px 0;
+  text-transform: uppercase;
+  float: left;
+  color: $backgroundColor;
+
+  &.light {
+    color: #BEBEBE;
+  }
+  &.colored {
+    color: $secondaryColor;
+  }
+}
+
+// Blockquotes
+blockquote {
+  padding:0 0 0px 0px;
+  border:none;
+  margin:0 0 20px 0;
+}
+blockquote .blockquote_wrapper {
+  margin:0 25px 0 0px;
+  padding-left:14px;
+  border-left:3px solid;  
+}
+blockquote.type1 .blockquote_wrapper {
+  border-color:#c1c1c1;
+}
+blockquote.type2 .blockquote_wrapper {
+  border-color:#5a5a5a;
+}
+blockquote.colored .blockquote_wrapper {
+  border-color:$secondaryColor;
+}
+
+
+blockquote p { 
+  font-size:13px; 
+  color:#5a5a5a;
+  margin-bottom:7px;
+}
+blockquote span {
+  font-size:13px; 
+  display:block; 
+  color:#a9a9a9;
+  font-style:italic;
+}
+blockquote.right { 
+  width:50%; 
+  float:right;
+  padding-right:0!important;
+  margin-left:12px;
+}
+blockquote.right .blockquote_wrapper {
+  margin:0 0px 0 25px;
+  padding-left:14px;
+}
+blockquote.left { 
+  width:50%; 
+  float:left; 
+}
+blockquote.left .blockquote_wrapper {
+  margin:0 25px 0 0px;
+  padding-left:14px;
 }

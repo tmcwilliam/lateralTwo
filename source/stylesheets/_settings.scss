@@ -97,20 +97,20 @@ $backgroundColor: #6b6b6b;
 // Top Bar Settings
 
 $topBarBgColor: #FFF;
-$topBarHeight: 30px;
-$topBarHeightMobile: 25px;
-$topBarBtmMargin: 30px;
-$topBarTitleWeight: bold;
-$topBarTitleSize: 18px;
+// $topBarHeight: 30px;
+// $topBarHeightMobile: 25px;
+// $topBarBtmMargin: 30px;
+// $topBarTitleWeight: bold;
+// $topBarTitleSize: 18px;
 $topBarLinkColor: #000;
 $topBarLinkWeight: bold;
 $topBarLinkSize: 14px;
-$topBarDropBgColor: #d9d9d9;
-$topBarDropLinkColor: #000;
+$topBarDropBgColor: #000;
+$topBarDropLinkColor: #FFF;
 $topBarDropToggleSize: 5px;
 $topBarDropToggleColor: #000;
 $topBarDropToggleAlpha: 0.5;
-$topBarSearchWidth: 200px;
+// $topBarSearchWidth: 200px;
 $topBarBreakPoint: 767px; // Change to 9999px for always mobile layout
 $topBarNavToggleSize: 8px;
 
