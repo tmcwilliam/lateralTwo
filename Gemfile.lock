@@ -132,4 +132,4 @@ DEPENDENCIES
   middleman (~> 3.0.11)
   middleman-deploy (~> 0.0.10)
   middleman-livereload
-  zurb-foundation
+  zurb-foundation (~> 3.2.5)
