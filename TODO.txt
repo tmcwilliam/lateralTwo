@@ -1,0 +1,10 @@
+- SERVICES page
+- MOVE nav above content container
+- SPRINKLE 'schedule a class' throughout site
+- CAPTIONS on orbit
+- INDIVIDUAL instructor pages
+- ARROW on dropdown
+- HIDE footer logo on mobile
+- NEWSLETTER textbox
+- SEO meta data
+- FIX nav on mobile
