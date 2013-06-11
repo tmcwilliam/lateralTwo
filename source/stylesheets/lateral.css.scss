@@ -18,8 +18,22 @@ p, td, div {
 }
 
 // Orbit
-.slider {
-  padding-top: 10px;
+.slider .slider-inner {
+  margin-top: 10px;
+}
+.orbit-caption h4 {
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+}
+.orbit-wrapper .orbit-caption {
+  padding: 10px;
+  bottom: 3px;
+
+  p {
+    text-align: left;
+    margin:0;
+  }
 }
 
 #featured { 
@@ -39,6 +53,15 @@ p, td, div {
   .orbit-wrapper .slide h3 {
     font-size: 16px;
     line-height: 14px;
+  }
+  .orbit-caption h4 {
+    font-size: 14px;
+    margin: 0;
+    line-height: 16px;
+  }
+  .orbit-caption p {
+    font-size: 10px;
+    line-height: 12px;
   }
 }
 

@@ -5,16 +5,14 @@ Assumptions:
   - No CMS
   - Mobile/Tablet friendly
 
-- SERVICES page
-- MOVE nav above content container
-- NEWSLETTER textbox
 - CAPTIONS on orbit
-- INDIVIDUAL instructor pages
+- NEWSLETTER textbox
 - ARROW on dropdown
 - SEO meta data
 - 404 page
-
 - SPRINKLE 'schedule a class' throughout site
 
+- POPULATE w/ real data
+
+- MOVE nav above content container
 - NEW font?
-- 'SCHEDULE A CLASS' different color
