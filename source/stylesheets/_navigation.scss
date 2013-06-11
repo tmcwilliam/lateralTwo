@@ -26,6 +26,9 @@
 .navigation .top-bar .right a {
   color: $secondaryColor;
 }
+.top-bar ul > li.has-dropdown .dropdown li a {
+  background-color: inherit;
+}
 .top-bar ul.nav-links,
 .top-bar ul.right {
   & > li {
@@ -52,4 +55,24 @@
 
 .nav-dropdown {
   border-top: 4px solid $secondaryColor;
+}
+
+.show-for-small .nav-bar > li {
+  padding: 7px;
+  font-weight: bold;
+  background-color: grey;
+  margin-bottom: 1px;
+  margin-right: 5px;
+
+  a {
+    color: white;
+  }
+
+  &.active {
+    background-color: white;
+
+    a {
+      color: $secondaryColor;
+    }
+  }
 }

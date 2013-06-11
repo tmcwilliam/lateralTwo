@@ -1,11 +1,20 @@
+Assumptions:
+  - Dev for use by Lateral Fitness
+  - Similar layout to existing
+  - Use foundation for markup
+  - No CMS
+  - Mobile/Tablet friendly
+
 - SERVICES page
 - MOVE nav above content container
 - NEWSLETTER textbox
 - CAPTIONS on orbit
 - INDIVIDUAL instructor pages
-- FIX nav on mobile
 - ARROW on dropdown
 - SEO meta data
+- 404 page
 
-- HIDE footer logo on mobile
 - SPRINKLE 'schedule a class' throughout site
+
+- NEW font?
+- 'SCHEDULE A CLASS' different color

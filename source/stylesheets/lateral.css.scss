@@ -132,13 +132,45 @@ p, td, div {
 .services .right {
   float: right !important;
 }
+.main-content .services-row {
+  margin: 10px;
+  border-bottom: 1px solid;
+  padding: 10px 0;
+
+  p {
+    font-size: 20px;
+  }
+  i {
+    font-size: 13px;
+    line-height: 20px;
+    vertical-align: middle;
+  }
+
+  a {
+    white-space: nowrap;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .services .right {
     float: none !important;
   }
+  .main-content .services-row {
+    margin: 5px 0 10px 0;
+  
+    p {
+      font-size: 14px;
+    }
+    i {
+      font-size: 11px;
+    }
+  }
 }
 
 /*-- Team --*/
+.team {
+  padding-top: 10px;
+}
 .member {
 
   .panel {
@@ -256,8 +288,15 @@ p, td, div {
 @media only screen and (max-width: 767px) {
   .main-content footer .address {
     text-align: left;
-    font-size: 14px;
+    font-size: 13px;
     padding: 10px;
+  }
+  .about blockquote.left {
+    width: 100%;
+    margin: 10px;
+  }
+  .about-image {
+    width: 100%;
   }
 }
 
@@ -336,4 +375,8 @@ blockquote.left {
 blockquote.left .blockquote_wrapper {
   margin:0 25px 0 0px;
   padding-left:14px;
+}
+
+.get-in-touch > li {
+  list-style-type: none;
 }
