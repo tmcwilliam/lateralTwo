@@ -14,6 +14,17 @@
   margin: 0;
 }
 
+.dropdown.nav-dropdown:before {
+  content: '';
+  position: absolute;
+  left: 44%;
+  top: -20px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid $secondaryColor;
+}
+
 
 /*-- Top Bar Overrides --*/
 .top-bar {
@@ -22,6 +33,9 @@
 .top-bar .nav-links a,
 .top-bar .right a {
   text-transform: uppercase;
+}
+.top-bar .nav-links .nav-dropdown a {
+  text-transform: capitalize;
 }
 .navigation .top-bar .right a {
   color: $secondaryColor;

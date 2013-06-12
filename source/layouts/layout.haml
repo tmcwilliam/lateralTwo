@@ -10,6 +10,7 @@
     / Set the viewport width to device width for mobile
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
     %title= data.page.title || "Lateral Fitness - Chicago boutique fitness gym"
+    %meta{:name => "description", :content => data.page.description || "Lateral Fitness is a boutique gym located in the River North neighborhood of Chicago Illinois featuring Muscle Activation Technique, Endurance Training, Group Classes and Personal Training"}
     / Included CSS Files
     = stylesheet_link_tag "app"
     = stylesheet_link_tag "fonts"
@@ -69,8 +70,17 @@
                   = link_to 'About', '/about'
                 %li{nav_active("pricing")}
                   = link_to 'Pricing', '/pricing.html'
-                %li{nav_active("services")}
+                %li.has-dropdown{nav_active("services")}
                   = link_to 'Services', '/services.html'
+                  %ul.dropdown.nav-dropdown
+                    %li
+                      = link_to 'Muscle Activation Technique', '/services/muscle-activation-technique'
+                    %li
+                      = link_to 'Endurance Training', '/services/endurance-training'
+                    %li
+                      = link_to 'Group Classes', '/services/group-classes'
+                    %li
+                      = link_to 'Personal Training', '/services/personal-training'
                 %li.has-dropdown{nav_active("instructors")}
                   = link_to 'Instructors', '/instructors.html'
                   %ul.dropdown.nav-dropdown

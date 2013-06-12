@@ -5,14 +5,21 @@ Assumptions:
   - No CMS
   - Mobile/Tablet friendly
 
-- CAPTIONS on orbit
-- NEWSLETTER textbox
-- ARROW on dropdown
 - SEO meta data
 - 404 page
 - SPRINKLE 'schedule a class' throughout site
-
 - POPULATE w/ real data
+- DEPLOY script
 
 - MOVE nav above content container
 - NEW font?
+
+From Scott:
+- Testomonial
+
+Reasons for switching:
+Faster
+More SEO friendly
+Easier to maintain
+Better layout
+Less crap under the hood
