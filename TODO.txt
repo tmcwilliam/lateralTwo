@@ -6,20 +6,24 @@ Assumptions:
   - Mobile/Tablet friendly
 
 - SEO meta data
+- Read more links
 - 404 page
 - SPRINKLE 'schedule a class' throughout site
-- POPULATE w/ real data
 - DEPLOY script
 
+Maybe:
 - MOVE nav above content container
 - NEW font?
 
 From Scott:
 - Testomonial
+- Instructors personal facebook/twitter
+- highlighted pricing package
 
 Reasons for switching:
+Easier to maintain
 Faster
 More SEO friendly
-Easier to maintain
+More Flexible
 Better layout
 Less crap under the hood
