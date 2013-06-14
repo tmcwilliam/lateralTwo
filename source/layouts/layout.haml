@@ -36,9 +36,9 @@
           %li{nav_active("contact")}
             = link_to 'Contact Us', '/contact.html'
           %li
-            = link_to 'Schedule a Class', '#'
+            = link_to 'Schedule a Class', 'http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=41'
           %li
-            = link_to 'Facebook Page', '#'
+            = link_to 'Facebook Page', 'https://www.facebook.com/LATERALFITNESS'
     %section.main-content{:role => "main"}
       .row.header
         .mobile-one.columns.show-for-small
@@ -50,7 +50,7 @@
         .four.columns.header_social.hide-for-small
           %ul.headline_socials.main_socials
             %li 
-              %a{:href => "#", :class => "facebook"}
+              %a{:href => "https://www.facebook.com/LATERALFITNESS", :class => "facebook", :target => "_blank"}
                 %i.icon-facebook-sign
           %p.phone
             Feel free to call us: 312-291-9466
@@ -110,7 +110,7 @@
                   = link_to 'Contact Us', '/contact.html'
               %ul.right
                 %li
-                  = link_to 'Schedule a Class', '#'
+                  = link_to "<i class='icon-calendar'></i>Schedule a Class", 'http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=41', :target => '_blank'
           
       = yield
 
@@ -124,6 +124,6 @@
           Chicago, IL 60654
           %i.icon-circle
           312-291-9466
-    / Application Javascript, safe to override
+    
     = javascript_include_tag "app"
     = javascript_include_tag "main"

@@ -5,8 +5,6 @@ Assumptions:
   - No CMS
   - Mobile/Tablet friendly
 
-- SEO meta data
-- Read more links
 - 404 page
 - SPRINKLE 'schedule a class' throughout site
 - DEPLOY script
