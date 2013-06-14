@@ -8,17 +8,18 @@ Assumptions:
 - 404 page
 - SPRINKLE 'schedule a class' throughout site
 - DEPLOY script
+- Sitemap
 
 Maybe:
-- MOVE nav above content container
+- MOVE nav above content container (or about, contact & remove home)
 - NEW font?
 
 From Scott:
-- Testomonial
+- Testomonials
 - Instructors personal facebook/twitter
 - highlighted pricing package
 
-Reasons for switching:
+##Reasons for switching:
 Easier to maintain
 Faster
 More SEO friendly
