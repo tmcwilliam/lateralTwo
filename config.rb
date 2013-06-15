@@ -64,6 +64,10 @@ page "/404.html", directory_index: false
 
 # activate :navigation
 
+activate :deploy do |deploy|
+  deploy.method = :git
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment

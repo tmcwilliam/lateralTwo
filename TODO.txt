@@ -1,5 +1,4 @@
 Assumptions:
-  - Dev for use by Lateral Fitness
   - Similar layout to existing
   - Use foundation for markup
   - No CMS
@@ -14,6 +13,7 @@ Assumptions:
 Maybe:
 - MOVE nav above content container
 - NEW font?
+- Google Map image instead of script
 
 From Scott:
 - Testomonial
@@ -27,3 +27,6 @@ More SEO friendly
 More Flexible
 Better layout
 Less crap under the hood
+
+2.0
+- Dock the nav
