@@ -176,6 +176,9 @@ p, td, div {
     white-space: nowrap;
   }
 }
+.services_personal-training .list-items {
+  margin-left: 270px;
+}
 
 @media only screen and (max-width: 767px) {
   .services .right {
@@ -191,6 +194,13 @@ p, td, div {
       font-size: 11px;
     }
   }
+  .services_personal-training .list-items {
+    margin-left: 0;
+  }
+}
+
+.instructor-panel {
+  min-height: 370px;
 }
 
 /*-- Team --*/

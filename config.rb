@@ -54,7 +54,7 @@ activate :livereload
 # Use relative URLs
 activate :relative_assets
 activate :directory_indexes
-page "/404.html", directory_index: false
+# page "/404.html", directory_index: false
 
 # activate :blog do |blog|
 #   # set options on blog
