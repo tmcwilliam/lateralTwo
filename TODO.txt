@@ -5,6 +5,7 @@ Assumptions:
   - Mobile/Tablet friendly
 
 Todo:
+- Double check all links
 - Fix newsletter form from disappearing
 - cross browser testing
 - Sitemap (use middleman)
