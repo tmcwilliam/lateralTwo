@@ -1,0 +1,1 @@
+var Lateral=function(){function t(){return $(window).width()}function n(){return t()>767?"16x5":"16x20"}var e={aspectRatio:n(),init:function(){e.orbit()},orbit:function(){$("#featured").orbit({timer:!1,pauseOnHover:!0,fluid:!0,captions:!0,bullets:!0})}};return{init:e.init}}();Lateral.init();
