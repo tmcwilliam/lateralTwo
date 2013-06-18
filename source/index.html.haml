@@ -6,10 +6,10 @@ page_id: home
 .row.slider
   .nine.columns.centered.slider-inner
     #featured.slider
-      %img{:src => "/images/slider/bottle.jpg", :'data-caption' => "#captionOne"}
-      %img{:src => "/images/slider/table.jpg", :'data-caption' => "#captionTwo"}
-      %img{:src => "/images/slider/groupX.jpg", :'data-caption' => "#captionThree"}
-      %img{:src => "/images/slider/equipment.jpg", :'data-caption' => "#captionFour"}
+      = image_tag "/images/slider/bottle.jpg", :'data-caption' => "#captionOne"
+      = image_tag "/images/slider/table.jpg", :'data-caption' => "#captionTwo"
+      = image_tag "/images/slider/groupX.jpg", :'data-caption' => "#captionThree"
+      = image_tag "/images/slider/equipment.jpg", :'data-caption' => "#captionFour"
     %span.orbit-caption#captionOne
       %h4 Think Lateral. Train Lateral.
       %p We are committed to providing a knowledgeable, detailed environment, where you will be able to achieve fitness goals in a safe, progressive manner. #{link_to "Read more &raquo;", "/about"}
