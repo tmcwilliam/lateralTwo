@@ -52,8 +52,8 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 activate :livereload
 # Use relative URLs
-# set :relative_links, true
-# activate :relative_assets
+set :relative_links, true
+activate :relative_assets
 activate :directory_indexes
 # page "/404.html", directory_index: false
 

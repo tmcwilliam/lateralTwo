@@ -4,20 +4,24 @@ Assumptions:
   - No CMS
   - Mobile/Tablet friendly
 
-- 404 page
-- SPRINKLE 'schedule a class' throughout site
-- DEPLOY script
-- Sitemap
+Todo:
+- Fix newsletter form from disappearing
+- cross browser testing
+- Sitemap (use middleman)
 
-Maybe:
-- MOVE nav above content container (or about, contact & remove home)
+Nice to haves:
+- 404 page
+- MOVE nav above content container (or about, contact & maybe remove home)
 - NEW font?
 - Google Map image instead of script
+- Dock the nav for mobile
 
 From Scott:
 - Testomonials
 - Instructors personal facebook/twitter
-- highlighted pricing package
+- Highlighted pricing package
+- SPRINKLE 'schedule a class' throughout site
+- Think about a press page
 
 ##Reasons for switching:
 Easier to maintain
@@ -26,6 +30,3 @@ More SEO friendly
 More Flexible
 Better layout
 Less crap under the hood
-
-2.0
-- Dock the nav
