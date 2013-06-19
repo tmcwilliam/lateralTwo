@@ -4,17 +4,11 @@ Assumptions:
   - No CMS
   - Mobile/Tablet friendly
 
-Todo:
-- Double check all links
-- Fix newsletter form from disappearing
-- cross browser testing
-- Sitemap (use middleman)
-
-Nice to haves:
+Nice to haves/maybes:
 - 404 page
 - MOVE nav above content container (or about, contact & maybe remove home)
 - NEW font?
-- Google Map image instead of script
+- Google Map image instead of script?
 - Dock the nav for mobile
 
 From Scott:
@@ -30,4 +24,8 @@ Faster
 More SEO friendly
 More Flexible
 Better layout
+Better mobile layout
 Less crap under the hood
+
+Notes:
+- re-wrote some copy
