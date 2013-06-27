@@ -5,20 +5,12 @@ Assumptions:
   - Mobile/Tablet friendly
 
 Nice to haves/maybes:
-- 404 page
-- MOVE nav above content container (or about, contact & maybe remove home)
+- customize a 404 page
 - NEW font?
 - Google Map image instead of script?
 - Dock the nav for mobile
 
-From Scott:
-- Testomonials
-- Instructors personal facebook/twitter
-- Highlighted pricing package
-- SPRINKLE 'schedule a class' throughout site
-- Think about a press page
-
-##Reasons for switching:
+Reasons for switching:
 Easier to maintain
 Faster
 More SEO friendly
@@ -27,5 +19,62 @@ Better layout
 Better mobile layout
 Less crap under the hood
 
-Notes:
-- re-wrote some copy
+TODO:
+----------
+global:
+add twitter link
+orange a little more red
+MOVE nav above content container (or about, contact & maybe remove home)
+- SPRINKLE 'schedule a class' throughout site
+
+about us:
+- add a testomonial (take from yelp)
+
+instructors:
+- personal facebook/twitter
+
+slider:
+1. CS image. think lateral train lateral
+2. Personal Training
+3. Running/Triathlon
+4. MAT
+5. Yoga
+6. Kettle Bell
+7. Press
+
+add timer
+freeze on hover
+play with slider captions for iphone
+get larger pictures
+
+
+group classes -> split into 3 pages yoga & high intesity & kettle bell:
+change picture (from scott)
+link to each other
+
+dan's page
+link to kettle bell class page
+
+pricing:
+top level
+	- starter 1 time only 3 classes
+	- unlimited $199 (1 month) highlight in blue (or whatever looks good)
+	- for personal training email info@trainlateral.com
+
+new page ideas:
+events
+drive people to facebook events, deep links also from carousel
+
+press:
+similiar to events. thumbnail, blurb link to article
+
+photos:
+use foundations clearing feature
+create a cta instead of a new page
+can feature on multiple pages, maybe in the footer or a sub footer
+add gallery of popular photos
+drive to facebook
+
+corporate wellness program
+add to services dropdown
+

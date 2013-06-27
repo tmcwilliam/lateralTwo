@@ -9,12 +9,17 @@
   color: #111;
   font-size: 30px;
 }
+.header-links li {
+  display: inline-block;
+  font-size: 11px;
+  margin-left: 5px;
+}
 .headline_socials {
   float: right;
   li {
     display:inline-block;
     float:left;
-    margin-left:15px;
+    margin-left:5px;
   }
   a {
     color: #C0C0C0;
