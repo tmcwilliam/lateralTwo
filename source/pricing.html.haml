@@ -5,40 +5,62 @@ description: Lateral Fitness is a boutique gym located in the River North neighb
 ---
 
 .row
-    
-  .eleven.columns.centered
-    %h4 1 Hour Class Packages
 
-    %ul.three.columns.pricing-table.most-popular
+  .eleven.columns.centered
+    %h4 Popular Packages
+    %ul.four.columns.pricing-table.most-popular
       %li.title Starter
       %li.price $25
       %li.description 3 classes
       %li.cta-button
         %a.button{:href => "http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=41"}Buy Now
 
-    %ul.three.columns.pricing-table
+    %ul.four.columns.pricing-table.special
+      %li.title Unlimited
+      %li.price $199
+      %li.description 1 month
+      %li.cta-button
+        %a.button{:href => "http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=41"}Buy Now
+
+    %ul.four.columns.pricing-table
+      %li.title Personal Training
+      %li.price $60 - $120
+      %li.description 1 hour
+      %li.cta-button
+        = link_to "Inquiry Now", "mailto:info@trainlateral.com", :class => "button"
+
+.row
+  %hr.ten.columns.colored.centered
+
+.row
+  .eleven.columns.centered
+    %h4 1 Hour Class Packages
+
+    %ul.four.columns.pricing-table
       %li.title Beginner
       %li.price $80
       %li.description 4 classes
       %li.cta-button
         %a.button{:href => "http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=41"}Buy Now
 
-    %ul.three.columns.pricing-table
+    %ul.four.columns.pricing-table
       %li.title Amateur
       %li.price $152
       %li.description 8 classes
       %li.cta-button
         %a.button{:href => "http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=41"}Buy Now
 
-    %ul.three.columns.pricing-table
+    %ul.four.columns.pricing-table
       %li.title Professional
       %li.price $216
       %li.description 12 classes
       %li.cta-button
         %a.button{:href => "http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=41"}Buy Now
             
-  %hr.dark
+.row
+  %hr.ten.columns.colored.centered
 
+.row
   .eleven.columns.centered
     %h4 30 Minute Class Packages
 

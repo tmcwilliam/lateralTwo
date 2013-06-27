@@ -7,8 +7,24 @@ body {
   background-color: $backgroundColor;
 }
 p, td, div { 
-  font-size:15px; 
+  font-size:14px; 
   line-height:20px;
+}
+h4 {
+  text-shadow: 1px 1px #DCDCDC;
+}
+.promo {
+  color: $secondaryColor;
+  font-weight: bold;
+}
+.note {
+  font-weight: bold;
+}
+.large {
+  font-size: 18px;
+}
+.centered {
+  text-align: center;
 }
 .list-items li {
   margin-left: 15px;
@@ -125,6 +141,9 @@ p, td, div {
   &.most-popular .title {
     background-color: red;
   }
+  &.special .title {
+    background-color: #4B9EDF;
+  }
   .cta-button {
     padding:21px 40px 22px 40px;
 
@@ -178,6 +197,15 @@ p, td, div {
 }
 .services_personal-training .list-items {
   margin-left: 270px;
+}
+.redirect {
+  line-height: 60px;
+  margin: 0;
+}
+.classes .name {
+  display: block;
+  font-size: 16px;
+  text-shadow: 1px 1px #DCDCDC;
 }
 
 @media only screen and (max-width: 767px) {
@@ -415,4 +443,8 @@ blockquote.left .blockquote_wrapper {
 
 .get-in-touch > li {
   list-style-type: none;
+}
+
+.photos .block-grid.three-up > li {
+  padding: 1px 3px;
 }

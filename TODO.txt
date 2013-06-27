@@ -1,8 +1,8 @@
 Assumptions:
-  - Similar layout to existing
-  - Use foundation for markup
-  - No CMS
-  - Mobile/Tablet friendly
+- Similar layout to existing
+- Use foundation for markup
+- No CMS
+- Mobile/Tablet friendly
 
 Nice to haves/maybes:
 - customize a 404 page
@@ -11,24 +11,12 @@ Nice to haves/maybes:
 - Dock the nav for mobile
 
 Reasons for switching:
-Easier to maintain
-Faster
-More SEO friendly
-More Flexible
-Better layout
-Better mobile layout
-Less crap under the hood
+Easier to maintain, Faster, More SEO friendly, More Flexible, Better layout, Better mobile layout, Less crap under the hood
 
 TODO:
 ----------
 global:
-add twitter link
-orange a little more red
-MOVE nav above content container (or about, contact & maybe remove home)
 - SPRINKLE 'schedule a class' throughout site
-
-about us:
-- add a testomonial (take from yelp)
 
 instructors:
 - personal facebook/twitter
@@ -49,17 +37,10 @@ get larger pictures
 
 
 group classes -> split into 3 pages yoga & high intesity & kettle bell:
-change picture (from scott)
-link to each other
+change picture for high intensity & kettle bell
 
 dan's page
 link to kettle bell class page
-
-pricing:
-top level
-	- starter 1 time only 3 classes
-	- unlimited $199 (1 month) highlight in blue (or whatever looks good)
-	- for personal training email info@trainlateral.com
 
 new page ideas:
 events
@@ -69,10 +50,6 @@ press:
 similiar to events. thumbnail, blurb link to article
 
 photos:
-use foundations clearing feature
-create a cta instead of a new page
-can feature on multiple pages, maybe in the footer or a sub footer
-add gallery of popular photos
 drive to facebook
 
 corporate wellness program

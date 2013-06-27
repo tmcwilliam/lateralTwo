@@ -1,6 +1,5 @@
 .main-content .header {
   background: none;
-  padding-top: 10px;
 }
 .sidebar-button,
 .sidebar-button:active,
@@ -9,17 +8,25 @@
   color: #111;
   font-size: 30px;
 }
-.header-links li {
-  display: inline-block;
-  font-size: 11px;
-  margin-left: 5px;
+.header-links {
+  text-align: right;
+  li {
+    display: inline-block;
+    font-size: 11px;
+    padding-left: 5px;
+  }
+  a {
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 .headline_socials {
   float: right;
   li {
     display:inline-block;
     float:left;
-    margin-left:5px;
   }
   a {
     color: #C0C0C0;
@@ -28,11 +35,12 @@
     &.facebook:hover {
       color: #3b5998;
     }
+    &.twitter:hover {
+      color: #4099FF; 
+    }
   }
   
-  .twitter {
-    color: #4099FF; 
-  }
+  
 }
 .phone {
   clear: both;

@@ -8,12 +8,12 @@
 // $columnGutter: 30px;
 // $totalColumns: 12;
 // $mobileTotalColumns: 4;
-// $blockGridElements: 12; // Highest number of block grid elements, Maximum of 24 supported
+$blockGridElements: 12; // Highest number of block grid elements, Maximum of 24 supported
 
 // Colors Settings
 
 // $mainColor: #2ba6cb;
-$secondaryColor: #ff4b28;
+$secondaryColor: #FF0000;
 $backgroundColor: #6b6b6b;
 // $alertColor: #c60f13;
 // $successColor: #5da423;
@@ -196,22 +196,22 @@ $orbitSlideNumPadding: 5px;
 
 // Clearing Settings
 
-// $clearingBg: rgba(0,0,0,0.8);
-// $clearingOldBrowserBg: rgb(0,0,0);
-// $clearingCaptionBg: rgba(0,0,0,0.7);
-// $clearingCaptionOldBrowserBg: rgb(0,0,0);
-// $clearingCaptionFontColor: #fff;
-// $clearingCloseColor: #fff;
-// $clearingArrowColor: #fff;
-// $clearingArrowSize: 16px;
-// $clearingCarouselBg: rgba(0,0,0,0.75);
-// $clearingCarouselOldBrowserBg: rgb(0,0,0);
-// $clearingCarouselHeight: 150px;
-// $clearingActiveImgHeight: 75%;
-// $clearingCarouselThumbWidth: 175px;
-// $clearingCarouselThumbActiveBorder: 4px solid rgb(255,255,255);
-// $clearingImgBg: rgba(0,0,0,0.75);
-// $clearingImgOldBrowserBg: rgb(0,0,0);
+$clearingBg: rgba(0,0,0,0.8);
+$clearingOldBrowserBg: rgb(0,0,0);
+$clearingCaptionBg: rgba(0,0,0,0.7);
+$clearingCaptionOldBrowserBg: rgb(0,0,0);
+$clearingCaptionFontColor: #fff;
+$clearingCloseColor: #fff;
+$clearingArrowColor: #fff;
+$clearingArrowSize: 16px;
+$clearingCarouselBg: rgba(0,0,0,0.75);
+$clearingCarouselOldBrowserBg: rgb(0,0,0);
+$clearingCarouselHeight: 150px;
+$clearingActiveImgHeight: 75%;
+$clearingCarouselThumbWidth: 175px;
+$clearingCarouselThumbActiveBorder: 4px solid rgb(255,255,255);
+$clearingImgBg: rgba(0,0,0,0.75);
+$clearingImgOldBrowserBg: rgb(0,0,0);
 
 // Joyride Settings
 
