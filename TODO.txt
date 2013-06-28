@@ -1,20 +1,5 @@
-Assumptions:
-- Similar layout to existing
-- Use foundation for markup
-- No CMS
-- Mobile/Tablet friendly
-
-Nice to haves/maybes:
-- customize a 404 page
-- NEW font?
-- Google Map image instead of script?
-- Dock the nav for mobile
-
-Reasons for switching:
-Easier to maintain, Faster, More SEO friendly, More Flexible, Better layout, Better mobile layout, Less crap under the hood
-
-TODO:
-----------
+TODO
+========
 global:
 - SPRINKLE 'schedule a class' throughout site
 
@@ -30,17 +15,35 @@ slider:
 6. Kettle Bell
 7. Press
 
+services:
+copy updates, sort order
+
 news:
+- events
+	drive people to facebook events
+- press
+	similiar to events. thumbnail, blurb link to article
+- photos
+	update comments
 
-events
-drive people to facebook events, deep links also from carousel
-
-press:
-similiar to events. thumbnail, blurb link to article
-
-photos:
-drive to facebook
-
-corporate wellness program
+corporate wellness program (need picture?)
 add to services dropdown
 
+
+
+Application Optimizations
+-------------------------
+per page CSS
+CSS cleanup
+Dynamic Pages (trainers, instructors, services)
+More YML data (services, packages, sitemap, events, press)
+Leverage Constant Contact API
+SEO copywriter
+Lite CMS to update YML data
+
+
+Nice to haves/maybes
+--------------------
+- customize a 404 page
+- NEW font?
+- Dock the nav for mobile

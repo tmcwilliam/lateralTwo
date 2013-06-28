@@ -5,70 +5,16 @@ page_id: services
 
 .row
   .twelve.columns
-    .row.services-row
-      .three.columns
-        = link_to '/services/personal-training.html', :class => 'th' do
-          = image_tag '/images/services/training.jpg', :class => 'hide-for-small'
-      .nine.columns
-        %h4 Personal Training
-        %p
-          One on one training from nationally accredited certified trainers.
-          = link_to '/services/personal-training.html' do
-            Learn More
-            %i.icon-chevron-right
-    .row.services-row
-      .three.columns
-        = link_to '/services/endurance-training.html', :class => 'th' do
-          = image_tag '/images/services/endurance.jpg', :class => 'hide-for-small'
-      .nine.columns
-        %h4 Running/Triathlon
-        %p
-          Periodization training to prepare you for marathons and triathlons.
-          = link_to '/services/endurance-training.html' do
-            Learn More
-            %i.icon-chevron-right
-    .row.services-row
-      .three.columns
-        = link_to '/services/muscle-activation-technique.html', :class => 'th' do
-          = image_tag '/images/services/mat.jpg', :class => 'hide-for-small'
-      .nine.columns
-        %h4 Muscle Activation Technique
-        %p
-          Bio-mechanical noninvasive manual manipulation to correct asymmetrical limitations. 
-          = link_to '/services/muscle-activation-technique.html' do
-            Learn More
-            %i.icon-chevron-right
-    .row.services-row
-      .three.columns
-        = link_to '/services/yoga.html', :class => 'th' do
-          = image_tag '/images/services/group.jpg', :class => 'hide-for-small'
-      .nine.columns
-        %h4 Yoga Classes
-        %p
-          Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
-          = link_to '/services/yoga.html' do
-            Learn More
-            %i.icon-chevron-right
-    .row.services-row
-      .three.columns
-        = link_to '/services/high-intensity.html', :class => 'th' do
-          = image_tag '/images/services/high_intensity_thumb.jpg', :class => 'hide-for-small'
-      .nine.columns
-        %h4 High Intensity Classes
-        %p
-          Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
-          = link_to '/services/high-intensity.html' do
-            Learn More
-            %i.icon-chevron-right
-    .row.services-row
-      .three.columns
-        = link_to '/services/kettlebell.html', :class => 'th' do
-          = image_tag '/images/services/kettlebell_thumb.jpg', :class => 'hide-for-small'
-      .nine.columns
-        %h4 Kettlebell Classes
-        %p
-          Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
-          = link_to '/services/kettlebell.html' do
-            Learn More
-            %i.icon-chevron-right
+    - data.lateral.services.each do |s|
+      .row.services-row
+        .three.columns
+          = link_to "/services/#{s.page}", :class => 'th' do
+            = image_tag "/images/services/#{s.thumb}", :class => 'hide-for-small'
+        .nine.columns
+          %h4= s.name
+          %p
+            = s.blurb
+            = link_to "/services/#{s.page}.html" do
+              Learn More
+              %i.icon-chevron-right
     

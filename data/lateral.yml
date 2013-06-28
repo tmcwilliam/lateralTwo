@@ -1,0 +1,31 @@
+services:
+  -
+    name: Personal Training
+    page: personal-training.html
+    thumb: training.jpg
+    blurb: One on one training from nationally accredited certified trainers.
+  -
+    name: Running/Triathlon
+    page: endurance-training.html
+    thumb: endurance.jpg
+    blurb: Periodization training to prepare you for marathons and triathlons.
+  -
+    name: Muscle Activation Technique
+    page: muscle-activation-technique.html
+    thumb: mat.jpg
+    blurb: Bio-mechanical noninvasive manual manipulation to correct asymmetrical limitations.
+  -
+    name: Yoga Classes
+    page: yoga.html
+    thumb: group.jpg
+    blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
+  -
+    name: High Intensity Classes
+    page: high-intensity.html
+    thumb: high_intensity_thumb.jpg
+    blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
+  -
+    name: Kettlebell Classes
+    page: kettlebell.html
+    thumb: kettlebell_thumb.jpg
+    blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
