@@ -1,39 +1,51 @@
 trainers:
   - 
+    slug: scott-mcwilliam
     name: Scott McWilliam
     title: Co-Founder, RTSm &amp; MAT Specialist
     page: scott-mcwilliam.html
     thumb: scott-mcwilliam.jpg
+    image: scott-mcwilliam-large.jpg
     blurb: Scott, co-founder of Lateral Fitness, has been training since 2004. Scott has a firm belief that education is key to the foundation of a trainer
   -
+    slug: erik-marthaler
     name: Erik Marthaler
     title: Co-Founder, Endurance &amp; Weight Loss Specialist
     page: erik-marthaler.html
     thumb: erik.jpg
+    image: erik-marthaler-large.jpg
     blurb: Erik Marthaler, co-founder of Lateral Fitness, has over 12 years of experience in the fitness world
   -
+    slug: charlie-cates
     name: Charlie Cates
     title: MAT and Strength &amp; Conditioning Specialist
     page: charlie-cates.html
     thumb: charlie.jpg
+    image: charlie-cates-large.jpg
     blurb: Char­lie Cates is a Mus­cle Acti­va­tion Tech­nique&trade; Spe­cial­ist and a Cer­ti­fied Strength
   -
+    slug: becky-williamson
     name: Becky Williamson
     title: Personal Trainer and Nutritionist
     page: becky-williamson.html
     thumb: becky.jpg
+    image: becky-williamson-large.jpg
     blurb: Becky C. Williamson is a Certified Personal Trainer with the American College of Sports Medicine
   -
+    slug: adrienne-marie
     name: Adrienne Marie
     title: Personal Trainer
     page: adrienne-marie.html
     thumb: adrienne-marie.jpg
+    image: adrienne-marie-large.jpg
     blurb: Adrienne is no stranger to the health and fitness world. Since 1995, she’s been personal training
   -
+    slug: daniel-lona
     name: Daniel Lona
     title: HKC Kettlebell Instructor and NASM Nutrition Specialist
     page: daniel-lona.html
     thumb: daniel-lona.jpg
+    image: daniel-lona-large.jpg
     blurb: Daniel helps women achieve their leanest, firmest, and best bodies through strength training
 
 instructors:

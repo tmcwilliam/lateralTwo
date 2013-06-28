@@ -32,6 +32,9 @@ page "humans.txt", :layout => false
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
+data.people.trainers.each do |trainer|
+  page "/trainers/#{trainer.slug}.html", :proxy => "/trainers/template.html", :ignore => true, :locals => {:item => trainer}
+end
 
 ###
 # Helpers
