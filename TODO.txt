@@ -23,26 +23,15 @@ instructors:
 
 slider:
 1. CS image. think lateral train lateral
-2. Personal Training
-3. Running/Triathlon
-4. MAT
+2. Personal Training (need picture)
+3. Running/Triathlon (need picture)
+4. MAT (need picture)
 5. Yoga
 6. Kettle Bell
 7. Press
 
-add timer
-freeze on hover
-play with slider captions for iphone
-get larger pictures
+news:
 
-
-group classes -> split into 3 pages yoga & high intesity & kettle bell:
-change picture for high intensity & kettle bell
-
-dan's page
-link to kettle bell class page
-
-new page ideas:
 events
 drive people to facebook events, deep links also from carousel
 

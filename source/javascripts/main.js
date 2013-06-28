@@ -9,11 +9,12 @@ var Lateral = (function() {
 
     orbit: function() {
       $("#featured").orbit({
-        timer: false,
+        timer: true,
         pauseOnHover: true,
+        startClockOnMouseOut: true,
         fluid: true,
         captions: true,
-        bullets: true
+        bullets: true,
       });
     }
   };
