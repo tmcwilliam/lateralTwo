@@ -8,15 +8,18 @@ instructors:
 
 slider:
 1. CS image. think lateral train lateral
-2. Personal Training (need picture)
-3. Running/Triathlon (need picture)
-4. MAT (need picture)
-5. Yoga
-6. Kettle Bell
-7. Press
+2. Personal Training (use rope) 
+3. Running/Triathlon (use race photo) - need copy
+4. MAT (use one of scott and andy)
+5. Yoga - need copy
+6. Kettle Bell - need copy
+7. Press - need copy
 
 services:
 copy updates, sort order
+
+HIT:
+use Ghazy photo
 
 news:
 - events
@@ -28,7 +31,6 @@ news:
 
 corporate wellness program (need picture?)
 add to services dropdown
-
 
 
 Application Optimizations
