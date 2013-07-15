@@ -29,3 +29,28 @@ services:
     page: kettlebell.html
     thumb: kettlebell_thumb.jpg
     blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
+
+photos:
+    -   caption: Front desk
+        filename: front-desk.jpg
+
+    -   caption: Kettlebells
+        filename: kettlebells.jpg
+
+    -   caption: Workout Floor
+        filename: floor.jpg
+
+    -   caption: Weights
+        filename: weights.jpg
+
+    -   caption: Workout Floor
+        filename: floor2.jpg
+
+    -   caption: More Kettlebells
+        filename: kettlebells2.jpg
+
+    -   caption: Weights
+        filename: weights2.jpg
+        
+    -   caption: Workout Floor
+        filename: floor3.jpg
