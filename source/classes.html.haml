@@ -1,0 +1,20 @@
+---
+title: Lateral Fitness Chicago
+page_id: classes
+---
+
+.row
+  .twelve.columns
+    - data.lateral.classes.each do |s|
+      .row.services-row
+        .three.columns
+          = link_to "/services/#{s.page}", :class => 'th' do
+            = image_tag "/images/classes/#{s.thumb}", :class => 'hide-for-small'
+        .nine.columns
+          %h4= s.name
+          %p
+            = s.blurb
+            = link_to "/classes/#{s.page}.html" do
+              Learn More
+              %i.icon-chevron-right
+    

@@ -16,14 +16,6 @@ trainers:
     image: erik-marthaler-large.jpg
     blurb: Erik Marthaler, co-founder of Lateral Fitness, has over 12 years of experience in the fitness world
   -
-    slug: charlie-cates
-    name: Charlie Cates
-    title: MAT and Strength &amp; Conditioning Specialist
-    page: charlie-cates.html
-    thumb: charlie.jpg
-    image: charlie-cates-large.jpg
-    blurb: Char­lie Cates is a Mus­cle Acti­va­tion Tech­nique&trade; Spe­cial­ist and a Cer­ti­fied Strength
-  -
     slug: becky-williamson
     name: Becky Williamson
     title: Personal Trainer and Nutritionist
@@ -67,9 +59,11 @@ instructors:
     page: sarah-elizabeth-helt.html
     thumb: sarah-helt.jpg
     blurb: Sarah Elizabeth Helt is delighted to be working with the talented and knowledgable team at Lateral
-  - 
-    name: Rachel Jannsen
-    title: Yoga Instructor
-    page: rachel-jannsen.html
-    thumb: rachel-jannsen.jpg
-    blurb: A ballet dancer for 15 years, Rachel has long admired the artistry of movement
+  -
+    slug: adrienne-marie
+    name: Adrienne Marie
+    title: Personal Trainer
+    page: adrienne-marie.html
+    thumb: adrienne-marie.jpg
+    image: adrienne-marie-large.jpg
+    blurb: Adrienne is no stranger to the health and fitness world. Since 1995, she’s been personal training

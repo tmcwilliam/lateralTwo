@@ -8,12 +8,17 @@ instructors:
 
 slider:
 1. CS image. think lateral train lateral
-2. Personal Training (use rope) 
+2. Personal Training (use weights.jpg) 
 3. Running/Triathlon (use race photo) - need copy
-4. MAT (use one of scott and andy)
+4. MAT (use larger mat image)
 5. Yoga - need copy
 6. Kettle Bell - need copy
 7. Press - need copy
+* Linkthrough pages should have same thumbnail as corresponding slider image
+* Remove text on mobile
+
+services:
+- kettlebell: change thumb to pic of kettlebells
 
 services:
 copy updates, sort order
@@ -29,10 +34,14 @@ news:
 - photos
 	update comments
 
+* fake out the layout
+
 corporate wellness program (need picture?)
 add to services dropdown
 
 Google Analytics
+
+Browserstack IE8/9
 
 
 Application Optimizations
@@ -51,3 +60,4 @@ Nice to haves/maybes
 - customize a 404 page
 - NEW font?
 - Dock the nav for mobile
+

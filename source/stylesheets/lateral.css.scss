@@ -10,12 +10,19 @@ p, td, div {
   font-size:14px; 
   line-height:20px;
 }
+h1 {
+  font-size: 40px;
+  line-height: 42px;
+}
 h4 {
   text-shadow: 1px 1px #DCDCDC;
 }
 .promo {
   color: $secondaryColor;
   font-weight: bold;
+}
+.alt {
+  color: $secondaryColor;
 }
 .note {
   font-weight: bold;
@@ -26,8 +33,24 @@ h4 {
 .centered {
   text-align: center;
 }
-.list-items li {
-  margin-left: 15px;
+.list-items {
+  list-style: none;
+
+  li {
+    line-height: 20px;
+    margin: 0 0 0 0px;
+    padding: 0 0 0 16px;
+    position: relative!important;
+  }
+  li:before {
+    content: '\25cf';
+    padding-right: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 20px;
+    font-size: 12px;
+  }
 }
 .row, .column {
   background-color: white;
@@ -208,6 +231,14 @@ h4 {
   font-size: 16px;
   text-shadow: 1px 1px #DCDCDC;
 }
+.classes .level {
+  color: green;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.classes .subheader {
+  margin-bottom: 0;
+}
 
 @media only screen and (max-width: 767px) {
   .services .right {
@@ -229,12 +260,12 @@ h4 {
 }
 
 .instructor-panel {
-  min-height: 370px;
+  height: 370px;
 }
 
 /*-- Team --*/
 .team {
-  padding-top: 10px;
+  padding: 20px;
 }
 .member {
 
@@ -294,6 +325,11 @@ h4 {
     .smallproflinks {
       text-align: center;
       padding: 16px 0 0 0;
+
+      .icon-facebook-sign,
+      .icon-twitter-sign {
+        font-size: 30px;
+      }
     }
   }
 }
@@ -448,4 +484,40 @@ blockquote.left .blockquote_wrapper {
 
 .photos .block-grid.three-up > li {
   padding: 1px 3px;
+}
+
+.classes .accordion {
+  border-bottom: 1px solid #dcdcdc;
+
+  li {
+    border-top: 1px solid #dcdcdc;
+
+    &.active {
+      border-top: 3px solid $secondaryColor;
+
+      .content {
+        border-left: 1px solid #dcdcdc;
+        border-right: 1px solid #dcdcdc;
+      }
+    }
+
+    .title {
+      background: white;
+      border-left: 1px solid #dcdcdc;
+      border-right: 1px solid #dcdcdc;
+
+      text-transform: none;
+      cursor: pointer;
+      font-size: 18px;
+      line-height: 20px;
+      transition: color 300ms, border-color 600ms;
+      -webkit-transition: color 300ms, border-color 600ms;
+      -moz-transition: color 300ms, border-color 600ms;
+      -o-transition: color 300ms, border-color 600ms;
+
+      &:hover {
+        color: $secondaryColor;
+      }
+    }
+  }
 }

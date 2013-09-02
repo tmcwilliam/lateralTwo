@@ -29,6 +29,8 @@
             = link_to 'About', '/about.html'
           %li{nav_active("services")}
             = link_to 'Services', '/services.html'
+          %li{nav_active("classes")}
+            = link_to 'Classes', '/classes.html'
           %li{nav_active("trainers")}
             = link_to 'Trainers', '/trainers.html'
           %li{nav_active("instructors")}
@@ -87,16 +89,24 @@
                     %li
                       = link_to 'Muscle Activation Technique', '/services/muscle-activation-technique.html'
                     %li
-                      = link_to 'Running/Triathalon', '/services/endurance-training.html'
-                    %li
-                      = link_to 'Yoga', '/services/yoga.html'
-                    %li
-                      = link_to 'High Intensity', '/services/high-intensity.html'
-                    %li
-                      = link_to 'Kettlebell', '/services/kettlebell.html'
+                      = link_to 'Massage and Soul Therapy', '/services/soul.html'
                     %li
                       = link_to 'Corporate Wellness Program', '/services/corporate.html'
-
+                    %li
+                      = link_to 'Lunchtime Membership', '/services/lunch.html'
+                %li.has-dropdown{nav_active("classes")}
+                  = link_to 'Classes', '/classes.html'
+                  %ul.dropdown.nav-dropdown
+                    %li
+                      = link_to 'Running/Triathalon', '/classes/endurance-training.html'
+                    %li
+                      = link_to 'Yoga', '/classes/yoga.html'
+                    %li
+                      = link_to 'High Intensity', '/classes/high-intensity.html'
+                    %li
+                      = link_to 'Kettlebell', '/classes/kettlebell.html'
+                    %li
+                      = link_to '6 Week Challenge', '/classes/challenge.html'
                 %li.has-dropdown{nav_active("trainers")}
                   = link_to 'Trainers', '/trainers.html'
                   %ul.dropdown.nav-dropdown
@@ -104,8 +114,6 @@
                       = link_to 'Scott McWilliam', '/trainers/scott-mcwilliam.html'
                     %li
                       = link_to 'Erik Marthaler', '/trainers/erik-marthaler.html'
-                    %li
-                      = link_to 'Charlie Cates', '/trainers/charlie-cates.html'
                     %li
                       = link_to 'Becky Williamson', '/trainers/becky-williamson.html'
                     %li
@@ -116,15 +124,13 @@
                   = link_to 'Instructors', '/instructors.html'
                   %ul.dropdown.nav-dropdown
                     %li
-                      = link_to 'Rebecca Niziol', '/instructors/rebecca-niziol.html'
-                    %li
                       = link_to 'Katarina Arneric', '/instructors/katarina-arneric.html'
                     %li
                       = link_to 'Jenny Finkel', '/instructors/jenny-finkel.html'
                     %li
                       = link_to 'Sarah Elizabeth Helt', '/instructors/sarah-elizabeth-helt.html'
                     %li
-                      = link_to 'Rachel Jannsen', '/instructors/rachel-jannsen.html'
+                      = link_to 'Adrienne Marie', '/trainers/adrienne-marie.html'
                 %li{nav_active("pricing")}
                   = link_to 'Packages', '/pricing.html'
                 %li{nav_active("news")}

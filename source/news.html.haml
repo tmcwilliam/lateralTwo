@@ -18,4 +18,5 @@ page_id: news
       - data.lateral.photos.each do |t|
         %li
           = link_to "/images/gallery/#{t.filename}" do
-            = image_tag "/images/gallery/#{t.filename}", :data => {:caption => "#{t.caption}"}
+            = image_tag "/images/gallery/#{t.filename}"
+            / = image_tag "/images/gallery/#{t.filename}", :data => {:caption => "#{t.caption}"}

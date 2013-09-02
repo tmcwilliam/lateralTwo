@@ -1,34 +1,51 @@
 services:
   -
     name: Personal Training
-    page: personal-training.html
+    page: personal-training
     thumb: training.jpg
     blurb: One on one training from nationally accredited certified trainers.
   -
+    name: Muscle Activation Technique
+    page: muscle-activation-technique
+    thumb: mat.jpg
+    blurb: Bio-mechanical noninvasive manual manipulation to correct asymmetrical limitations.
+  - 
+    name: Massage and Soul Therapy
+    page: soul
+    thumb: kettlebell_thumb.jpg
+    blurb: Need to get out of the office during lunch? Lateral fitness is happy to offer a lunch-time membership.
+  - 
+    name: Lunchtime Membership
+    page: lunch
+    thumb: lunch.jpg
+    blurb: Workout over lunch
+
+classes:
+  -
     name: Running/Triathlon
-    page: endurance-training.html
+    page: endurance-training
     thumb: endurance.jpg
     blurb: Periodization training to prepare you for marathons and triathlons.
   -
-    name: Muscle Activation Technique
-    page: muscle-activation-technique.html
-    thumb: mat.jpg
-    blurb: Bio-mechanical noninvasive manual manipulation to correct asymmetrical limitations.
-  -
     name: Yoga Classes
-    page: yoga.html
+    page: yoga
     thumb: group.jpg
     blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
   -
     name: High Intensity Classes
-    page: high-intensity.html
+    page: high-intensity
     thumb: high_intensity_thumb.jpg
     blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
   -
     name: Kettlebell Classes
-    page: kettlebell.html
+    page: kettlebell
     thumb: kettlebell_thumb.jpg
     blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
+  -
+    name: 6 Week Challenge
+    page: challenge
+    thumb: challenge.jpg
+    blurb: Challenge blurb
 
 photos:
     -   caption: Front desk
