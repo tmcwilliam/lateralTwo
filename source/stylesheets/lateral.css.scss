@@ -10,6 +10,10 @@ p, td, div {
   font-size:14px; 
   line-height:20px;
 }
+.small {
+  font-size: 11px;
+  line-height: 18px;
+}
 h1 {
   font-size: 40px;
   line-height: 42px;
@@ -226,15 +230,22 @@ h4 {
   line-height: 60px;
   margin: 0;
 }
-.classes .name {
-  display: block;
-  font-size: 16px;
-  text-shadow: 1px 1px #DCDCDC;
+.classes {
+  .class-image {
+    margin-bottom: 20px;
+  }
+  .name {
+    display: block;
+    font-size: 16px;
+    text-shadow: 1px 1px #DCDCDC;
+  }
 }
 .classes .level {
-  color: green;
+  color: $secondaryColor;
   font-size: 12px;
   text-transform: uppercase;
+  float: right;
+  margin-right: 30px;
 }
 .classes .subheader {
   margin-bottom: 0;

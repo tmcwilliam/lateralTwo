@@ -8,7 +8,7 @@ page_id: classes
     - data.lateral.classes.each do |s|
       .row.services-row
         .three.columns
-          = link_to "/services/#{s.page}", :class => 'th' do
+          = link_to "/classes/#{s.page}", :class => 'th' do
             = image_tag "/images/classes/#{s.thumb}", :class => 'hide-for-small'
         .nine.columns
           %h4= s.name

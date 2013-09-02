@@ -4,42 +4,33 @@ page_id: classes
 ---
 
 .row
-  .eight.columns
+  .twelve.columns
     %h4 High Intensity Classes
-  .four.columns
-    %p.redirect Looking for #{link_to "Yoga", "/classes/yoga.html"} or #{link_to "Kettlebell", "/classes/kettlebell.html"} Classes?
+
 .row.puff-bottom
-  .twelve.columns.classes
-    = image_tag '/images/classes/group.jpg', :class => "pull-left about-image"
+  .four.columns.hide-for-small
+    = image_tag '/images/classes/high_intensity_thumb.jpg', :class => "class-image"
+    = image_tag '/images/classes/ghazy.jpg', :class => "class-image"
+    .panel.radiusclass
+      %h5.alt Referral Program
+      %p Refer 3 friends who purchase any training or group class package and choose a complimentary group class of your choice. ($25 value)
 
-    %p <b class="name">Body Tone <span class="level">All Levels</span></b> Work your deep muscles and tone those ‘hard to reach’ areas! Body Tone uses functional and bodyweight exercises in partnership with isometric and small movements to leave you feeling sculpted and ready to take on the day!
+  .eight.columns.classes
+    %ul.accordion
+      - data.classes.high.each do |h|
+        %li
+          .title 
+            = h.title 
+            %span.level
+              = h.level
+          .content 
+            = h.content
 
-    %p <b class="name">Just Buns <span class="level">All Levels</span></b> Alternating every other week with B.A.C Attack, this class focuses only on hamstrings, buns and inner/outer thighs! If you’re looking to help reshape, lift and tighten your backside, this is the class for you!
-
-    %p <b class="name">B.A.C. Attack <span class="level">All Levels</span></b> Alternating every other week with Just Buns, this class works your Arms, Abs & Chest. This class focuses on strengthening, toning and defining all of your upper body muscles while teaching you proper form and technique for optimum results in just 30 minutes!
-
-    %p <b class="name">Cardio Kick <span class="level">Intermediate to Advanced recommended</span></b> Cardio Kick is a non stop, up tempo cardio fusion class intermixing H.I.I.T. (High Intensity Interval Training), cardio kick boxing and light resistance training to give you that total body high caloric burn.
-
-    %p <b class="name">Sculpt <span class="level">All Levels</span></b> If you’re looking to add more weight training into your workout routine, this is the class for you.  This is total body toning, firming and sculpting class using free weights, your own body weight and resistance bands. Sculpt focuses on each muscle group throughout your body so that everything gets targeted equally and nothing is left behind.
-
-    %p <b class="name">Sweat Shop <span class="level">All Levels</span></b> If you don’t like to sweat, this isn’t the class for you! Sweat Shop is a circuit training based class where you work station by station. Sweat Shop uses functional exercises, weight training, plyometrics/high impact, low impact and isometric exercises to keep that heart rate moving up and down so you effectively and efficiently burn calories while getting a total body workout.
-
-    %p <b class="name">Simply Shredded <span class="level">Intermediate to Advanced recommended</span></b> Simply Shredded is a 1 hour total body, cardio, strength and conditioning workout. We isolate one muscle group at a time while taking you through 3 stages of the movement: Stage 1- Easy, Stage 2- Moderate and Stage 3 – Advanced. Each stage is 20 seconds long. It is up to you how intense you want to make the class. Because 3 stages of the exercise are shown, you have 3 choices of which level you’d like to stay at or go to every 20 seconds. This is why all fitness levels are welcome! Simply Shredded uses hand weights, bands, yoga mats and pilates rings to make sure all muscle groups are taken to failure. The circuits are intermixed with spurts of H.I.I.T. (High Intensity Interval Training) to keep your heart rate moving up and down throughout class which will get you closer to getting Shredded!
-
-    %p <b class="name">20/20/20 <span class="level">All Levels</span></b> Can’t decide what class to take? Take them ALL-IN-ONE! 20/20/20 is a fusion class incorporating 20 minutes of strength training with weights. 20 minutes of cardio training with H.I.I.T. (High Intensity Interval Training) then finishes with 20 minutes of ab and core work on the floor.
-
-    %p <b class="name">Recruit <span class="level">Intermediate to Advanced recommended</span></b> RECRUIT is a high intensity circuit training interval bootcamp class that works the muscular and cardiovascular system as a whole. High intensity interval training has been proven to burn more calories, while making you stronger than many other workouts out there. In this class we incorporate bodyweight, free weight and cardiovascular intervals into one intense and fun hour. Using a heart rate monitor and calorie counter has proven this class can burn in the upwards of up to 800 calories an hour!
-
-    %p <b class="name">QuickFit <span class="level">All Levels</span></b> "QuickFit" is a 30 minute circuit training class that uses weights and cardio in timed intervals. This is a great class to get a quick workout in, that will still make you stronger and burn those calories, during a lunch break or when you thought you didn’t have time to get to the gym! Knowledge of how to use weights is suggested.
-
-    %p <b class="name">Quick H.I.I.T</b> Quick H.I.I.T is half of SweatShop + boxing! Station training for 30 minutes targeting all muscle groups, cardio and boxing with gloves and pads!
-
+.row
+  .twelve.columns
     %p.large.centered Please keep checking back! Classes are added monthly!
     
     %hr.colored.eight.columns.centered.puff-bottom
-
-    %span.promo Referral Program
-    %p Refer 3 friends who purchase any training or group class package and choose a complimentary group class of your choice. ($25 value)
 
     %span.note Class Policy
     %p Please show up 15 minutes before the start of the class for equipment set up. Since Lateral Fitness wants to keep each class moving smoothly you are not allowed to show up after the start of the class. Please notify Lateral Fitness if you are running late. We will release your reservation if you are not present at the start of class.

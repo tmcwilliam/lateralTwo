@@ -3,22 +3,22 @@ services:
     name: Personal Training
     page: personal-training
     thumb: training.jpg
-    blurb: One on one training from nationally accredited certified trainers.
+    blurb: "One on one training from nationally accredited certified trainers."
   -
     name: Muscle Activation Technique
     page: muscle-activation-technique
     thumb: mat.jpg
-    blurb: Bio-mechanical noninvasive manual manipulation to correct asymmetrical limitations.
+    blurb: "Bio-mechanical noninvasive manual manipulation to correct asymmetrical limitations."
   - 
     name: Massage and Soul Therapy
     page: soul
     thumb: kettlebell_thumb.jpg
-    blurb: Need to get out of the office during lunch? Lateral fitness is happy to offer a lunch-time membership.
+    blurb: "Need to get out of the office during lunch? Lateral fitness is happy to offer a lunch-time membership."
   - 
     name: Lunchtime Membership
     page: lunch
     thumb: lunch.jpg
-    blurb: Workout over lunch
+    blurb: "Workout over lunch"
 
 classes:
   -
