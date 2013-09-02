@@ -5,16 +5,18 @@ page_id: services
 
 .row
   .twelve.columns
-    - data.lateral.services.each do |s|
-      .row.services-row
-        .three.columns
-          = link_to "/services/#{s.page}", :class => 'th' do
-            = image_tag "/images/services/#{s.thumb}", :class => 'hide-for-small'
-        .nine.columns
-          %h4= s.name
-          %p
-            = s.blurb
-            = link_to "/services/#{s.page}.html" do
-              Learn More
-              %i.icon-chevron-right
+    %ul.block-grid.four-up.mobile-one-up
+      - data.lateral.services.each do |s|
+        %li
+          .panel.service
+            = link_to "/services/#{s.page}", :class => 'th' do
+              = image_tag "/images/services/#{s.thumb}", :class => 'hide-for-small', :width => 180, :height => 140
+            %h6.upper
+              = s.name
+            %p
+              = s.blurb
+            %p
+              = link_to "/services/#{s.page}.html" do
+                Learn More
+                %i.icon-chevron-right
     

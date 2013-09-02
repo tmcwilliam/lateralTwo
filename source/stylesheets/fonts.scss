@@ -47,6 +47,7 @@ h3 {
 h4 {
   font-size:26px;
   line-height:28px;
+  text-shadow: 1px 1px #DCDCDC;
 }
 .sidepanel h4 {
   font-size:28px;
@@ -59,4 +60,7 @@ h5 {
 h6 {
   font-size:18px;
   line-height:20px;
+}
+.upper {
+  text-transform: uppercase;
 }

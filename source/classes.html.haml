@@ -5,16 +5,18 @@ page_id: classes
 
 .row
   .twelve.columns
-    - data.lateral.classes.each do |s|
-      .row.services-row
-        .three.columns
-          = link_to "/classes/#{s.page}", :class => 'th' do
-            = image_tag "/images/classes/#{s.thumb}", :class => 'hide-for-small'
-        .nine.columns
-          %h4= s.name
-          %p
-            = s.blurb
-            = link_to "/classes/#{s.page}.html" do
-              Learn More
-              %i.icon-chevron-right
+    %ul.block-grid.three-up.mobile-one-up
+      - data.lateral.classes.each do |s|
+        %li
+          .panel.class
+            = link_to "/classes/#{s.page}", :class => 'th' do
+              = image_tag "/images/classes/#{s.thumb}", :class => 'hide-for-small', :width => 200, :height => 175
+            %h6.upper
+              = s.name
+            %p
+              = s.blurb
+            %p
+              = link_to "/classes/#{s.page}.html" do
+                Learn More
+                %i.icon-chevron-right
     

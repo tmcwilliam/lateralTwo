@@ -6,7 +6,7 @@ global:
 instructors:
 - personal facebook/twitter
 
-slider:
+slider: 890x375
 1. CS image. think lateral train lateral
 2. Personal Training (use weights.jpg) 
 3. Running/Triathlon (use race photo) - need copy

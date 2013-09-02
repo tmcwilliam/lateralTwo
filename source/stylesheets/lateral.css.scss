@@ -10,16 +10,16 @@ p, td, div {
   font-size:14px; 
   line-height:20px;
 }
+.page-title {
+  border-top: 3px solid $secondaryColor;
+  display: inline-block;
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .small {
   font-size: 11px;
   line-height: 18px;
-}
-h1 {
-  font-size: 40px;
-  line-height: 42px;
-}
-h4 {
-  text-shadow: 1px 1px #DCDCDC;
 }
 .promo {
   color: $secondaryColor;
@@ -39,6 +39,8 @@ h4 {
 }
 .list-items {
   list-style: none;
+  border-left: 3px solid $secondaryColor;
+  padding-left: 10px;
 
   li {
     line-height: 20px;
@@ -71,7 +73,12 @@ h4 {
   color: #fff;
   text-align: left;
   margin-top: 0;
+  margin-bottom: 0;
   text-shadow: none;
+
+  a.link-for-small {
+    color: #FFF
+  }
 }
 .orbit-wrapper .orbit-caption {
   padding: 10px;
@@ -202,34 +209,14 @@ h4 {
 }
 
 /*-- Services --*/
-.services .right {
-  float: right !important;
+.services .service,
+.classes .class {
+  height: 410px;
+  img {
+    margin: 0 auto;
+  }
 }
-.main-content .services-row {
-  margin: 10px;
-  border-bottom: 1px solid;
-  padding: 10px 0;
 
-  p {
-    font-size: 20px;
-  }
-  i {
-    font-size: 13px;
-    line-height: 20px;
-    vertical-align: middle;
-  }
-
-  a {
-    white-space: nowrap;
-  }
-}
-.services_personal-training .list-items {
-  margin-left: 270px;
-}
-.redirect {
-  line-height: 60px;
-  margin: 0;
-}
 .classes {
   .class-image {
     margin-bottom: 20px;
