@@ -43,9 +43,8 @@
           <li>
             <a href="../pricing/">Packages</a>
           </li>
-          <li>
-            <a href="../news/">News</a>
-          </li>
+          <!-- %li{nav_active("news")} -->
+          <!-- = link_to 'News', '/news.html' -->
           <li>
             <a href="../contact/">Contact Us</a>
           </li>
@@ -92,11 +91,9 @@
                     <i class='icon-facebook-sign'></i>
                   </a>
                 </li>
-                <li>
-                  <a class='twitter' href='#' target='_blank'>
-                    <i class='icon-twitter-sign'></i>
-                  </a>
-                </li>
+                <!-- %li -->
+                <!-- %a{:href => "#", :class => "twitter", :target => "_blank"} -->
+                <!-- %i.icon-twitter-sign -->
               </ul>
             </div>
           </div>
@@ -122,9 +119,8 @@
                     <li>
                       <a href="muscle-activation-technique/">Muscle Activation Technique</a>
                     </li>
-                    <li>
-                      <a href="soul/">Massage and Soul Therapy</a>
-                    </li>
+                    <!-- %li -->
+                    <!-- = link_to 'Massage and Soul Therapy', '/services/soul.html' -->
                     <li>
                       <a href="corporate/">Corporate Wellness Program</a>
                     </li>
@@ -193,9 +189,8 @@
                 <li>
                   <a href="../pricing/">Packages</a>
                 </li>
-                <li>
-                  <a href="../news/">News</a>
-                </li>
+                <!-- %li{nav_active("news")} -->
+                <!-- = link_to 'News', '/news.html' -->
               </ul>
               <ul class='right'>
                 <li>
@@ -208,10 +203,10 @@
       </div>
       <div class='row grid-layout'>
         <div class='twelve columns'>
-          <ul class='block-grid four-up mobile-one-up'>
+          <ul class='block-grid three-up mobile-one-up'>
             <li>
               <div class='panel service'>
-                          <a class="th" href="/services/personal-training"><img width="180" class="hide-for-small" height="140" src="../images/services/training.jpg" />
+                          <a class="th" href="/services/personal-training"><img class="hide-for-small" src="../images/services/training.jpg" />
                 </a>
       
                 <h6 class='upper'>
@@ -230,14 +225,14 @@
             </li>
             <li>
               <div class='panel service'>
-                          <a class="th" href="/services/muscle-activation-technique"><img width="180" class="hide-for-small" height="140" src="../images/services/mat.jpg" />
+                          <a class="th" href="/services/muscle-activation-technique"><img class="hide-for-small" src="../images/services/mat.jpg" />
                 </a>
       
                 <h6 class='upper'>
                   Muscle Activation Technique
                 </h6>
                 <p>
-                  Bio-mechanical noninvasive manual manipulation to correct asymmetrical limitations.
+                  A muscle contraction evaluation process that complements exercise and injury rehab.
                 </p>
                 <p>
                               <a href="muscle-activation-technique/">Learn More
@@ -249,26 +244,7 @@
             </li>
             <li>
               <div class='panel service'>
-                          <a class="th" href="/services/soul"><img width="180" class="hide-for-small" height="140" src="../images/services/kettlebell_thumb.jpg" />
-                </a>
-      
-                <h6 class='upper'>
-                  Massage and Soul Therapy
-                </h6>
-                <p>
-                  Need to get out of the office during lunch? Lateral fitness is happy to offer a lunch-time membership.
-                </p>
-                <p>
-                              <a href="soul/">Learn More
-                  <i class='icon-chevron-right'></i>
-                  </a>
-      
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class='panel service'>
-                          <a class="th" href="/services/lunch"><img width="180" class="hide-for-small" height="140" src="../images/services/lunch.jpg" />
+                          <a class="th" href="/services/lunch"><img class="hide-for-small" src="../images/services/default.jpg" />
                 </a>
       
                 <h6 class='upper'>

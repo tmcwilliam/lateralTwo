@@ -43,9 +43,8 @@
           <li>
             <a href="pricing/">Packages</a>
           </li>
-          <li>
-            <a href="news/">News</a>
-          </li>
+          <!-- %li{nav_active("news")} -->
+          <!-- = link_to 'News', '/news.html' -->
           <li>
             <a href="contact/">Contact Us</a>
           </li>
@@ -92,11 +91,9 @@
                     <i class='icon-facebook-sign'></i>
                   </a>
                 </li>
-                <li>
-                  <a class='twitter' href='#' target='_blank'>
-                    <i class='icon-twitter-sign'></i>
-                  </a>
-                </li>
+                <!-- %li -->
+                <!-- %a{:href => "#", :class => "twitter", :target => "_blank"} -->
+                <!-- %i.icon-twitter-sign -->
               </ul>
             </div>
           </div>
@@ -122,9 +119,8 @@
                     <li>
                       <a href="services/muscle-activation-technique/">Muscle Activation Technique</a>
                     </li>
-                    <li>
-                      <a href="services/soul/">Massage and Soul Therapy</a>
-                    </li>
+                    <!-- %li -->
+                    <!-- = link_to 'Massage and Soul Therapy', '/services/soul.html' -->
                     <li>
                       <a href="services/corporate/">Corporate Wellness Program</a>
                     </li>
@@ -193,9 +189,8 @@
                 <li>
                   <a href="pricing/">Packages</a>
                 </li>
-                <li>
-                  <a href="news/">News</a>
-                </li>
+                <!-- %li{nav_active("news")} -->
+                <!-- = link_to 'News', '/news.html' -->
               </ul>
               <ul class='right'>
                 <li>
@@ -211,11 +206,11 @@
           <div class='slider' id='featured'>
             <img data-caption="#captionOne" src="images/slider/front-desk.jpg" />
             <img data-caption="#captionTwo" src="images/slider/personal-training.jpg" />
-            <img data-caption="#captionThree" src="images/slider/high-intensity.jpg" />
+            <img data-caption="#captionThree" src="images/slider/running.jpg" />
             <img data-caption="#captionFour" src="images/slider/matlogo.jpg" />
             <img data-caption="#captionFive" src="images/slider/yoga2.jpg" />
             <img data-caption="#captionSix" src="images/slider/kettlebell.jpg" />
-            <img data-caption="#captionSeven" src="images/slider/menscover.jpg" />
+            <!-- = image_tag "/images/slider/menscover.jpg", :'data-caption' => "#captionSeven" -->
           </div>
           <span class='orbit-caption' id='captionOne'>
             <h4 class='hide-for-small'>Think Lateral. Train Lateral.</h4>
@@ -228,9 +223,9 @@
             <h4 class='show-for-small'><a class="link-for-small" href="/services/personal-training/">Personal Training &raquo;</a></h4>
           </span>
           <span class='orbit-caption' id='captionThree'>
-            <h4 class='hide-for-small'>Running/Triathlon</h4>
-            <p class='hide-for-small'>Run run run run run. <a href="/services/endurance-training">Read more &raquo;</a></p>
-            <h4 class='show-for-small'><a class="link-for-small" href="/services/endurance-training">Running/Triathlon &raquo;</a></h4>
+            <h4 class='hide-for-small'>Running / Triathlon</h4>
+            <p class='hide-for-small'>Whether it’s your first time running a half marathon or competing as an elite triathlete... <a href="/classes/endurance-training">Read more &raquo;</a></p>
+            <h4 class='show-for-small'><a class="link-for-small" href="/classes/endurance-training">Running/Triathlon &raquo;</a></h4>
           </span>
           <span class='orbit-caption' id='captionFour'>
             <h4 class='hide-for-small'>Muscle Activation Technique</h4>
@@ -239,19 +234,18 @@
           </span>
           <span class='orbit-caption' id='captionFive'>
             <h4 class='hide-for-small'>Yoga</h4>
-            <p class='hide-for-small'>yoga yoga yoga yoga yoga. <a href="/services/yoga/">Read more &raquo;</a></p>
-            <h4 class='show-for-small'><a class="link-for-small" href="/services/yoga/">Yoga Classes &raquo;</a></h4>
+            <p class='hide-for-small'>At Lateral Fitness, we offer a variety of yoga styles, all led by our expert team of instructors. <a href="/classes/yoga/">Read more &raquo;</a></p>
+            <h4 class='show-for-small'><a class="link-for-small" href="/classes/yoga/">Yoga Classes &raquo;</a></h4>
           </span>
           <span class='orbit-caption' id='captionSix'>
             <h4 class='hide-for-small'>Kettlebell</h4>
-            <p class='hide-for-small'>Kettlebell is a complete system of fitness that melts fat and tones muscle. <a href="/services/kettlebell/">Read more &raquo;</a></p>
-            <h4 class='show-for-small'><a class="link-for-small" href="/services/kettlebell">Kettlebell Classes &raquo;</a></h4>
+            <p class='hide-for-small'>Kettlebell is a complete system of fitness that melts fat and tones muscle. <a href="/classes/kettlebell/">Read more &raquo;</a></p>
+            <h4 class='show-for-small'><a class="link-for-small" href="/classes/kettlebell">Kettlebell Classes &raquo;</a></h4>
           </span>
-          <span class='orbit-caption' id='captionSeven'>
-            <h4 class='hide-for-small'>News</h4>
-            <p class='hide-for-small'>Check out what's happening at Lateral Fitness. <a href="/news/">Read more &raquo;</a></p>
-            <h4 class='show-for-small'><a class="link-for-small" href="/news/">News &raquo;</a></h4>
-          </span>
+          <!-- %span.orbit-caption#captionSeven -->
+          <!-- %h4.hide-for-small News -->
+          <!-- %p.hide-for-small Check out what's happening at Lateral Fitness. #{link_to "Read more &raquo;", "/news/"} -->
+          <!-- %h4.show-for-small #{link_to "News &raquo;", "/news/", :class => "link-for-small"} -->
         </div>
       </div>
       <div class='row promos'>
