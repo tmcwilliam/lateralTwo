@@ -5,12 +5,12 @@ page_id: services
 
 .row.grid-layout
   .twelve.columns
-    %ul.block-grid.four-up.mobile-one-up
+    %ul.block-grid.three-up.mobile-one-up
       - data.lateral.services.each do |s|
         %li
           .panel.service
             = link_to "/services/#{s.page}", :class => 'th' do
-              = image_tag "/images/services/#{s.thumb}", :class => 'hide-for-small', :width => 180, :height => 140
+              = image_tag "/images/services/#{s.thumb}", :class => 'hide-for-small'
             %h6.upper
               = s.name
             %p

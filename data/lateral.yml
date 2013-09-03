@@ -8,33 +8,33 @@ services:
     name: Muscle Activation Technique
     page: muscle-activation-technique
     thumb: mat.jpg
-    blurb: "Bio-mechanical noninvasive manual manipulation to correct asymmetrical limitations."
-  - 
-    name: Massage and Soul Therapy
-    page: soul
-    thumb: kettlebell_thumb.jpg
-    blurb: "Need to get out of the office during lunch? Lateral fitness is happy to offer a lunch-time membership."
+    blurb: "A muscle contraction evaluation process that complements exercise and injury rehab."
+  # - 
+  #   name: Massage and Soul Therapy
+  #   page: soul
+  #   thumb: kettlebell_thumb.jpg
+  #   blurb: "Need to get out of the office during lunch? Lateral fitness is happy to offer a lunch-time membership."
   - 
     name: Lunchtime Membership
     page: lunch
-    thumb: lunch.jpg
+    thumb: default.jpg
     blurb: "Workout over lunch"
 
 classes:
   -
     name: Running/Triathlon
     page: endurance-training
-    thumb: endurance.jpg
+    thumb: usa-triathlon.jpg
     blurb: Periodization training to prepare you for marathons and triathlons.
   -
     name: Yoga Classes
     page: yoga
-    thumb: group.jpg
+    thumb: yoga.jpg
     blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
   -
     name: High Intensity Classes
     page: high-intensity
-    thumb: high_intensity_thumb.jpg
+    thumb: high.jpg
     blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
   -
     name: Kettlebell Classes
@@ -44,7 +44,7 @@ classes:
   -
     name: 6 Week Challenge
     page: challenge
-    thumb: challenge.jpg
+    thumb: default.jpg
     blurb: Challenge blurb
 
 photos:

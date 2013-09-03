@@ -42,10 +42,10 @@ high:
     title: B.A.C. Attack
     content: "Alternating every other week with Just Buns, this class works your Arms, Abs & Chest. This class focuses on strengthening, toning and defining all of your upper body muscles while teaching you proper form and technique for optimum results in just 30 minutes!"
     level: All Levels
-  - 
-    title: Body Tone
-    content: "Work your deep muscles and tone those ‘hard to reach’ areas! Body Tone uses functional and bodyweight exercises in partnership with isometric and small movements to leave you feeling sculpted and ready to take on the day!"
-    level: All Levels
+  # - 
+  #   title: Body Tone
+  #   content: "Work your deep muscles and tone those ‘hard to reach’ areas! Body Tone uses functional and bodyweight exercises in partnership with isometric and small movements to leave you feeling sculpted and ready to take on the day!"
+  #   level: All Levels
   - 
     title: Just Buns
     content: "Alternating every other week with B.A.C Attack, this class focuses only on hamstrings, buns and inner/outer thighs! If you’re looking to help reshape, lift and tighten your backside, this is the class for you!"
