@@ -9,14 +9,14 @@ page_id: trainers
       - data.people.trainers.each do |t|
         %li.member
           .panel.instructor-panel
-            = link_to "/trainers/#{t.page}" do
+            = link_to "trainers/#{t.page}" do
               = image_tag "/images/trainers/#{t.thumb}", :class => "th"
             .member_name
-              = link_to "/trainers/#{t.page}" do
+              = link_to "trainers/#{t.page}" do
                 %h5= t.name
               .op= t.title
             .member_desc
-              .exc #{t.blurb}...#{link_to 'more', "/trainers/#{t.page}"}
+              .exc #{t.blurb}...#{link_to 'more', "trainers/#{t.page}"}
               / .smallproflinks
               /   %a{:href => "#facebook", :class => "facebook_link tip", :title => "Facebook"}
               /     %i{:class => "icon-facebook-sign"}

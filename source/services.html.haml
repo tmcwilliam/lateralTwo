@@ -9,7 +9,7 @@ page_id: services
       - data.lateral.services.each do |s|
         %li
           .panel.service
-            = link_to "/services/#{s.page}", :class => 'th' do
+            = link_to "services/#{s.page}", :class => 'th' do
               = image_tag "/images/services/#{s.thumb}", :class => 'hide-for-small'
             %h6.upper
               = s.name

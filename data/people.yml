@@ -6,7 +6,7 @@ trainers:
     page: scott-mcwilliam.html
     thumb: scott-mcwilliam.jpg
     image: scott-mcwilliam-large.jpg
-    blurb: Scott, co-founder of Lateral Fitness, has been training since 2004. Scott has a firm belief that education is key to the foundation of a trainer
+    blurb: "Scott, co-founder of Lateral Fitness, has been training since 2004. Scott has a firm belief that education is key to the foundation of a trainer"
   -
     slug: erik-marthaler
     name: Erik Marthaler
@@ -14,7 +14,7 @@ trainers:
     page: erik-marthaler.html
     thumb: erik.jpg
     image: erik-marthaler-large.jpg
-    blurb: Erik Marthaler, co-founder of Lateral Fitness, has over 12 years of experience in the fitness world
+    blurb: "Erik Marthaler, co-founder of Lateral Fitness, has over 12 years of experience in the fitness world"
   -
     slug: becky-williamson
     name: Becky Williamson
@@ -22,7 +22,7 @@ trainers:
     page: becky-williamson.html
     thumb: becky.jpg
     image: becky-williamson-large.jpg
-    blurb: Becky C. Williamson is a Certified Personal Trainer with the American College of Sports Medicine
+    blurb: "Becky C. Williamson is a Certified Personal Trainer with the American College of Sports Medicine"
   -
     slug: adrienne-marie
     name: Adrienne Marie
@@ -30,7 +30,7 @@ trainers:
     page: adrienne-marie.html
     thumb: adrienne-marie.jpg
     image: adrienne-marie-large.jpg
-    blurb: Adrienne is no stranger to the health and fitness world. Since 1995, she’s been personal training
+    blurb: "Adrienne is no stranger to the health and fitness world. Since 1995, she’s been personal training"
   -
     slug: daniel-lona
     name: Daniel Lona
@@ -38,7 +38,7 @@ trainers:
     page: daniel-lona.html
     thumb: daniel-lona.jpg
     image: daniel-lona-large.jpg
-    blurb: Daniel helps women achieve their leanest, firmest, and best bodies through strength training
+    blurb: "Daniel helps women achieve their leanest, firmest, and best bodies through strength training"
 
 instructors:
   - 
@@ -46,19 +46,19 @@ instructors:
     title: Yoga Instructor
     page: katarina-arneric.html
     thumb: katarina.jpg
-    blurb: Katarina Arneric is a yoga instructor, health coach, dance teacher, food blogger, photographer
+    blurb: "Katarina Arneric is a yoga instructor, health coach, dance teacher, food blogger, photographer"
   - 
     name: Jenny Finkel
     title: Yoga Instructor
     page: jenny-finkel.html
     thumb: jenny.jpg
-    blurb: Jenny Finkel began doing yoga as a scoliotic, asthmatic 12-year-old after reading an article
+    blurb: "Jenny Finkel began doing yoga as a scoliotic, asthmatic 12-year-old after reading an article"
   - 
     name: Sarah Elizabeth Helt
     title: Yoga Instructor
     page: sarah-elizabeth-helt.html
     thumb: sarah-helt.jpg
-    blurb: Sarah Elizabeth Helt is delighted to be working with the talented and knowledgable team at Lateral
+    blurb: "Sarah Elizabeth Helt is delighted to be working with the talented and knowledgable team at Lateral"
   -
     slug: adrienne-marie
     name: Adrienne Marie
@@ -66,4 +66,4 @@ instructors:
     page: adrienne-marie.html
     thumb: adrienne-marie.jpg
     image: adrienne-marie-large.jpg
-    blurb: Adrienne is no stranger to the health and fitness world. Since 1995, she’s been personal training
+    blurb: "Adrienne is no stranger to the health and fitness world. Since 1995, she’s been personal training"

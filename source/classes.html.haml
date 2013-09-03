@@ -9,7 +9,7 @@ page_id: classes
       - data.lateral.classes.each do |s|
         %li
           .panel.class
-            = link_to "/classes/#{s.page}", :class => 'th' do
+            = link_to "classes/#{s.page}", :class => 'th' do
               = image_tag "/images/classes/#{s.thumb}", :class => 'hide-for-small'
             %h6.upper
               = s.name
