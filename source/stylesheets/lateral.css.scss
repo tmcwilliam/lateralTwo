@@ -90,32 +90,19 @@ p, td, div {
   }
 }
 
+
 #featured { 
   background: url(../images/spinner.gif) center center #f4f4f4 no-repeat; height: 300px; 
-}
-#featured img { 
-  display: none; 
+
+  img { 
+    display: none; 
+  }
 }
 #featured.orbit { 
-  background: none; 
-}
-#featured.orbit img { 
-  display: block; 
-}
+  background: none;
 
-@media only screen and (max-width: 767px) {
-  .orbit-wrapper .slide h3 {
-    font-size: 16px;
-    line-height: 14px;
-  }
-  .orbit-caption h4 {
-    font-size: 14px;
-    margin: 0;
-    line-height: 16px;
-  }
-  .orbit-caption p {
-    font-size: 10px;
-    line-height: 12px;
+  img { 
+    display: block; 
   }
 }
 
@@ -147,11 +134,7 @@ p, td, div {
     }
   }
 }
-@media only screen and (max-width: 767px) {
-  .promos .panel {
-    min-height: 100px;
-  }
-}
+
 
 // About Us
 .about-image {
@@ -209,6 +192,9 @@ p, td, div {
 }
 
 /*-- Services --*/
+.grid-layout {
+  padding-top: 20px;
+}
 .services .service,
 .classes .class {
   height: 410px;
@@ -238,33 +224,10 @@ p, td, div {
   margin-bottom: 0;
 }
 
-@media only screen and (max-width: 767px) {
-  .services .right {
-    float: none !important;
-  }
-  .main-content .services-row {
-    margin: 5px 0 10px 0;
-  
-    p {
-      font-size: 14px;
-    }
-    i {
-      font-size: 11px;
-    }
-  }
-  .services_personal-training .list-items {
-    margin-left: 0;
-  }
-}
-
 .instructor-panel {
   height: 370px;
 }
 
-/*-- Team --*/
-.team {
-  padding: 20px;
-}
 .member {
 
   .panel {
@@ -384,21 +347,6 @@ p, td, div {
   
 }
 
-@media only screen and (max-width: 767px) {
-  .main-content footer .address {
-    text-align: left;
-    font-size: 13px;
-    padding: 10px;
-  }
-  .about blockquote.left {
-    width: 100%;
-    margin: 10px;
-  }
-  .about-image {
-    width: 100%;
-  }
-}
-
 footer span {
   padding:0px 0px 0px 0;
   position:absolute;
@@ -429,11 +377,12 @@ blockquote {
   padding:0 0 0px 0px;
   border:none;
   margin:0 0 20px 0;
-}
-blockquote .blockquote_wrapper {
-  margin:0 25px 0 0px;
-  padding-left:14px;
-  border-left:3px solid;  
+
+  .blockquote_wrapper {
+    margin:0 25px 0 0px;
+    padding-left:14px;
+    border-left:3px solid;  
+  }
 }
 blockquote.type1 .blockquote_wrapper {
   border-color:#c1c1c1;
@@ -444,8 +393,6 @@ blockquote.type2 .blockquote_wrapper {
 blockquote.colored .blockquote_wrapper {
   border-color:$secondaryColor;
 }
-
-
 blockquote p { 
   font-size:13px; 
   color:#5a5a5a;
@@ -516,6 +463,68 @@ blockquote.left .blockquote_wrapper {
       &:hover {
         color: $secondaryColor;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .promos .panel {
+    min-height: 100px;
+  }
+
+  .orbit-wrapper .slide h3 {
+    font-size: 16px;
+    line-height: 14px;
+  }
+  .orbit-caption h4 {
+    font-size: 14px;
+    margin: 0;
+    line-height: 16px;
+  }
+  .orbit-caption p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .services .right {
+    float: none !important;
+  }
+
+  .services .service,
+  .classes .class {
+    height: auto;
+  }
+
+  .main-content .services-row {
+    margin: 5px 0 10px 0;
+  
+    p {
+      font-size: 14px;
+    }
+    i {
+      font-size: 11px;
+    }
+  }
+
+  .services_personal-training .list-items {
+    margin-left: 0;
+  }
+  .main-content footer .address {
+    text-align: left;
+    font-size: 13px;
+    padding: 10px;
+  }
+  .about blockquote.left {
+    width: 100%;
+    margin: 10px;
+  }
+  .about-image {
+    width: 100%;
+  }
+  .classes .accordion li {
+    .level {
+      display: block;
+      float: none;
     }
   }
 }

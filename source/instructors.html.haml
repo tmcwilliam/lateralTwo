@@ -2,19 +2,20 @@
 title: Lateral Fitness Chicago
 page_id: instructors
 ---
-.row.team
-  %ul.block-grid.three-up.mobile-one-up
-    - data.people.instructors.each do |t|
-      %li.member
-        .panel.instructor-panel
-          = link_to "/instructors/#{t.page}" do
-            = image_tag "/images/instructors/#{t.thumb}", :class => "th"
-          .member_name
+.row.grid-layout
+  .twelve.columns
+    %ul.block-grid.three-up.mobile-one-up
+      - data.people.instructors.each do |t|
+        %li.member
+          .panel.instructor-panel
             = link_to "/instructors/#{t.page}" do
-              %h5= t.name
-            .op= t.title
-          .member_desc
-            .exc #{t.blurb}...#{link_to 'more', "/instructors/#{t.page}"}
-            .smallproflinks
-              %a{:href => "#facebook", :class => "facebook_link tiptip", :title => "Facebook"}
-              %a{:href => "#twitter", :class => "twitter_link tiptip", :title => "Twitter"}
+              = image_tag "/images/instructors/#{t.thumb}", :class => "th"
+            .member_name
+              = link_to "/instructors/#{t.page}" do
+                %h5= t.name
+              .op= t.title
+            .member_desc
+              .exc #{t.blurb}...#{link_to 'more', "/instructors/#{t.page}"}
+              .smallproflinks
+                %a{:href => "#facebook", :class => "facebook_link tiptip", :title => "Facebook"}
+                %a{:href => "#twitter", :class => "twitter_link tiptip", :title => "Twitter"}
