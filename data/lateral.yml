@@ -9,6 +9,11 @@ services:
     page: muscle-activation-technique.html
     thumb: mat.jpg
     blurb: "A muscle contraction evaluation process that complements exercise and injury rehab."
+  -
+    name: Corporate Wellness Program
+    page: corporate.html
+    thumb: default.jpg
+    blurb: "Join the Corporate Wellness Family at Lateral Fitness!"
   # - 
   #   name: Massage and Soul Therapy
   #   page: soul
@@ -17,24 +22,24 @@ services:
   - 
     name: Lunchtime Membership
     page: lunch.html
-    thumb: default.jpg
+    thumb: lunch2.jpg
     blurb: "Workout over lunch"
 
 classes:
   -
     name: Running/Triathlon
     page: endurance-training.html
-    thumb: usa-triathlon.jpg
+    thumb: running3.jpg
     blurb: Periodization training to prepare you for marathons and triathlons.
   -
     name: Yoga Classes
     page: yoga.html
-    thumb: yoga.jpg
+    thumb: yoga5.jpg
     blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
   -
     name: High Intensity Classes
     page: high-intensity.html
-    thumb: high.jpg
+    thumb: high3.jpg
     blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
   -
     name: Kettlebell Classes

@@ -64,6 +64,10 @@ p, td, div {
 .puff-bottom {
   padding-bottom: 15px;
 }
+.image-centered {
+  display: block;
+  margin: 0 auto;
+}
 
 // Orbit
 .slider .slider-inner {
@@ -200,6 +204,23 @@ p, td, div {
   height: 410px;
   img {
     margin: 0 auto;
+  }
+}
+
+.services {
+  .panel.service:hover {
+    border-bottom: 3px solid $secondaryColor;
+    h6 {
+      color: $secondaryColor;
+    }
+  }
+}
+.classes {
+  .panel.class:hover {
+    border-bottom: 3px solid $secondaryColor;
+    h6 {
+      color: $secondaryColor;
+    }
   }
 }
 

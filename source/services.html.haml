@@ -5,7 +5,7 @@ page_id: services
 
 .row.grid-layout
   .twelve.columns
-    %ul.block-grid.three-up.mobile-one-up
+    %ul.block-grid.four-up.mobile-one-up
       - data.lateral.services.each do |s|
         %li
           .panel.service
@@ -16,7 +16,7 @@ page_id: services
             %p
               = s.blurb
             %p
-              = link_to "/services/#{s.page}.html" do
+              = link_to "services/#{s.page}" do
                 Learn More
                 %i.icon-chevron-right
     
