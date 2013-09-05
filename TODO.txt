@@ -6,26 +6,6 @@ global:
 instructors:
 - personal facebook/twitter
 
-slider: 890x375
-1. CS image. think lateral train lateral
-2. Personal Training (use weights.jpg) 
-3. Running/Triathlon (use race photo) - need copy
-4. MAT (use larger mat image)
-5. Yoga - need copy
-6. Kettle Bell - need copy
-7. Press - need copy
-* Linkthrough pages should have same thumbnail as corresponding slider image
-* Remove text on mobile
-
-services:
-- kettlebell: change thumb to pic of kettlebells
-
-services:
-copy updates, sort order
-
-HIT:
-use Ghazy photo
-
 news:
 - events
 	drive people to facebook events
@@ -33,11 +13,9 @@ news:
 	similiar to events. thumbnail, blurb link to article
 - photos
 	update comments
-
 * fake out the layout
 
 corporate wellness program (need picture?)
-add to services dropdown
 
 Google Analytics
 
@@ -48,7 +26,7 @@ Application Optimizations
 -------------------------
 per page CSS
 CSS cleanup
-Dynamic Pages (trainers, instructors, services)
+Dynamic Pages (services)
 More YML data (services, packages, sitemap, events, press)
 Leverage Constant Contact API
 SEO copywriter

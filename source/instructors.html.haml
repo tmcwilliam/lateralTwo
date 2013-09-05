@@ -2,6 +2,7 @@
 title: Lateral Fitness Chicago
 page_id: instructors
 ---
+
 .row.grid-layout
   .twelve.columns
     %ul.block-grid.three-up.mobile-one-up
@@ -16,6 +17,6 @@ page_id: instructors
               .op= t.title
             .member_desc
               .exc #{t.blurb}...#{link_to 'more', "instructors/#{t.page}"}
-              .smallproflinks
-                %a{:href => "#facebook", :class => "facebook_link tiptip", :title => "Facebook"}
-                %a{:href => "#twitter", :class => "twitter_link tiptip", :title => "Twitter"}
+              / .smallproflinks
+              /   %a{:href => "#facebook", :class => "facebook_link tiptip", :title => "Facebook"}
+              /   %a{:href => "#twitter", :class => "twitter_link tiptip", :title => "Twitter"}
