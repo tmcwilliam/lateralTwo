@@ -1,59 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/instructors/katarina-arneric</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/classes/high-intensity</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/trainers</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/news</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/about</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/classes/kettlebell</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/instructors</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/instructors/adrienne-marie</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/services/soul</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/services</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/classes</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/classes/endurance-training</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/services/corporate</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/pricing</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/instructors/sarah-elizabeth-helt</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/instructors/rebecca-niziol</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/trainers/erik-marthaler</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -65,11 +21,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/contact</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/classes/yoga</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/trainers/daniel-lona</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -77,11 +29,15 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/index.html</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/contact</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/classes/high-intensity</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/trainers/becky-williamson</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/trainers/charlie-cates</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -89,15 +45,15 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/services/personal-training</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/services/soul</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/news</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/classes/endurance-training</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/services/lunch</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/instructors</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -105,11 +61,59 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/trainers/erik-marthaler</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/index.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/trainers/daniel-lona</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/pricing</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/instructors/adrienne-marie</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/services</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/classes/yoga</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/services/lunch</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/classes/kettlebell</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/services/corporate</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/trainers</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/instructors/katarina-arneric</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/instructors/sarah-elizabeth-helt</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/instructors/rebecca-niziol</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/services/personal-training</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/classes</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -117,7 +121,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/trainers/becky-williamson</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/about</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
