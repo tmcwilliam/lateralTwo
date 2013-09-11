@@ -248,6 +248,9 @@ p, td, div {
 .instructor-panel {
   height: 370px;
 }
+.challenge-panel {
+  height: 475px;
+}
 
 .member {
 
@@ -541,6 +544,13 @@ blockquote.left .blockquote_wrapper {
   }
   .about-image {
     width: 100%;
+  }
+  .bio-image {
+    margin-bottom: 10px;
+  }
+  .captionss {
+    font-size: 12px;
+    line-height: 12px;
   }
   .classes .accordion li {
     .level {

@@ -9,10 +9,12 @@ page_id: classes
 
 .row.puff-bottom
   .twelve.columns
-    %p blah blah blah blah
+    %ul.block-grid.two-up.mobile-one-up
+      - data.classes.challenge.each do |c|
+        %li.member
+          .panel.challenge-panel
+            = image_tag "/images/classes/challenge/#{c.image}", :class => "th"
 
-    %p 
-      If you are interested in learning more about Corporate Wellness
-      = link_to "info@trainlateral.com", "mailto:info@trainlateral.com"
+    %p If you are interested in learning more about Corporate Wellness #{link_to "info@trainlateral.com", "mailto:info@trainlateral.com"}
 
 
