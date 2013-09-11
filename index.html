@@ -204,12 +204,12 @@
       <div class='row slider'>
         <div class='eleven columns centered slider-inner'>
           <div class='slider' id='featured'>
-            <img src="images/slider/front-desk.jpg" data-caption="#captionOne" />
-            <img src="images/slider/personal-training.jpg" data-caption="#captionTwo" />
-            <img src="images/slider/running.jpg" data-caption="#captionThree" />
-            <img src="images/slider/matlogo.jpg" data-caption="#captionFour" />
-            <img src="images/slider/yoga2.jpg" data-caption="#captionFive" />
-            <img src="images/slider/kettlebell.jpg" data-caption="#captionSix" />
+            <img data-caption="#captionOne" src="images/slider/front-desk.jpg" />
+            <img data-caption="#captionTwo" src="images/slider/personal-training.jpg" />
+            <img data-caption="#captionThree" src="images/slider/running.jpg" />
+            <img data-caption="#captionFour" src="images/slider/matlogo.jpg" />
+            <img data-caption="#captionFive" src="images/slider/yoga2.jpg" />
+            <img data-caption="#captionSix" src="images/slider/kettlebell.jpg" />
             <!-- = image_tag "/images/slider/menscover.jpg", :'data-caption' => "#captionSeven" -->
           </div>
           <span class='orbit-caption' id='captionOne'>
@@ -285,5 +285,16 @@
     </section>
     <script type="text/javascript" src="javascripts/app.js"></script>
     <script type="text/javascript" src="javascripts/main.js"></script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37734676-1']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </body>
 </html>
