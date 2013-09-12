@@ -491,6 +491,14 @@ blockquote.left .blockquote_wrapper {
   }
 }
 
+.bio-image {
+  margin-bottom: 10px;
+}
+.caption {
+  font-size: 12px;
+  line-height: 12px;
+}
+
 @media only screen and (max-width: 767px) {
   .promos .panel {
     min-height: 100px;
@@ -544,13 +552,6 @@ blockquote.left .blockquote_wrapper {
   }
   .about-image {
     width: 100%;
-  }
-  .bio-image {
-    margin-bottom: 10px;
-  }
-  .captionss {
-    font-size: 12px;
-    line-height: 12px;
   }
   .classes .accordion li {
     .level {
