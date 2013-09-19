@@ -6,12 +6,31 @@ page_id: news
 .row
   .nine.columns
     %h4 Events
-    %p Let's put events here
-    
+    - data.lateral.events.each do |e|
+      .row.event
+        .two.columns
+          = image_tag "/images/events/#{e.image}", :class => "th"
+        .ten.columns
+          %h5.subheader.name= e.name
+          %p.body= e.body
+          = link_to "#{e.link}" do
+            Check it out
+            %i.icon-chevron-right.small
+      %hr.dark
     %hr.colored
 
     %h4 Press
-    %p Let's put press here
+    - data.lateral.press.each do |p|
+      .row.event
+        .two.columns
+          = image_tag "/images/events/#{p.image}", :class => "th"
+        .ten.columns
+          %h5.subheader.name= p.name
+          %p.body= p.body
+          = link_to "#{p.link}" do
+            Check it out
+            %i.icon-chevron-right.small
+      %hr.dark
   .three.columns.photos
     %h6 Check our some shots
     %ul{:class => "block-grid three-up mobile-two-up", :data => {:clearing => ""}}

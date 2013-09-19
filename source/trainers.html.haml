@@ -13,7 +13,7 @@ page_id: trainers
               = image_tag "/images/trainers/#{t.thumb}", :class => "th"
             .member_name
               = link_to "trainers/#{t.page}" do
-                %h5= t.name
+                %h5.subheader= t.name
               .op= t.title
             .member_desc
               .exc #{t.blurb}...#{link_to 'more', "trainers/#{t.page}"}

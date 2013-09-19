@@ -76,3 +76,27 @@ photos:
 
     -   caption: Workout Floor
         filename: floor3.jpg
+
+events:
+  -
+    name: Fab Fitness
+    image: fabfit.jpg
+    body: Fab fitness body text that explains fitness and well being
+    link: http://fabfitchicago.com/2013/08/24/body-tone-at-lateral-fitness/
+  -
+    name: Fit Ink
+    image: fitink.jpg
+    body: Fit ink body text that explains fiting and inking
+    link: http://www.fit-ink.com/2013/02/time-to-get-lateral.html 
+  -
+    name: Fit Ink
+    image: fitink.jpg
+    body: Fit ink body text that explains fiting and inking
+    link: http://www.fit-ink.com/search?q=lateral+fitness
+
+press:
+  -
+    name: Press event
+    image: pressTest.jpg
+    body: Press event body text that explains pressy press press press
+    link: http://www.trainlateral.com/

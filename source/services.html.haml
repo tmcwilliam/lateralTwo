@@ -11,12 +11,11 @@ page_id: services
           .panel.service
             = link_to "services/#{s.page}", :class => 'th' do
               = image_tag "/images/services/#{s.thumb}", :class => 'hide-for-small'
-            %h6.upper
+            %h6.upper.subheader
               = s.name
             %p
               = s.blurb
-            %p
-              = link_to "services/#{s.page}" do
-                Learn More
-                %i.icon-chevron-right
+            = link_to "services/#{s.page}", :class => 'learn' do
+              Learn More
+              %i.icon-chevron-right.small
     

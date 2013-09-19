@@ -201,9 +201,14 @@ p, td, div {
 }
 .services .service,
 .classes .class {
-  height: 410px;
+  height: 375px;
+  position: relative;
   img {
     margin: 0 auto;
+  }
+  .learn {
+    position: absolute;
+    bottom: 10px;
   }
 }
 
@@ -497,6 +502,22 @@ blockquote.left .blockquote_wrapper {
 .caption {
   font-size: 12px;
   line-height: 12px;
+}
+
+// Events
+.news {
+  .event {
+    margin-bottom: 10px;
+    .name {
+      margin: 0;
+    }
+    .body {
+      margin-top: 0;
+    }
+  }
+  .dark {
+    margin: 7px 0 21px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
