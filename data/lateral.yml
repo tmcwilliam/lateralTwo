@@ -79,20 +79,23 @@ photos:
 
 events:
   -
-    name: Fab Fitness
-    image: fabfit.jpg
-    body: Fab fitness body text that explains fitness and well being
-    link: http://fabfitchicago.com/2013/08/24/body-tone-at-lateral-fitness/
-  -
     name: Fit Ink
+    date: "Feb 6, 2013"
     image: fitink.jpg
     body: Fit ink body text that explains fiting and inking
-    link: http://www.fit-ink.com/2013/02/time-to-get-lateral.html 
+    link: http://www.fit-ink.com/2013/02/time-to-get-lateral.html
   -
     name: Fit Ink
+    date: "May 15, 2013"
     image: fitink.jpg
     body: Fit ink body text that explains fiting and inking
     link: http://www.fit-ink.com/search?q=lateral+fitness
+  -
+    name: Fab Fitness
+    date: "August 24, 2013"
+    image: fabfit.jpg
+    body: Fab fitness body text that explains fitness and well being
+    link: http://fabfitchicago.com/2013/08/24/body-tone-at-lateral-fitness/
 
 press:
   -

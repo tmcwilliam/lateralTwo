@@ -5,21 +5,20 @@ page_id: news
 
 .row
   .nine.columns
-    %h4 Events
+    %h4.page-title Lateral Fitness Events
     - data.lateral.events.each do |e|
       .row.event
-        .two.columns
+        .twelve.columns
+          %h5.name= e.name
+          %h6.subheader.date August 24th 2013
           = image_tag "/images/events/#{e.image}", :class => "th"
-        .ten.columns
-          %h5.subheader.name= e.name
           %p.body= e.body
           = link_to "#{e.link}" do
             Check it out
             %i.icon-chevron-right.small
       %hr.dark
-    %hr.colored
 
-    %h4 Press
+    %h4.page-title Press
     - data.lateral.press.each do |p|
       .row.event
         .two.columns
