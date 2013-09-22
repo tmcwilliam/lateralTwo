@@ -82,8 +82,10 @@ events:
     name: Fit Ink
     date: "Feb 6, 2013"
     image: fitink.jpg
-    body: Fit ink body text that explains fiting and inking
+    body: Fit ink body text that explains fiting and inking. Fit ink body text that explains fiting and inking. Fit ink body text that explains fiting and inking. Fit ink body text that explains fiting and inking.
     link: http://www.fit-ink.com/2013/02/time-to-get-lateral.html
+
+pastevents:
   -
     name: Fit Ink
     date: "May 15, 2013"
@@ -99,7 +101,8 @@ events:
 
 press:
   -
-    name: Press event
+    name: Article name
+    date: "August 12, 2013"
     image: pressTest.jpg
-    body: Press event body text that explains pressy press press press
+    body: Our name is in the paper. Our name is in the paper. Our name is in the paper. Our name is in the paper. Our name is in the paper. Our name is in the paper. 
     link: http://www.trainlateral.com/

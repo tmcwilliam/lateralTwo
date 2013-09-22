@@ -4,37 +4,51 @@ page_id: news
 ---
 
 .row
-  .nine.columns
-    %h4.page-title Lateral Fitness Events
+  .eight.columns
+    %h4.page-title Upcoming Events
     - data.lateral.events.each do |e|
       .row.event
         .twelve.columns
           %h5.name= e.name
-          %h6.subheader.date August 24th 2013
-          = image_tag "/images/events/#{e.image}", :class => "th"
+          %p.subheader.date= e.date
+          = link_to "#{e.link}", :target => "_blank" do
+            = image_tag "/images/events/#{e.image}", :class => "th"
           %p.body= e.body
-          = link_to "#{e.link}" do
-            Check it out
+          = link_to "#{e.link}", :target => "_blank" do
+            Read more
             %i.icon-chevron-right.small
       %hr.dark
 
     %h4.page-title Press
     - data.lateral.press.each do |p|
       .row.event
-        .two.columns
-          = image_tag "/images/events/#{p.image}", :class => "th"
-        .ten.columns
-          %h5.subheader.name= p.name
+        .twelve.columns
+          %h5.name= p.name
+          %p.subheader.date= p.date
+          = link_to "#{p.link}", :target => "_blank" do
+            = image_tag "/images/events/#{p.image}", :class => "th"
           %p.body= p.body
-          = link_to "#{p.link}" do
-            Check it out
+          = link_to "#{p.link}", :target => "_blank" do
+            Read more
             %i.icon-chevron-right.small
       %hr.dark
-  .three.columns.photos
-    %h6 Check our some shots
+
+  .four.columns.photos
+    %h4.page-title Past Events
+    %ul{:class => "block-grid one-up past-events"}
+      - data.lateral.pastevents.each do |p|
+        %li
+          %h6.name= p.name
+          %p.subheader.date.small= p.date
+          = link_to "#{p.link}", :target => "_blank", :class => "thumb" do
+            = image_tag "/images/events/#{p.image}", :class => "th"
+          %p.body.small= p.body
+    %h6
+      %i.icon-camera
+      Check our some photos
     %ul{:class => "block-grid three-up mobile-two-up", :data => {:clearing => ""}}
       - data.lateral.photos.each do |t|
         %li
           = link_to "/images/gallery/#{t.filename}" do
             = image_tag "/images/gallery/#{t.filename}"
-            / = image_tag "/images/gallery/#{t.filename}", :data => {:caption => "#{t.caption}"}
+
