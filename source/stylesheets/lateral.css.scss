@@ -430,6 +430,15 @@ footer span {
   top:78px;
 }
 
+.instructors,
+.trainers {
+  .facebook_link {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+  }
+}
+
 // Dropcaps
 .dropcap {
   font-size: 50px;
