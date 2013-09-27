@@ -3,36 +3,25 @@ TODO
 global:
 - SPRINKLE 'schedule a class' throughout site
 
-instructors:
-- personal facebook/twitter
-
 news:
+- get real content
 - events
 	drive people to facebook events
 - press
 	similiar to events. thumbnail, blurb link to article
-- photos
-	update comments
-* fake out the layout
 
 corporate wellness program (need picture?)
 
-Browserstack IE8/9
-
+Test Crossbrowser
 
 Application Optimizations
 -------------------------
-per page CSS
-CSS cleanup
-Dynamic Pages (services)
-More YML data (services, packages, sitemap, events, press)
-Leverage Constant Contact API
-SEO copywriter
-Lite CMS to update YML data
-
-
-Nice to haves/maybes
---------------------
+- mindbody API (doesn't response with JSON yet)
+- per page CSS
+- CSS cleanup
+- Leverage Constant Contact API
+- SEO copywriter
+- Lite CMS to update YML data (not possible)
 - customize a 404 page
 - NEW font?
 - Dock the nav for mobile
