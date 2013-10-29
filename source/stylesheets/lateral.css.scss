@@ -468,36 +468,21 @@ blockquote {
     padding-left:14px;
     border-left:3px solid;  
   }
-}
-blockquote.type1 .blockquote_wrapper {
-  border-color:#c1c1c1;
-}
-blockquote.type2 .blockquote_wrapper {
-  border-color:#5a5a5a;
+
+  p { 
+    font-size:13px; 
+    color:#5a5a5a;
+    margin-bottom:7px;
+  }
+  span {
+    font-size:13px; 
+    display:block; 
+    color:#a9a9a9;
+    font-style:italic;
+  }
 }
 blockquote.colored .blockquote_wrapper {
   border-color:$secondaryColor;
-}
-blockquote p { 
-  font-size:13px; 
-  color:#5a5a5a;
-  margin-bottom:7px;
-}
-blockquote span {
-  font-size:13px; 
-  display:block; 
-  color:#a9a9a9;
-  font-style:italic;
-}
-blockquote.right { 
-  width:50%; 
-  float:right;
-  padding-right:0!important;
-  margin-left:12px;
-}
-blockquote.right .blockquote_wrapper {
-  margin:0 0px 0 25px;
-  padding-left:14px;
 }
 blockquote.left { 
   width:50%; 
@@ -507,6 +492,7 @@ blockquote.left .blockquote_wrapper {
   margin:0 25px 0 0px;
   padding-left:14px;
 }
+
 
 .get-in-touch > li {
   list-style-type: none;

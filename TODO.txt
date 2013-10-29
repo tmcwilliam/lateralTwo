@@ -21,7 +21,6 @@ Application Optimizations
 - CSS cleanup
 - Leverage Constant Contact API
 - SEO copywriter
-- Lite CMS to update YML data (not possible)
 - customize a 404 page
 - NEW font?
 - Dock the nav for mobile
