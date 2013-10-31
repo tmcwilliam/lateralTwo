@@ -56,7 +56,7 @@ set :relative_links, true
 activate :relative_assets
 activate :directory_indexes
 
-# page "/404.html", directory_index: false
+page "/404.html", directory_index: false
 page "/sitemap.xml", :layout => false
 
 # activate :blog do |blog|
