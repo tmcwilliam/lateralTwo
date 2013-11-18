@@ -4,8 +4,8 @@ $borderColor:       #eee;
 $iconMuted:         #eee;
 @mixin border-radius($radius) { -webkit-border-radius: $radius; -moz-border-radius: $radius; border-radius: $radius; }
 
-// $fa-font-path:        "../stylesheets/fonts" !default;
-$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.0.3/fonts" !default; // for referencing Bootstrap CDN font files directly
+$fa-font-path:        "../stylesheets/fonts" !default;
+// $fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.0.3/fonts" !default; // for referencing Bootstrap CDN font files directly
 $fa-css-prefix:       fa !default;
 $fa-version:          "4.0.3" !default;
 $fa-border-color:     #eee !default;
