@@ -45,17 +45,19 @@
             = link_to 'Schedule a Class', 'http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=-7&sView=week'
           %li
             = link_to 'Facebook Page', 'https://www.facebook.com/LATERALFITNESS'
+          %li
+            = link_to 'Twitter', 'https://twitter.com/LateralFitness'
     %section.main-content{:role => "main"}
       .row.header
         .mobile-one.columns.show-for-small
           %a{:href => "#sidebar", :class => "sidebar-button", :id => "sidebarButton"}
             %i.icon-reorder
-        .eight.mobile-three.columns
+        .seven.mobile-three.columns
           = link_to '/index.html' do
             = image_tag "/images/branding/logo.png", :alt => "Lateral Fitness Chicago"
-        .four.columns.hide-for-small
+        .five.columns.hide-for-small
           .row.header
-            .eight.columns
+            .six.columns
               %ul.header-links
                 %li
                   = link_to 'Home', '/index.html'
@@ -63,17 +65,20 @@
                   = link_to 'About', '/about.html'
                 %li
                   = link_to 'Contact Us', '/contact.html'
-            .four.columns.header_social.hide-for-small
+            .six.columns.header_social.hide-for-small
               %ul.headline_socials.main_socials
                 %li 
                   %a{:href => "https://www.facebook.com/LATERALFITNESS", :class => "facebook", :target => "_blank"}
-                    %i.icon-facebook-sign
+                    %i.fa.fa-facebook-square
                 %li
                   %a{:href => "https://twitter.com/LateralFitness", :class => "twitter", :target => "_blank"}
-                    %i.icon-twitter-sign
+                    %i.fa.fa-twitter-square
                 %li
                   %a{:href => "#", :class => "googleplus", :target => "_blank"}
-                    %i.icon-google-plus
+                    %i.fa.fa-google-plus-square
+                %li
+                  %a{:href => "#", :class => "instagram", :target => "_blank"}
+                    %i.fa.fa-instagram
 
       .row.navigation.hide-for-small
         .twelve.columns

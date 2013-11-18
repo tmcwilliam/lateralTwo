@@ -28,16 +28,23 @@
   li {
     display:inline-block;
     float:left;
+    padding: 0 5px;
   }
   a {
     color: #C0C0C0;
     font-size: 30px;
     
     &.facebook:hover {
-      color: #FFF;
+      color: #3B5998;
     }
     &.twitter:hover {
       color: #4099FF; 
+    }
+    &.googleplus:hover {
+      color: #D34836;
+    }
+    &.instagram:hover {
+      color: #517fa4;
     }
   }
   
