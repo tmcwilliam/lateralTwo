@@ -3,22 +3,22 @@ yoga:
     title: Barefoot Bootcamp
     content: "This class infuses the heart-pumping qualities of  classical calisthenics, body-weight exercises, plyometrics and traditional yoga inspired sun salutations to strengthen and tone your entire body. If you want to achieve the fitness benefits of a bootcamp without all the screaming and yelling, enlist in Barefoot Bootcamp!"
     level: All Levels
-  -
-    title: Barre Infusion
-    content: "Quickly and safely reshapes the entire body in a fat burning fashion. This class is a low impact, 45 minute workout that features 25 minutes of muscle-shaping isometrics at the barre and 20 minutes of Pilates inspired core work.  This class targets all major muscle groups and improves posture. The results feature tighter legs and butt, sculpted arms, and a stronger core."
-    level: All Levels
-  - 
-    title: Body Tone
-    content: "Work your deep muscles and tone those ‘hard to reach’ areas! Body Tone uses functional and bodyweight exercises in partnership with isometric and small movements to leave you feeling sculpted and ready to take on the day!"
-    level: All Levels
+  # -
+  #   title: Barre Infusion
+  #   content: "Quickly and safely reshapes the entire body in a fat burning fashion. This class is a low impact, 45 minute workout that features 25 minutes of muscle-shaping isometrics at the barre and 20 minutes of Pilates inspired core work.  This class targets all major muscle groups and improves posture. The results feature tighter legs and butt, sculpted arms, and a stronger core."
+  #   level: All Levels
+  # - 
+  #   title: Body Tone
+  #   content: "Work your deep muscles and tone those ‘hard to reach’ areas! Body Tone uses functional and bodyweight exercises in partnership with isometric and small movements to leave you feeling sculpted and ready to take on the day!"
+  #   level: All Levels
   - 
     title: Core Inferno
     content: "You will surely feel the burn in this heated core class. Using core strengthening techniques from Floor Pilates, yoga and Barre classes, you will heat up from the inside out. Combinations and exercises target deep muscles, toning and strengthening the abdomen. The room will also be heated to around 85 degrees."
     level: All Levels
-  - 
-    title: Power Yoga
-    content: "This class is more rigorous than a normal yoga flow and will raise your vitality and physical power. Incorporating simple but challenging poses, core work, and focused breath, this practice will amplify your personal power on the mat. Focus your mind and body in new ways to create exciting change. Suggested for those with some previous yoga experience, but suitable for all levels."
-    level: All Levels
+  # - 
+  #   title: Power Yoga
+  #   content: "This class is more rigorous than a normal yoga flow and will raise your vitality and physical power. Incorporating simple but challenging poses, core work, and focused breath, this practice will amplify your personal power on the mat. Focus your mind and body in new ways to create exciting change. Suggested for those with some previous yoga experience, but suitable for all levels."
+  #   level: All Levels
   -
     title: Vinyasa Yoga
     content: "This flow class is all about connecting breath (pranayama) to movement (asana). Expect a mix of vigorous standing postures and balances with heart opening back bends and hip opening postures, ending with a deep relaxation. Through the practice you will focus your mind, challenge your body, and ease stress. Each class will be structured differently by our expert instructors, so you’ll never get bored. Basic yoga experience suggested. (We also have Beginner Vinyasa and Power Vinyasa - for the advanced as well)"

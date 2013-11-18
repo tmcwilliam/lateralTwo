@@ -17,7 +17,8 @@ Test Crossbrowser
 
 Application Optimizations
 -------------------------
-- mindbody API (doesn't response with JSON yet)
+- mindbody API Key: mdGzrK6K5iQ+xZE23MMNjrv4hzg=
+- mindbody Activation Code: b+AR3fFR0tKVvtpGVTGzgcZYQ2n5ruCH
 - Leverage Constant Contact API
 - SEO copywriter
 - customize a 404 page
