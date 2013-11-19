@@ -4,39 +4,45 @@ page_id: home
 ---
 
 .row.slider
-  .eleven.columns.centered.slider-inner
-    #featured.slider
-      = image_tag "/images/slider/front-desk.jpg", :'data-caption' => "#captionOne"
-      = image_tag "/images/slider/personal-training.jpg", :'data-caption' => "#captionTwo"
-      = image_tag "/images/slider/running.jpg", :'data-caption' => "#captionThree"
-      = image_tag "/images/slider/matlogo.jpg", :'data-caption' => "#captionFour"
-      = image_tag "/images/slider/yoga2.jpg", :'data-caption' => "#captionFive"
-      = image_tag "/images/slider/kettlebell.jpg", :'data-caption' => "#captionSix"
-      / = image_tag "/images/slider/menscover.jpg", :'data-caption' => "#captionSeven"
-    %span.orbit-caption#captionOne
-      %h4.hide-for-small Think Lateral. Train Lateral.
-      %p.hide-for-small We are committed to providing a knowledgeable, detailed environment, where you will be able to achieve fitness goals in a safe, progressive manner. #{link_to "Read more &raquo;", "about.html"}
-      %h4.show-for-small #{link_to "Think Lateral. Train Lateral. &raquo;", "about.html", :class => "link-for-small"}
-    %span.orbit-caption#captionTwo
-      %h4.hide-for-small Personal Training
-      %p.hide-for-small One on one training from nationally accredited certified trainers. #{link_to "Read more &raquo;", "/services/personal-training.html"}
-      %h4.show-for-small #{link_to "Personal Training &raquo;", "/services/personal-training.html", :class => "link-for-small"}
-    %span.orbit-caption#captionThree
-      %h4.hide-for-small Running / Triathlon
-      %p.hide-for-small Whether it’s your first time running a half marathon or competing as an elite triathlete... #{link_to "Read more &raquo;", "/classes/endurance-training.html"}
-      %h4.show-for-small #{link_to "Running/Triathlon &raquo;", "/classes/endurance-training.html", :class => "link-for-small"}
-    %span.orbit-caption#captionFour
-      %h4.hide-for-small Muscle Activation Technique
-      %p.hide-for-small A muscle contraction evaluation process that complements exercise and injury rehab. #{link_to "Read more &raquo;", "/services/muscle-activation-technique.html"}
-      %h4.show-for-small #{link_to "Muscle Activation Technique &raquo;", "/services/muscle-activation-technique.html", :class => "link-for-small"}
-    %span.orbit-caption#captionFive
-      %h4.hide-for-small Yoga
-      %p.hide-for-small At Lateral Fitness, we offer a variety of yoga styles, all led by our expert team of instructors. #{link_to "Read more &raquo;", "/classes/yoga.html"}
-      %h4.show-for-small #{link_to "Yoga Classes &raquo;", "/classes/yoga.html", :class => "link-for-small"}
-    %span.orbit-caption#captionSix
-      %h4.hide-for-small Kettlebell
-      %p.hide-for-small Kettlebell is a complete system of fitness that melts fat and tones muscle. #{link_to "Read more &raquo;", "/classes/kettlebell.html"}
-      %h4.show-for-small #{link_to "Kettlebell Classes &raquo;", "/classes/kettlebell.html", :class => "link-for-small"}
+  .large-11.columns.centered.slider-inner
+    %ul#featured.slider{:data => {:orbit => ''}}
+      %li
+        = image_tag "/images/slider/front-desk.jpg"
+        .orbit-caption
+          %h4.hide-for-small Think Lateral. Train Lateral.
+          %p.hide-for-small We are committed to providing a knowledgeable, detailed environment, where you will be able to achieve fitness goals in a safe, progressive manner. #{link_to "Read more &raquo;", "about.html"}
+          %h4.show-for-small #{link_to "Think Lateral. Train Lateral. &raquo;", "about.html", :class => "link-for-small"}
+      %li
+        = image_tag "/images/slider/personal-training.jpg"
+        .orbit-caption
+          %h4.hide-for-small Personal Training
+          %p.hide-for-small One on one training from nationally accredited certified trainers. #{link_to "Read more &raquo;", "/services/personal-training.html"}
+          %h4.show-for-small #{link_to "Personal Training &raquo;", "/services/personal-training.html", :class => "link-for-small"}
+      %li
+        = image_tag "/images/slider/running.jpg"
+        .orbit-caption
+          %h4.hide-for-small Running / Triathlon
+          %p.hide-for-small Whether it’s your first time running a half marathon or competing as an elite triathlete... #{link_to "Read more &raquo;", "/classes/endurance-training.html"}
+          %h4.show-for-small #{link_to "Running/Triathlon &raquo;", "/classes/endurance-training.html", :class => "link-for-small"}
+      %li
+        = image_tag "/images/slider/matlogo.jpg"
+        .orbit-caption
+          %h4.hide-for-small Muscle Activation Technique
+          %p.hide-for-small A muscle contraction evaluation process that complements exercise and injury rehab. #{link_to "Read more &raquo;", "/services/muscle-activation-technique.html"}
+          %h4.show-for-small #{link_to "Muscle Activation Technique &raquo;", "/services/muscle-activation-technique.html", :class => "link-for-small"}
+      %li
+        = image_tag "/images/slider/yoga2.jpg"
+        .orbit-caption
+          %h4.hide-for-small Yoga
+          %p.hide-for-small At Lateral Fitness, we offer a variety of yoga styles, all led by our expert team of instructors. #{link_to "Read more &raquo;", "/classes/yoga.html"}
+          %h4.show-for-small #{link_to "Yoga Classes &raquo;", "/classes/yoga.html", :class => "link-for-small"}
+      %li
+        = image_tag "/images/slider/kettlebell.jpg"
+        .orbit-caption
+          %h4.hide-for-small Kettlebell
+          %p.hide-for-small Kettlebell is a complete system of fitness that melts fat and tones muscle. #{link_to "Read more &raquo;", "/classes/kettlebell.html"}
+          %h4.show-for-small #{link_to "Kettlebell Classes &raquo;", "/classes/kettlebell.html", :class => "link-for-small"}
+    / = image_tag "/images/slider/menscover.jpg", :'data-caption' => "#captionSeven"
     / %span.orbit-caption#captionSeven
     /   %h4.hide-for-small News
     /   %p.hide-for-small Check out what's happening at Lateral Fitness. #{link_to "Read more &raquo;", "/news/"}

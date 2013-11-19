@@ -1,17 +1,22 @@
-# = require "foundation/jquery"
+# = require "vendor/jquery"
 
 # Foundation Javascript
-#= require "foundation/jquery.event.move"
-#= require "foundation/jquery.event.swipe"
-#= require "foundation/jquery.foundation.buttons"
-#= require "foundation/jquery.foundation.clearing"
-#= require "foundation/jquery.foundation.forms"
-#= require "foundation/jquery.foundation.mediaQueryToggle"
-#= require "foundation/jquery.foundation.navigation"
-#= require "foundation/jquery.foundation.orbit"
-#= require "foundation/jquery.foundation.topbar"
-#= require "foundation/jquery.foundation.accordion"
-#= require "foundation/jquery.offcanvas"
+#=require foundation/foundation
+#=require foundation/foundation.alerts
+#=require foundation/foundation.clearing
+#=require foundation/foundation.cookie
+#=require foundation/foundation.dropdown
+#=require foundation/foundation.forms
+#=require foundation/foundation.joyride
+#=require foundation/foundation.magellan
+#=require foundation/foundation.orbit
+#=require foundation/foundation.reveal
+#=require foundation/foundation.section
+#=require foundation/foundation.tooltips
+#=require foundation/foundation.topbar
+#=require foundation/foundation.interchange
+#=require foundation/foundation.placeholder
+#=require foundation/foundation.abide
 
 (($, window, undefined_) ->
   "use strict"

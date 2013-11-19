@@ -14,10 +14,10 @@
     / Included CSS Files
     = stylesheet_link_tag "app"
     = stylesheet_link_tag "fonts"
-    = stylesheet_link_tag "font-awesome"
+    = stylesheet_link_tag "font-awesome/font-awesome"
     = stylesheet_link_tag "colors"
     = stylesheet_link_tag "lateral"
-    = javascript_include_tag "foundation/modernizr.foundation"
+    = javascript_include_tag "vendor/modernizr.foundation"
 
   %body{:class => page_classes}
     .show-for-small{:role => "complementary", :id => "sidebar"}
@@ -49,15 +49,15 @@
             = link_to 'Twitter', 'https://twitter.com/LateralFitness'
     %section.main-content{:role => "main"}
       .row.header
-        .mobile-one.columns.show-for-small
+        .small-1.columns.show-for-small
           %a{:href => "#sidebar", :class => "sidebar-button", :id => "sidebarButton"}
             %i.icon-reorder
-        .seven.mobile-three.columns
+        .large-7.small-3.columns
           = link_to '/index.html' do
             = image_tag "/images/branding/logo.png", :alt => "Lateral Fitness Chicago"
-        .five.columns.hide-for-small
+        .large-5.columns.hide-for-small
           .row.header
-            .six.columns
+            .large-6.columns
               %ul.header-links
                 %li
                   = link_to 'Home', '/index.html'
@@ -65,7 +65,7 @@
                   = link_to 'About', '/about.html'
                 %li
                   = link_to 'Contact Us', '/contact.html'
-            .six.columns.header_social.hide-for-small
+            .large-6.columns.header_social.hide-for-small
               %ul.headline_socials.main_socials
                 %li 
                   %a{:href => "https://www.facebook.com/LATERALFITNESS", :class => "facebook", :target => "_blank"}
@@ -81,15 +81,15 @@
                 /     %i.fa.fa-instagram
 
       .row.navigation.hide-for-small
-        .twelve.columns
+        .large-12.columns
           %nav.top-bar
-            %ul
+            %ul.title-area
               %li.name
               %li.toggle-topbar
                 %a(href="#")
-            %section
-              %ul.nav-links
-                %li.has-dropdown{nav_active("services")}
+            %section.top-bar-section
+              %ul.nav-links.left
+                %li.has-dropdown.not-click{nav_active("services")}
                   = link_to 'Services', '/services.html'
                   %ul.dropdown.nav-dropdown
                     %li
@@ -102,7 +102,7 @@
                       = link_to 'Corporate Wellness Program', '/services/corporate.html'
                     %li
                       = link_to 'Lunchtime Membership', '/services/lunch.html'
-                %li.has-dropdown{nav_active("classes")}
+                %li.has-dropdown.not-click{nav_active("classes")}
                   = link_to 'Classes', '/classes.html'
                   %ul.dropdown.nav-dropdown
                     %li
@@ -115,7 +115,7 @@
                       = link_to 'Kettlebell', '/classes/kettlebell.html'
                     %li
                       = link_to '6 Week Challenge', '/classes/challenge.html'
-                %li.has-dropdown{nav_active("trainers")}
+                %li.has-dropdown.not-click{nav_active("trainers")}
                   = link_to 'Trainers', '/trainers.html'
                   %ul.dropdown.nav-dropdown
                     %li
@@ -128,7 +128,7 @@
                       = link_to 'Adrienne Marie', '/trainers/adrienne-marie.html'
                     %li
                       = link_to 'Daniel Lona', '/trainers/daniel-lona.html'
-                %li.has-dropdown{nav_active("instructors")}
+                %li.has-dropdown.not-click{nav_active("instructors")}
                   = link_to 'Instructors', '/instructors.html'
                   %ul.dropdown.nav-dropdown
                     %li
@@ -151,17 +151,19 @@
       = yield
 
       %footer.row
-        .seven.columns
+        .large-7.columns
           %a{:href => "/"}
             = image_tag "/images/branding/logo.png", :alt => "Lateral Fitness Chicago", :width => "250", :height => "48", :class => 'hide-for-small'
-        .five.columns.address
+        .large-5.columns.address
           314 West Superior LL-E 
           %i.icon-circle 
           Chicago, IL 60654
           %i.icon-circle
           312-291-9466
-    
-    = javascript_include_tag "app"
+
+    = javascript_include_tag "vendor/jquery"
+    = javascript_include_tag "foundation/foundation"
+    = javascript_include_tag "foundation/foundation.orbit"
     = javascript_include_tag "main"
     :javascript
       var _gaq = _gaq || [];

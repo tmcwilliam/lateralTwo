@@ -4,22 +4,17 @@ var Lateral = (function() {
     aspectRatio: getAspectRatio(),
 
     init: function() {
-      // jQuery.support.cors = true;
-      lateral.orbit();
-      $('#testAPIButton').click(function(ev){
-        // lateral.testAPI();
-        lateral.testWineAPI();
-      });
-    },
-
-    orbit: function() {
-      $("#featured").orbit({
+      // $('#testAPIButton').click(function(ev){
+      //   // lateral.testAPI();
+      //   lateral.testWineAPI();
+      // });
+      $(document).foundation('orbit', {
         timer: true,
         pauseOnHover: true,
         startClockOnMouseOut: true,
         fluid: true,
         captions: true,
-        bullets: true,
+        bullets: true
       });
     },
 
