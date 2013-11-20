@@ -3,7 +3,7 @@
 @import "navigation";
 
 /*-- Layout -- */
-body {
+html, body {
   background-color: $backgroundColor;
 }
 p, td, div { 
@@ -84,7 +84,7 @@ p, td, div {
     color: #FFF
   }
 }
-.orbit-wrapper .orbit-caption {
+.slideshow-wrapper .orbit-caption {
   padding: 10px;
   bottom: 3px;
 
@@ -93,7 +93,6 @@ p, td, div {
     margin:0;
   }
 }
-
 
 #featured { 
   background: url(../images/spinner.gif) center center #f4f4f4 no-repeat; height: 300px; 
@@ -372,39 +371,9 @@ p, td, div {
 }
 
 /*-- Footer --*/
-.main-content footer {
+.main-content .footer {
   background-color: $backgroundColor;
   padding: 10px 0;
-
-  .logo {
-    position:absolute;
-    left:0px;
-    top:40px;
-    display:block;
-    width:225px;
-    height:40px;
-  }
-
-  .footer_socials {
-    position:absolute; 
-    top:45px;
-    right:250px;
-    li {
-      height:16px;
-      display:inline-block;
-      float:left;
-      margin-left:15px;
-
-      &:first-child {
-        margin-left:0;
-      }
-      a {
-        width:16px; 
-        height:16px;
-        display:block;
-      }
-    }
-  }
 
   .address {
     color: #000;
@@ -421,13 +390,6 @@ p, td, div {
     padding: 0 4px;
   }
   
-}
-
-footer span {
-  padding:0px 0px 0px 0;
-  position:absolute;
-  right:0px;
-  top:78px;
 }
 
 .instructors,

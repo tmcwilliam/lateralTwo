@@ -323,21 +323,22 @@
       el.trigger('orbit:timer-stopped');
     };
   };
-  
+
   var SlideAnimation = function(settings, container) {
-    var duration = settings.animation_speed;
-    var is_rtl = ($('html[dir=rtl]').length === 1);
-    var margin = is_rtl ? 'marginRight' : 'marginLeft';
-    var animMargin = {};
+    var duration = settings.animation_speed,
+        is_rtl = ($('html[dir=rtl]').length === 1),
+        margin = is_rtl ? 'marginRight' : 'marginLeft',
+        animMargin = {},
+        easing = (typeof jQuery === 'undefined') ? 'ease-in-out' : undefined;
+
     animMargin[margin] = '0%';
-    var easing = (typeof jQuery === 'undefined') ? 'ease-in-out' : undefined;
 
     this.next = function(current, next, callback) {
+      current.animate({marginLeft:'-100%'}, duration, easing);
       next.animate(animMargin, duration, easing, function() {
         current.css(margin, '100%');
         callback();
       });
-      current.animate({marginLeft:'-100%'}, duration, easing);
     };
 
     this.prev = function(current, prev, callback) {

@@ -493,7 +493,8 @@ meta.foundation-mq-topbar {
       .dropdown {
         #{$default-float}: 0;
         top: auto;
-        background: transparent;
+        // background: transparent;
+        background: $topbar-dropdown-bg;
         min-width: 100%;
 
         li {

@@ -3,7 +3,7 @@
 /[if IE 8] <html class="no-js lt-ie9" lang="en">
 :plain
   <!--[if gt IE 8] -->
-%html{:lang => "en"}
+%html{:lang => "en", :dir=>"ltr", :class=>"no-js"}
   /<![endif]
   %head
     %meta{:charset => "utf-8"}/
@@ -150,15 +150,15 @@
           
       = yield
 
-      %footer.row
+      .row.footer
         .large-7.columns
           %a{:href => "/"}
             = image_tag "/images/branding/logo.png", :alt => "Lateral Fitness Chicago", :width => "250", :height => "48", :class => 'hide-for-small'
         .large-5.columns.address
           314 West Superior LL-E 
-          %i.icon-circle 
+          %i.fa.fa-circle 
           Chicago, IL 60654
-          %i.icon-circle
+          %i.fa.fa-circle
           312-291-9466
 
     = javascript_include_tag "vendor/jquery"

@@ -10,12 +10,13 @@ var Lateral = (function() {
       // });
       $(document).foundation('orbit', {
         timer: true,
-        pauseOnHover: true,
-        startClockOnMouseOut: true,
-        fluid: true,
-        captions: true,
-        bullets: true
+        pause_on_hover: true,
+        resume_on_mouseout: true,
+        caption_class: 'orbit-class',
+        bullets: true,
+        slide_number: false
       });
+      // $("#lateral-orbit").foundation('orbit');
     },
 
     testAPI: function() {
