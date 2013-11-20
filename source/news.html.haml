@@ -4,11 +4,11 @@ page_id: news
 ---
 
 .row
-  .eight.columns
+  .large-8.columns
     %h4.page-title Upcoming Events
     - data.lateral.events.each do |e|
       .row.event
-        .twelve.columns
+        .large-12.columns
           %h5.name= e.name
           %p.subheader.date= e.date
           = link_to "#{e.link}", :target => "_blank" do
@@ -22,7 +22,7 @@ page_id: news
     %h4.page-title Press
     - data.lateral.press.each do |p|
       .row.event
-        .twelve.columns
+        .large-12.columns
           %h5.name= p.name
           %p.subheader.date= p.date
           = link_to "#{p.link}", :target => "_blank" do
@@ -33,9 +33,9 @@ page_id: news
             %i.icon-chevron-right.small
       %hr.dark
 
-  .four.columns.photos
+  .large-4.columns.photos
     %h4.page-title Past Events
-    %ul{:class => "block-grid one-up past-events"}
+    %ul{:class => "large-block-grid-1 past-events"}
       - data.lateral.pastevents.each do |p|
         %li
           %h6.name= p.name
@@ -44,9 +44,9 @@ page_id: news
             = image_tag "/images/events/#{p.image}", :class => "th"
           %p.body.small= p.body
     %h6
-      %i.icon-camera
+      %i.fa.fa-camera
       Check our some photos
-    %ul{:class => "block-grid three-up mobile-two-up", :data => {:clearing => ""}}
+    %ul{:class => "clearing-thumbs small-block-grid-3", :data => {:clearing => ""}}
       - data.lateral.photos.each do |t|
         %li
           = link_to "/images/gallery/#{t.filename}" do

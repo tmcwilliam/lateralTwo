@@ -9,14 +9,15 @@ var Lateral = (function() {
       //   lateral.testWineAPI();
       // });
       $(document).foundation('orbit', {
-        timer: true,
+        timer: false,
         pause_on_hover: true,
         resume_on_mouseout: true,
         caption_class: 'orbit-class',
         bullets: true,
         slide_number: false
       });
-      // $("#lateral-orbit").foundation('orbit');
+      
+      $(document).foundation('clearing');
     },
 
     testAPI: function() {
