@@ -1,8 +1,7 @@
 TODO
 ========
 global:
-- SOCIAL ICONS for twitter, instagram and google+
-- SPRINKLE 'schedule a class' throughout site
+- SOCIAL ICONS for instagram and google+
 
 news:
 - get real content
@@ -22,5 +21,4 @@ Application Optimizations
 - Leverage Constant Contact API
 - SEO copywriter
 - customize a 404 page
-- NEW font?
 - Dock the nav for mobile
