@@ -16,7 +16,7 @@ page_id: news
     /       %p.body= e.body
     /       = link_to "#{e.link}", :target => "_blank" do
     /         Read more
-    /         %i.icon-chevron-right.small
+    /         %i.fa.fa-chevron-right.small
     /   %hr.dark
 
     %h4.page-title Press
@@ -30,7 +30,7 @@ page_id: news
           %p.body= p.body
           = link_to "#{p.link}", :target => "_blank" do
             Read more
-            %i.icon-chevron-right.small
+            %i.fa.fa-chevron-right.small
       %hr.dark
 
   .four.columns.photos
@@ -43,7 +43,7 @@ page_id: news
           %span.thumb= image_tag "/images/events/#{p.image}", :class => "th"
           %p.body.small= p.body
     %h6
-      %i.icon-camera
+      %i.fa.fa-camera
       Check our some photos
     %ul{:class => "block-grid three-up mobile-two-up", :data => {:clearing => ""}}
       - data.lateral.photos.each do |t|

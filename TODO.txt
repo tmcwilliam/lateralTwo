@@ -3,15 +3,12 @@ TODO
 global:
 - SOCIAL ICONS for instagram and google+
 - semi-colon in local data
-
-news:
-- get real content
-- events
-	drive people to facebook events
-- press
-	similiar to events. thumbnail, blurb link to article
-
-corporate wellness program (need picture?)
+- text for past events
+- text for new yoga & intensity classes
+- fix mobile navigation
+- add MAT mastery logo to /mat
+- add email in footer
+- upcoming events
 
 Test Crossbrowser
 

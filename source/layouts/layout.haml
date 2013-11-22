@@ -51,7 +51,7 @@
       .row.header
         .mobile-one.columns.show-for-small
           %a{:href => "#sidebar", :class => "sidebar-button", :id => "sidebarButton"}
-            %i.icon-reorder
+            %i.fa.fa-bars
         .seven.mobile-three.columns
           = link_to '/index.html' do
             = image_tag "/images/branding/logo.png", :alt => "Lateral Fitness Chicago"
@@ -146,7 +146,7 @@
                 
               %ul.right
                 %li
-                  = link_to "<i class='icon-calendar'></i>Schedule a Class", 'http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=-7&sView=week', :target => '_blank'
+                  = link_to "<i class='fa fa-calendar'></i> Schedule a Class", 'http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=-7&sView=week', :target => '_blank'
           
       = yield
 
