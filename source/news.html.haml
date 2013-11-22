@@ -5,19 +5,19 @@ page_id: news
 
 .row
   .eight.columns
-    %h4.page-title Upcoming Events
-    - data.lateral.events.each do |e|
-      .row.event
-        .twelve.columns
-          %h5.name= e.name
-          %p.subheader.date= e.date
-          = link_to "#{e.link}", :target => "_blank" do
-            = image_tag "/images/events/#{e.image}", :class => "th"
-          %p.body= e.body
-          = link_to "#{e.link}", :target => "_blank" do
-            Read more
-            %i.icon-chevron-right.small
-      %hr.dark
+    / %h4.page-title Upcoming Events
+    / - data.lateral.events.each do |e|
+    /   .row.event
+    /     .twelve.columns
+    /       %h5.name= e.name
+    /       %p.subheader.date= e.date
+    /       = link_to "#{e.link}", :target => "_blank" do
+    /         = image_tag "/images/events/#{e.image}", :class => "th"
+    /       %p.body= e.body
+    /       = link_to "#{e.link}", :target => "_blank" do
+    /         Read more
+    /         %i.icon-chevron-right.small
+    /   %hr.dark
 
     %h4.page-title Press
     - data.lateral.press.each do |p|
@@ -40,8 +40,7 @@ page_id: news
         %li
           %h6.name= p.name
           %p.subheader.date.small= p.date
-          = link_to "#{p.link}", :target => "_blank", :class => "thumb" do
-            = image_tag "/images/events/#{p.image}", :class => "th"
+          %span.thumb= image_tag "/images/events/#{p.image}", :class => "th"
           %p.body.small= p.body
     %h6
       %i.icon-camera

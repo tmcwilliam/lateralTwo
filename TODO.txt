@@ -2,6 +2,7 @@ TODO
 ========
 global:
 - SOCIAL ICONS for instagram and google+
+- semi-colon in local data
 
 news:
 - get real content
