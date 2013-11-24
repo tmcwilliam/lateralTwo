@@ -1,8 +1,8 @@
 yoga:
-  -
-    title: Mat Pilates
-    content: "words go here"
-    level: All Levels
+  # -
+  #   title: Mat Pilates
+  #   content: "words go here"
+  #   level: All Levels
   - 
     title: Barefoot Bootcamp
     content: "This class infuses the heart-pumping qualities of  classical calisthenics, body-weight exercises, plyometrics and traditional yoga inspired sun salutations to strengthen and tone your entire body. If you want to achieve the fitness benefits of a bootcamp without all the screaming and yelling, enlist in Barefoot Bootcamp!"
@@ -31,10 +31,10 @@ yoga:
     title: Yin Athletica
     content: "Yin Athletica is a deep restorative class with long passive stretching sequences which includes some prone and kneeling postures. Addressing the opening and release of the major joints: deep spinal twists, profound shoulder and hip openers, to access the deeper layer of tissue (fascia) done with long 3 - 5 minute holds. Following a yin class, your body can feel deeply relaxed and often the effects of the release can last long after, releasing deep seated tension and emotions. Come enjoy and discover as you unfold! This class is for all levels for the 'athlete' in all of us! (We also offer a Yin Yoga class for the non-athlete)"
     level: All Levels
-  -
-    title: Ying / Yang Yoga
-    content: "words words words"
-    level: All Levels
+  # -
+  #   title: Ying / Yang Yoga
+  #   content: "words words words"
+  #   level: All Levels
   - 
     title: Yoga Sculpt
     content: "This class is a combination of yoga inspired movements and free weights for increased muscle endurance, strength, stamina, and flexibility. Our Yoga Sculpt is a total body workout designed to tone or ‘sculpt’ every major muscle group. Free weights serve as your own personal adjuster as you move through sun salutations and other yoga postures, enabling extra length and depth in each pose. Strength training is great way to build lean muscle, which in return, will have greater long term impact on your metabolism, even while resting."
@@ -86,10 +86,10 @@ high:
     title: Simply Shredded
     content: "Simply Shredded is a 1 hour total body, cardio, strength and conditioning workout. We isolate one muscle group at a time while taking you through 3 stages of the movement: Stage 1- Easy, Stage 2- Moderate and Stage 3 - Advanced. Each stage is 20 seconds long. Three stages of the exercise are shown, you have 3 choices of which level you'd like to stay at or go to every 20 seconds. Simply Shredded uses hand weights, bands, yoga mats and pilates rings to make sure all muscle groups are taken to failure. The circuits are intermixed with spurts of H.I.I.T. (High Intensity Interval Training) to keep your heart rate moving up and down throughout class which will get you closer to getting Shredded! This class is for the intense class seekers!"
     level: Intermediate to Advanced
-  -
-    title: Piloxing
-    content: "text text"
-    level: All Levels
+  # -
+  #   title: Piloxing
+  #   content: "text text"
+  #   level: All Levels
 
 challenge:
   -

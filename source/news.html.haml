@@ -34,14 +34,14 @@ page_id: news
       %hr.dark
 
   .four.columns.photos
-    %h4.page-title Past Events
-    %ul{:class => "block-grid one-up past-events"}
-      - data.lateral.pastevents.each do |p|
-        %li
-          %h6.name= p.name
-          %p.subheader.date.small= p.date
-          %span.thumb= image_tag "/images/events/#{p.image}", :class => "th"
-          %p.body.small= p.body
+    / %h4.page-title Past Events
+    / %ul{:class => "block-grid one-up past-events"}
+    /   - data.lateral.pastevents.each do |p|
+    /     %li
+    /       %h6.name= p.name
+    /       %p.subheader.date.small= p.date
+    /       %span.thumb= image_tag "/images/events/#{p.image}", :class => "th"
+    /       %p.body.small= p.body
     %h6
       %i.fa.fa-camera
       Check our some photos

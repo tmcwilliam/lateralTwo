@@ -406,6 +406,15 @@ p, td, div {
     }
   }
 
+  .footer_list {
+    margin-bottom: 0;
+  }
+  .footer_item {
+    display: inline;
+    list-style: none;
+    font-size: 11px;
+  }
+
   .address {
     color: #000;
     text-align: right;

@@ -71,6 +71,14 @@ activate :deploy do |deploy|
   deploy.method = :git
 end
 
+# activate :deploy do |deploy|
+#   deploy.method   = :ftp
+#   deploy.host     = "ftp.example.com"????
+#   deploy.path     = "/srv/www/site"???
+#   deploy.user     = "u69058958-tmcwilliam"
+#   deploy.password = "Lateral41;"
+# end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment

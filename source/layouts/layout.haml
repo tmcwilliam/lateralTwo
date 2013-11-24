@@ -155,11 +155,10 @@
           %a{:href => "/"}
             = image_tag "/images/branding/logo.png", :alt => "Lateral Fitness Chicago", :width => "250", :height => "48", :class => 'hide-for-small'
         .five.columns.address
-          314 West Superior LL-E 
-          %i.fa.fa-circle 
-          Chicago, IL 60654
-          %i.fa.fa-circle
-          312-291-9466
+          %ul.footer_list
+            %li.footer_item 314 West Superior LL-E, Chicago, IL 60654
+          %ul.footer_list  
+            %li.footer_item 312-291-9466 | #{link_to "info@trainlateral.com", "mailto:info@trainlateral.com"}
     
     = javascript_include_tag "app"
     = javascript_include_tag "main"

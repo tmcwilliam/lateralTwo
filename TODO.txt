@@ -2,21 +2,21 @@ TODO
 ========
 global:
 - SOCIAL ICONS for instagram and google+
-- semi-colon in local data
-- text for past events
+
+TBD
 - text for new yoga & intensity classes
-- fix mobile navigation
-- add MAT mastery logo to /mat
-- add email in footer
+- text for past events
 - upcoming events
 
 Test Crossbrowser
 
 Application Optimizations
 -------------------------
+- upgrade to foundation 4 -> 5
+- class description layout change
 - mindbody API Key: mdGzrK6K5iQ+xZE23MMNjrv4hzg=
 - mindbody Activation Code: b+AR3fFR0tKVvtpGVTGzgcZYQ2n5ruCH
 - Leverage Constant Contact API
-- SEO copywriter
+- SEO copy writing, optimizing blah blah blah
 - customize a 404 page
 - Dock the nav for mobile
