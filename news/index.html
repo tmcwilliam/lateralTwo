@@ -247,7 +247,7 @@
     <hr class='dark'>
     <div class='row event'>
       <div class='twelve columns'>
-        <h5 class='name'>QuickFit The Short But Sweet Workout</h5>
+        <h5 class='name'>QuickFit: The Short But Sweet Workout</h5>
         <p class='subheader date'>Wednesday, May 22 2013</p>
                 <a target="_blank" href="http://www.fit-ink.com/2013/05/quickfit-short-but-sweet-workout.html"><img class="th" src="../images/events/fitink.jpg" />
         </a>
@@ -307,27 +307,14 @@
     <hr class='dark'>
   </div>
   <div class='four columns photos'>
-    <h4 class='page-title'>Past Events</h4>
-    <ul class='block-grid one-up past-events'>
-      <li>
-        <h6 class='name'>Vino and Vinyasa</h6>
-        <p class='subheader date small'>July 2013</p>
-        <span class='thumb'><img class="th" src="../images/events/vino.jpg" /></span>
-        <p class='body small'>Wine and yoga! What could be better?</p>
-      </li>
-      <li>
-        <h6 class='name'>Recruit in the Park</h6>
-        <p class='subheader date small'>June 29, 2013</p>
-        <span class='thumb'><img class="th" src="../images/events/recruit-in-park.jpg" /></span>
-        <p class='body small'>Recruit in the park</p>
-      </li>
-      <li>
-        <h6 class='name'>Career Girl</h6>
-        <p class='subheader date small'>June 26, 2013</p>
-        <span class='thumb'><img class="th" src="../images/events/career-girl.png" /></span>
-        <p class='body small'>blah blah blah</p>
-      </li>
-    </ul>
+    <!-- %h4.page-title Past Events -->
+    <!-- %ul{:class => "block-grid one-up past-events"} -->
+    <!-- - data.lateral.pastevents.each do |p| -->
+    <!-- %li -->
+    <!-- %h6.name= p.name -->
+    <!-- %p.subheader.date.small= p.date -->
+    <!-- %span.thumb= image_tag "/images/events/#{p.image}", :class => "th" -->
+    <!-- %p.body.small= p.body -->
     <h6>
       <i class='fa fa-camera'></i>
       Check our some photos
@@ -383,11 +370,12 @@
           </a>
         </div>
         <div class='five columns address'>
-          314 West Superior LL-E
-          <i class='fa fa-circle'></i>
-          Chicago, IL 60654
-          <i class='fa fa-circle'></i>
-          312-291-9466
+          <ul class='footer_list'>
+            <li class='footer_item'>314 West Superior LL-E, Chicago, IL 60654</li>
+          </ul>
+          <ul class='footer_list'>
+            <li class='footer_item'>312-291-9466 | <a href="mailto:info@trainlateral.com">info@trainlateral.com</a></li>
+          </ul>
         </div>
       </footer>
     </section>
