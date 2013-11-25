@@ -67,17 +67,20 @@ page "/sitemap.xml", :layout => false
 
 # activate :navigation
 
-activate :deploy do |deploy|
-  deploy.method = :git
-end
-
 # activate :deploy do |deploy|
-#   deploy.method   = :ftp
-#   deploy.host     = "ftp.example.com"????
-#   deploy.path     = "/srv/www/site"???
-#   deploy.user     = "u69058958-tmcwilliam"
-#   deploy.password = "Lateral41;"
+#   deploy.method = :git
 # end
+
+activate :deploy do |deploy|
+  deploy.method = :rsync
+  deploy.host   = "lateralfitnesschicago.com"
+  deploy.path   = "/kunden/homepages/14/d417008924/htdocs"
+  # Optional Settings
+  deploy.user  = "u69058958" # no default
+  # deploy.port  = 5309 # ssh port, default: 22
+  # deploy.clean = true # remove orphaned files on remote host, default: false
+  # deploy.flags = "-rltgoDvzO --no-p --del -e" # add custom flags, default: -avze
+end
 
 # Build-specific configuration
 configure :build do

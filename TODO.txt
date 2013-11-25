@@ -2,6 +2,10 @@ TODO
 ========
 global:
 - SOCIAL ICONS for instagram and google+
+- running icons
+- high intesity slide
+- 2 new bios
+- 3 new class descriptions
 
 TBD
 - text for new yoga & intensity classes
@@ -13,10 +17,35 @@ Test Crossbrowser
 Application Optimizations
 -------------------------
 - upgrade to foundation 4 -> 5
-- class description layout change
+- class description layout to a schedule layout with modals and sharing ability
 - mindbody API Key: mdGzrK6K5iQ+xZE23MMNjrv4hzg=
 - mindbody Activation Code: b+AR3fFR0tKVvtpGVTGzgcZYQ2n5ruCH
 - Leverage Constant Contact API
 - SEO copy writing, optimizing blah blah blah
 - customize a 404 page
 - Dock the nav for mobile
+
+
+Blog Entry Outline
+------------------
+- Middleman
+	- Static site generator popularity. Brief history of how we got here
+		"In the early days of web development things were simple. Write some HTML, style it with CSS and you're done. Not only are you done, but you have a static website with great performance. However, that process became rather tedious after repeating it for every page. So PHP became the tool of choice and an introduction to server side technologies. It only seems fitting that we are now through the advancement of browsers we are coming full circle and static sites are becoming popular again."
+		"But what about the tedious-ness? Enter Middleman"
+	- What you get out of the box
+		- Layouts
+		- Local dev server
+		- local data
+		- asset pipeline
+		- much much more
+	- Ruby goodness
+		- SCSS/Compass
+		- Gems -> middleman-deploy, live-reload, zurb-foundation
+
+- Node.js API for Static sites
+	- Easily create a restful API
+	- connect to a 3rd party API with node modules
+
+- Backbone and Foundation for Static sites
+	- Backbone.Collections are built for hooking into APIs
+	- Foundation 4 added 'reflow' which became necessary for static sites
