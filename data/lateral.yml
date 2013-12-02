@@ -32,7 +32,7 @@ classes:
     thumb: running3.jpg
     blurb: Periodization training to prepare you for marathons and triathlons.
   -
-    name: Yoga Classes
+    name: "Yoga & Pilates Classes"
     page: yoga.html
     thumb: yoga5.jpg
     blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
@@ -76,6 +76,15 @@ photos:
 
     -   caption: Workout Floor
         filename: floor3.jpg
+
+    -   caption: Bathroom
+        filename: bathroom.jpg
+
+    -   caption: Group Room
+        filename: group-room.jpg
+
+    -   caption: Hallway
+        filename: hallway.jpg
 
 events:
 
