@@ -86,6 +86,9 @@ photos:
     -   caption: Hallway
         filename: hallway.jpg
 
+    # -   caption: Shower
+    #     filename: shower.jpg
+
 events:
 
 pastevents:
