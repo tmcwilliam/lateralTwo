@@ -94,19 +94,20 @@ events:
 pastevents:
   -
     name: Vino and Vinyasa
-    date: "July 2013"
-    image: vino.jpg
-    body: "Wine and yoga! What could be better?"
-  -
-    name: Recruit in the Park
-    date: "June 29, 2013"
-    image: recruit-in-park.jpg
-    body: "Recruit in the park"
-  -
-    name: Career Girl
-    date: "June 26, 2013"
-    image: career-girl.png
-    body: "blah blah blah"
+    date: "August 16, 2013"
+    image: baddha_kona.jpg
+    body: "Vino and Vinyasa, co-presented with lululemon athletica Michigan Ave, features a fun, 60-minute Vinyasa flow practice with store ambassador Jenny Finkel, followed by wine and tasty snacks from our local partners!  Allow the yoga practice to open and unleash your senses, so you can enjoy this culinary experience to the fullest."
+    link: "/images/events/vino_flyer.pdf"
+  # -
+  #   name: Recruit in the Park
+  #   date: "June 29, 2013"
+  #   image: recruit-in-park.jpg
+  #   body: "Recruit in the park"
+  # -
+  #   name: Career Girl
+  #   date: "June 26, 2013"
+  #   image: career-girl.png
+  #   body: "blah blah blah"
 
 press:
   -

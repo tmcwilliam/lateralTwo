@@ -9,6 +9,7 @@
 #= require "foundation/jquery.foundation.mediaQueryToggle"
 #= require "foundation/jquery.foundation.navigation"
 #= require "foundation/jquery.foundation.orbit"
+#= require "foundation/jquery.foundation.tabs"
 #= require "foundation/jquery.foundation.topbar"
 #= require "foundation/jquery.foundation.accordion"
 #= require "foundation/jquery.offcanvas"

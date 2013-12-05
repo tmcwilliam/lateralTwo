@@ -4,50 +4,49 @@ page_id: news
 ---
 
 .row
-  .eight.columns
-    / %h4.page-title Upcoming Events
-    / - data.lateral.events.each do |e|
-    /   .row.event
-    /     .twelve.columns
-    /       %h5.name= e.name
-    /       %p.subheader.date= e.date
-    /       = link_to "#{e.link}", :target => "_blank" do
-    /         = image_tag "/images/events/#{e.image}", :class => "th"
-    /       %p.body= e.body
-    /       = link_to "#{e.link}", :target => "_blank" do
-    /         Read more
-    /         %i.fa.fa-chevron-right.small
-    /   %hr.dark
+  .twelve.columns
+    %p
+    %dl.tabs
+      %dd.active
+        = link_to "Press", "#press"
+      %dd
+        = link_to "Past Events", "#past"
+      %dd
+        = link_to "Gallery", "#gallery"
 
-    %h4.page-title Press
-    - data.lateral.press.each do |p|
-      .row.event
-        .twelve.columns
-          %h5.name= p.name
-          %p.subheader.date= p.date
-          = link_to "#{p.link}", :target => "_blank" do
-            = image_tag "/images/events/#{p.image}", :class => "th"
-          %p.body= p.body
-          = link_to "#{p.link}", :target => "_blank" do
-            Read more
-            %i.fa.fa-chevron-right.small
-      %hr.dark
+    %ul.tabs-content
+      %li#pressTab.active
+        %ul.block-grid.three-up.mobile-one-up
+          - data.lateral.press.each do |p|
+            %li.member
+              .panel.constant
+                %h5.name= p.name
+                %p.subheader.date= p.date
+                = link_to "#{p.link}", :target => "_blank" do
+                  = image_tag "/images/events/#{p.image}", :class => "th constant"
+                %p.body.ellipsis= p.body
+                = link_to "#{p.link}", :target => "_blank" do
+                  Read more
+                  %i.fa.fa-chevron-right.small
 
-  .four.columns.photos
-    / %h4.page-title Past Events
-    / %ul{:class => "block-grid one-up past-events"}
-    /   - data.lateral.pastevents.each do |p|
-    /     %li
-    /       %h6.name= p.name
-    /       %p.subheader.date.small= p.date
-    /       %span.thumb= image_tag "/images/events/#{p.image}", :class => "th"
-    /       %p.body.small= p.body
-    %h6
-      %i.fa.fa-camera
-      Check out some photos
-    %ul{:class => "block-grid three-up mobile-two-up", :data => {:clearing => ""}}
-      - data.lateral.photos.each do |t|
-        %li
-          = link_to "/images/gallery/#{t.filename}" do
-            = image_tag "/images/gallery/#{t.filename}"
+      %li#pastTab
+        %ul.block-grid.three-up.mobile-one-up
+          - data.lateral.pastevents.each do |e|
+            %li.member
+              .panel.constant
+                %h5.name= e.name
+                %p.subheader.date= e.date
+                = link_to "#{e.link}", :target => "_blank" do
+                  = image_tag "/images/events/#{e.image}", :class => "th"
+                %p.body.ellipsis= e.body
+                = link_to "#{e.link}", :target => "_blank" do
+                  Read more
+                  %i.fa.fa-chevron-right.small
+
+      %li#galleryTab
+        %ul{:class => "block-grid three-up mobile-two-up", :data => {:clearing => ""}}
+          - data.lateral.photos.each do |t|
+            %li
+              = link_to "/images/gallery/#{t.filename}" do
+                = image_tag "/images/gallery/#{t.filename}"
 
