@@ -94,48 +94,49 @@ events:
 pastevents:
   -
     name: Vino and Vinyasa
-    date: "July 2013"
-    image: vino.jpg
-    body: "Wine and yoga! What could be better?"
-  -
-    name: Recruit in the Park
-    date: "June 29, 2013"
-    image: recruit-in-park.jpg
-    body: "Recruit in the park"
-  -
-    name: Career Girl
-    date: "June 26, 2013"
-    image: career-girl.png
-    body: "blah blah blah"
+    date: "August 16, 2013"
+    image: baddha_kona.jpg
+    body: "Vino and Vinyasa, co-presented with lululemon athletica Michigan Ave, features a fun, 60-minute Vinyasa flow practice with store ambassador Jenny Finkel, followed by wine and tasty snacks from our local partners!  Allow the yoga practice to open and unleash your senses, so you can enjoy this culinary experience to the fullest."
+    link: "/images/events/vino_flyer.pdf"
+  # -
+  #   name: Recruit in the Park
+  #   date: "June 29, 2013"
+  #   image: recruit-in-park.jpg
+  #   body: "Recruit in the park"
+  # -
+  #   name: Career Girl
+  #   date: "June 26, 2013"
+  #   image: career-girl.png
+  #   body: "blah blah blah"
 
 press:
   -
     name: Nonstop Activation
     date: "November 2013"
-    image: mensbook.jpg
+    image: mensbook3.jpg
     body: "How's this for a lunch break? Lateral Fitness' QuickFit circuit training alternates 30 seconds of weights and 30 seconds of cadio to spark up participants' slow- and fast-twitch muscle fibers continuously."
     link: http://digital.modernluxury.com/publication/?i=184202&p=112
   -
     name: "QuickFit: The Short But Sweet Workout"
     date: "Wednesday, May 22 2013"
-    image: fitink.jpg
+    image: fitink2.jpg
     body: "Tabata taught me that quality workouts don't have to mimic the long, enduring suffer fests of Ironman training. The strength training intensity at Hard Pressed (and its predecessor) showed me how to exhaust my muscles with weight—and a lot of it."
     link: http://www.fit-ink.com/2013/05/quickfit-short-but-sweet-workout.html
   -
     name: The Lateral-Lululemon Connection
     date: "Wednesday, May 15 2013"
-    image: fitink.jpg
+    image: fitink2.jpg
     body: "I've walked past lululemon athletica locations enough times to note that each shop chooses a local yoga instructor to teach their weekly community classes. I've taken enough group fitness classes--and maybe even cyber-stalked the local lululemon page--to find some of their workout favorites (they'd flock to ambassador Gideon Akande's Breakfast of Champions and Shockwave classes when he was still a trainer at Equinox)."
     link: http://www.fit-ink.com/2013/05/the-lateral-lululemon-connection.html
   -
     name: A Training Temple
     date: "May 2013"
-    image: marshall.jpg
+    image: mensbook2.jpg
     body: "Yoga? Check. Personal and endurance training? Check. Classes from static to intense? Check. Cutting-edge Muscle Activation Techniques? Check."
     link: http://digital.modernluxury.com/publication/?i=159400&p=106
   -
     name: Lateral Fitness Gym Open in River North
     date: "April 2013"
-    image: natural-awake.jpg
+    image: natural.jpg
     body: "Lateral Fitness is a new, one-of-a-kind, boutique gym in River North, offering yoga, mat Pilates, high-intensity interval training classes, muscle activation technique (MAT), half and full marathon and triathlon programs coached by a Team USA athlete, personal training and nutrition."
     link: http://www.nachicagonorth.com/CHI/April-2013/Lateral-Fitness-Gym-Open-in-River-North/

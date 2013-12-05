@@ -10,6 +10,23 @@ p, td, div {
   font-size:14px; 
   line-height:20px;
 }
+
+$font-size: 14px;
+$line-height: 1.4;
+$lines-to-show: 5;
+.ellipsis {
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  max-width: 400px;
+  height: $font-size*$line-height*$lines-to-show; /* Fallback for non-webkit */
+  margin: 0 auto;
+  font-size: $font-size;
+  line-height: $line-height;
+  -webkit-line-clamp: $lines-to-show;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .page-title {
   border-left: 3px solid $secondaryColor;
   display: inline-block;
@@ -67,6 +84,16 @@ p, td, div {
 .image-centered {
   display: block;
   margin: 0 auto;
+}
+
+// Tabs
+
+.tabs dd.active, .tabs li.active {
+  border-top: 3px solid $secondaryColor;
+}
+
+.tabs dd a, .tabs li a {
+  padding: 0 18px;
 }
 
 // Orbit
@@ -273,11 +300,20 @@ p, td, div {
         color: #ff4b28;
       }
     }
+
+    &.constant {
+      min-height: 415px;
+    }
   }
 
   .th {
     display: block;
-    margin: 0px auto 10px
+    margin: 0px auto 10px;
+
+    &.constant {
+      height: 125px;
+      width: 150px;
+    }
   }
 
   h5 {
@@ -321,6 +357,10 @@ p, td, div {
         font-size: 30px;
       }
     }
+  }
+
+  .date {
+    text-align: center;
   }
 }
 
