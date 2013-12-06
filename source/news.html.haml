@@ -23,7 +23,7 @@ page_id: news
                 %h5.name= p.name
                 %p.subheader.date= p.date
                 = link_to "#{p.link}", :target => "_blank" do
-                  = image_tag "/images/events/#{p.image}", :class => "th constant"
+                  = image_tag "/images/events/#{p.image}", :class => "th"
                 %p.body.ellipsis= p.body
                 = link_to "#{p.link}", :target => "_blank" do
                   Read more

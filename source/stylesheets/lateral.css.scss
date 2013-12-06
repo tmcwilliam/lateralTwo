@@ -92,6 +92,10 @@ $lines-to-show: 5;
   border-top: 3px solid $secondaryColor;
 }
 
+.tabs dd a, .tabs li a {
+  padding: 0 18px;
+}
+
 // Orbit
 .slider .slider-inner {
   margin-top: 10px;
@@ -298,7 +302,7 @@ $lines-to-show: 5;
     }
 
     &.constant {
-      min-height: 400px;
+      min-height: 415px;
     }
   }
 
@@ -353,6 +357,10 @@ $lines-to-show: 5;
         font-size: 30px;
       }
     }
+  }
+
+  .date {
+    text-align: center;
   }
 }
 
