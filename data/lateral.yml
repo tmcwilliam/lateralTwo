@@ -86,6 +86,15 @@ photos:
     -   caption: Hallway
         filename: hallway.jpg
 
+    -   caption: Group
+        filename: group1.jpg
+
+    # -   caption: Group
+    #     filename: group3.jpg
+
+    -   caption: Group
+        filename: group6.jpg
+
     # -   caption: Shower
     #     filename: shower.jpg
 
