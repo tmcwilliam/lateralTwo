@@ -2,7 +2,7 @@
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8] -->
-<html lang='en'>
+<html class='no-js' dir='ltr' lang='en'>
   <!-- <![endif] -->
   <head>
     <meta charset='utf-8'>
@@ -12,275 +12,281 @@
     <meta content='Lateral Fitness is a boutique gym located in the River North neighborhood of Chicago Illinois featuring Muscle Activation Technique, Endurance Training, Group Classes and Personal Training' name='description'>
     <!-- Included CSS Files -->
     <link href="../stylesheets/app.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="../stylesheets/fonts.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="../stylesheets/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="../stylesheets/colors.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../stylesheets/font-awesome/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="../stylesheets/lateral.css" media="screen" rel="stylesheet" type="text/css" />
-    <script src="../javascripts/foundation/modernizr.foundation.js" type="text/javascript"></script>
+    <script src="../javascripts/vendor/modernizr.foundation.js" type="text/javascript"></script>
   </head>
   <body class='contact contact_index'>
-    <div class='show-for-small' id='sidebar' role='complementary'>
-      <nav id='sideMenu' role='navigation'>
-        <ul class='nav-bar' id='sideMainNav'>
-          <li>
-            <a href="../">Home</a>
-          </li>
-          <li>
-            <a href="../about/">About</a>
-          </li>
-          <li>
-            <a href="../services/">Services</a>
-          </li>
-          <li>
-            <a href="../classes/">Classes</a>
-          </li>
-          <li>
-            <a href="../trainers/">Trainers</a>
-          </li>
-          <li>
-            <a href="../instructors/">Instructors</a>
-          </li>
-          <li>
-            <a href="../pricing/">Packages</a>
-          </li>
-          <li>
-            <a href="../news/">News</a>
-          </li>
-          <li class='active'>
-            <a href="./">Contact Us</a>
-          </li>
-          <li>
-            <a href="http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=-7&sView=week">Schedule a Class</a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/LATERALFITNESS">Facebook Page</a>
-          </li>
-          <li>
-            <a href="https://twitter.com/LateralFitness">Twitter</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <section class='main-content' role='main'>
-      <div class='row header'>
-        <div class='mobile-one columns show-for-small'>
-          <a class='sidebar-button' href='#sidebar' id='sidebarButton'>
-            <i class='fa fa-bars'></i>
-          </a>
-        </div>
-        <div class='seven mobile-three columns'>
-                    <a href="../"><img alt="Lateral Fitness Chicago" src="../images/branding/logo.png" />
-          </a>
-
-        </div>
-        <div class='five columns hide-for-small'>
+    <div class='off-canvas-wrap'>
+      <div class='inner-wrap'>
+        <aside class='left-off-canvas-menu'>
+          <ul class='nav-bar' id='sideMainNav'>
+            <li>
+              <a href="../">Home</a>
+            </li>
+            <li>
+              <a href="../about/">About</a>
+            </li>
+            <li>
+              <a href="../services/">Services</a>
+            </li>
+            <li>
+              <a href="../classes/">Classes</a>
+            </li>
+            <li>
+              <a href="../trainers/">Trainers</a>
+            </li>
+            <li>
+              <a href="/instructors">Instructors</a>
+            </li>
+            <li>
+              <a href="../pricing/">Packages</a>
+            </li>
+            <li>
+              <a href="../news/">News</a>
+            </li>
+            <li class='active'>
+              <a href="./">Contact Us</a>
+            </li>
+            <li>
+              <a href="http://clients.mindbodyonline.com/ws.asp?studioid=33786&amp;stype=-7&amp;sView=week">Schedule a class</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/LATERALFITNESS">Facebook Page</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/LateralFitness">Twitter</a>
+            </li>
+          </ul>
+        </aside>
+        <section class='main-content' role='main'>
           <div class='row header'>
-            <div class='six columns'>
-              <ul class='header-links'>
-                <li>
-                  <a href="../">Home</a>
-                </li>
-                <li>
-                  <a href="../about/">About</a>
-                </li>
-                <li>
-                  <a href="./">Contact Us</a>
-                </li>
-              </ul>
+            <div class='small-2 columns hide-for-large-up'>
+              <a class='left-off-canvas-toggle'>
+                <i class='fa fa-bars'></i>
+              </a>
             </div>
-            <div class='six columns header_social hide-for-small'>
-              <ul class='headline_socials main_socials'>
-                <li>
-                  <a class='facebook' href='https://www.facebook.com/LATERALFITNESS' target='_blank'>
-                    <i class='fa fa-facebook-square'></i>
-                  </a>
-                </li>
-                <li>
-                  <a class='twitter' href='https://twitter.com/LateralFitness' target='_blank'>
-                    <i class='fa fa-twitter-square'></i>
-                  </a>
-                </li>
-                <li>
-                  <a class='googleplus' href='//plus.google.com/106841841915858979964?prsrc=3' target='_blank'>
-                    <i class='fa fa-google-plus-square'></i>
-                  </a>
-                </li>
-                <li>
-                  <a class='instagram' href='http://instagram.com/lateralfitness?ref=badge' target='_blank'>
-                    <i class='fa fa-camera-retro'></i>
-                  </a>
-                </li>
-              </ul>
+            <div class='small-10 large-7 columns'>
+                            <a href="../"><img alt="Lateral Fitness Chicago" src="../images/branding/logo.png" />
+              </a>
+
+            </div>
+            <div class='medium-5 large-5 columns show-for-large-up'>
+              <div class='row header'>
+                <div class='large-6 columns'>
+                  <ul class='header-links'>
+                    <li>
+                      <a href="../">Home</a>
+                    </li>
+                    <li>
+                      <a href="../about/">About</a>
+                    </li>
+                    <li>
+                      <a href="./">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class='large-6 columns header_social show-for-large-up'>
+                  <ul class='headline_socials main_socials'>
+                    <li>
+                      <a class='facebook' href='https://www.facebook.com/LATERALFITNESS' target='_blank'>
+                        <i class='fa fa-facebook-square'></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class='twitter' href='https://twitter.com/LateralFitness' target='_blank'>
+                        <i class='fa fa-twitter-square'></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class='googleplus' href='//plus.google.com/106841841915858979964?prsrc=3' target='_blank'>
+                        <i class='fa fa-google-plus-square'></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class='instagram' href='http://instagram.com/lateralfitness?ref=badge' target='_blank'>
+                        <i class='fa fa-camera-retro'></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class='row navigation hide-for-small'>
-        <div class='twelve columns'>
-          <nav class='top-bar'>
-            <ul>
-              <li class='name'></li>
-              <li class='toggle-topbar'>
-                <a href='#'></a>
+          <div class='row navigation show-for-large-up'>
+            <div class='large-12 columns'>
+              <nav class='top-bar' data='topbar'>
+                <ul class='title-area'>
+                  <li class='name'></li>
+                  <li class='toggle-topbar'>
+                    <a href='#'></a>
+                  </li>
+                </ul>
+                <section class='top-bar-section'>
+                  <ul class='nav-links left'>
+                    <li class='has-dropdown not-click'>
+                      <a href="../services/">Services</a>
+                      <ul class='dropdown nav-dropdown'>
+                        <li>
+                          <a href="../services/personal-training/">Personal Training</a>
+                        </li>
+                        <li>
+                          <a href="../services/muscle-activation-technique/">Muscle Activation Technique</a>
+                        </li>
+                        <!-- %li -->
+                        <!-- = link_to 'Massage and Soul Therapy', '/services/soul.html' -->
+                        <li>
+                          <a href="../services/corporate/">Corporate Wellness Program</a>
+                        </li>
+                        <li>
+                          <a href="../services/lunch/">Lunchtime Membership</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class='has-dropdown not-click'>
+                      <a href="../classes/">Classes</a>
+                      <ul class='dropdown nav-dropdown'>
+                        <li>
+                          <a href="../classes/endurance-training/">Running/Triathalon</a>
+                        </li>
+                        <li>
+                          <a href="../classes/yoga/">Yoga & Pilates</a>
+                        </li>
+                        <li>
+                          <a href="../classes/high-intensity/">High Intensity</a>
+                        </li>
+                        <li>
+                          <a href="../classes/kettlebell/">Kettlebell</a>
+                        </li>
+                        <li>
+                          <a href="../classes/challenge/">6 Week Challenge</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class='has-dropdown not-click'>
+                      <a href="../trainers/">Trainers</a>
+                      <ul class='dropdown nav-dropdown'>
+                        <li>
+                          <a href="../trainers/scott-mcwilliam/">Scott McWilliam</a>
+                        </li>
+                        <li>
+                          <a href="../trainers/erik-marthaler/">Erik Marthaler</a>
+                        </li>
+                        <li>
+                          <a href="../trainers/becky-williamson/">Becky Williamson</a>
+                        </li>
+                        <li>
+                          <a href="../trainers/adrienne-marie/">Adrienne Marie</a>
+                        </li>
+                        <li>
+                          <a href="../trainers/daniel-lona/">Daniel Lona</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class='has-dropdown not-click'>
+                      <a href="../instructors/">Instructors</a>
+                      <ul class='dropdown nav-dropdown'>
+                        <li>
+                          <a href="../instructors/katarina-arneric/">Katarina Arneric</a>
+                        </li>
+                        <li>
+                          <a href="../instructors/jenny-finkel/">Jenny Finkel</a>
+                        </li>
+                        <li>
+                          <a href="../instructors/sarah-elizabeth-helt/">Sarah Elizabeth Helt</a>
+                        </li>
+                        <li>
+                          <a href="../instructors/adrienne-marie/">Adrienne Marie</a>
+                        </li>
+                        <li>
+                          <a href="../instructors/molly-lersten/">Molly Lersten</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="../pricing/">Packages</a>
+                    </li>
+                    <li>
+                      <a href="../news/">News</a>
+                    </li>
+                  </ul>
+                  <ul class='right'>
+                    <li>
+                      <a target="_blank" href="http://clients.mindbodyonline.com/ws.asp?studioid=33786&amp;stype=-7&amp;sView=week"><i class='fa fa-calendar'></i> Schedule a Class</a>
+                    </li>
+                  </ul>
+                </section>
+              </nav>
+            </div>
+          </div>
+        </section>
+        <div class='row'>
+          <div class='large-8 columns'>
+            <iframe frameborder='0' height='350' marginheight='0' marginwidth='0' scrolling='no' src='http://maps.google.com/maps?q=314+West+Superior+chicago+il&amp;hl=en&amp;hnear=314+W+Superior+St,+Chicago,+Cook,+Illinois+60654&amp;t=m&amp;ie=UTF8&amp;hq=&amp;ll=41.895697,-87.636566&amp;spn=0.011181,0.025749&amp;z=15&amp;iwloc=A&amp;output=embed' width='100%'></iframe>
+            <iframe frameborder='0' height='394' marginheight='0' marginwidth='0' scrolling='no' src='https://maps.google.com/maps?q=&amp;amp;layer=c&amp;amp;sll=41.895852,-87.636599&amp;amp;cid=9969609811305301754&amp;amp;panoid=L_L8ceWvlMgAAAAGOnG1og&amp;amp;cbp=13,90.07,,0,6.4&amp;amp;gl=US&amp;amp;hl=en&amp;amp;ie=UTF8&amp;amp;hq=+loc:+&amp;amp;hnear=&amp;amp;t=m&amp;amp;cbll=41.895727,-87.63655&amp;amp;source=embed&amp;amp;ll=41.893928,-87.636545&amp;amp;spn=0.006293,0.01502&amp;amp;z=16&amp;amp;output=svembed' width='700'></iframe>
+            <br>
+            <small>
+              <a href='https://maps.google.com/maps?q=&amp;amp;layer=c&amp;amp;sll=41.895852,-87.636599&amp;amp;cid=9969609811305301754&amp;amp;panoid=L_L8ceWvlMgAAAAGOnG1og&amp;amp;cbp=13,90.07,,0,6.4&amp;amp;gl=US&amp;amp;hl=en&amp;amp;ie=UTF8&amp;amp;hq=+loc:+&amp;amp;hnear=&amp;amp;t=m&amp;amp;cbll=41.895727,-87.63655&amp;amp;source=embed&amp;amp;ll=41.893928,-87.636545&amp;amp;spn=0.006293,0.01502&amp;amp;z=16' style='color:#0000FF;text-align:left'></a>
+              View Larger Map
+            </small>
+          </div>
+          <div class='large-4 columns'>
+            <h6>
+              Get in Touch!
+            </h6>
+            <ul class='get-in-touch'>
+              <li>
+                <i class='fa fa-home'></i>
+                314 West Superior LL-E Chicago IL 60654
+              </li>
+              <li>
+                <i class='fa fa-phone'></i>
+                312.291.9466
+              </li>
+              <li>
+                <i class='fa fa-phone'></i>
+                312.291.9726 (fax)
+              </li>
+              <li>
+                <i class='fa fa-envelope'></i>
+                <a href="mailto:info@trainlateral.com">info@trainlateral.com</a>
               </li>
             </ul>
-            <section>
-              <ul class='nav-links'>
-                <li class='has-dropdown'>
-                  <a href="../services/">Services</a>
-                  <ul class='dropdown nav-dropdown'>
-                    <li>
-                      <a href="../services/personal-training/">Personal Training</a>
-                    </li>
-                    <li>
-                      <a href="../services/muscle-activation-technique/">Muscle Activation Technique</a>
-                    </li>
-                    <!-- %li -->
-                    <!-- = link_to 'Massage and Soul Therapy', '/services/soul.html' -->
-                    <li>
-                      <a href="../services/corporate/">Corporate Wellness Program</a>
-                    </li>
-                    <li>
-                      <a href="../services/lunch/">Lunchtime Membership</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class='has-dropdown'>
-                  <a href="../classes/">Classes</a>
-                  <ul class='dropdown nav-dropdown'>
-                    <li>
-                      <a href="../classes/endurance-training/">Running/Triathalon</a>
-                    </li>
-                    <li>
-                      <a href="../classes/yoga/">Yoga & Pilates</a>
-                    </li>
-                    <li>
-                      <a href="../classes/high-intensity/">High Intensity</a>
-                    </li>
-                    <li>
-                      <a href="../classes/kettlebell/">Kettlebell</a>
-                    </li>
-                    <li>
-                      <a href="../classes/challenge/">6 Week Challenge</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class='has-dropdown'>
-                  <a href="../trainers/">Trainers</a>
-                  <ul class='dropdown nav-dropdown'>
-                    <li>
-                      <a href="../trainers/scott-mcwilliam/">Scott McWilliam</a>
-                    </li>
-                    <li>
-                      <a href="../trainers/erik-marthaler/">Erik Marthaler</a>
-                    </li>
-                    <li>
-                      <a href="../trainers/becky-williamson/">Becky Williamson</a>
-                    </li>
-                    <li>
-                      <a href="../trainers/adrienne-marie/">Adrienne Marie</a>
-                    </li>
-                    <li>
-                      <a href="../trainers/daniel-lona/">Daniel Lona</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class='has-dropdown'>
-                  <a href="../instructors/">Instructors</a>
-                  <ul class='dropdown nav-dropdown'>
-                    <li>
-                      <a href="../instructors/katarina-arneric/">Katarina Arneric</a>
-                    </li>
-                    <li>
-                      <a href="../instructors/jenny-finkel/">Jenny Finkel</a>
-                    </li>
-                    <li>
-                      <a href="../instructors/sarah-elizabeth-helt/">Sarah Elizabeth Helt</a>
-                    </li>
-                    <li>
-                      <a href="../instructors/adrienne-marie/">Adrienne Marie</a>
-                    </li>
-                    <li>
-                      <a href="../instructors/molly-lersten/">Molly Lersten</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="../pricing/">Packages</a>
-                </li>
-                <li>
-                  <a href="../news/">News</a>
-                </li>
-              </ul>
-              <ul class='right'>
-                <li>
-                  <a target="_blank" href="http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=-7&sView=week"><i class='fa fa-calendar'></i> Schedule a Class</a>
-                </li>
-              </ul>
-            </section>
-          </nav>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='eight columns'>
-          <iframe frameborder='0' height='350' marginheight='0' marginwidth='0' scrolling='no' src='http://maps.google.com/maps?q=314+West+Superior+chicago+il&amp;hl=en&amp;hnear=314+W+Superior+St,+Chicago,+Cook,+Illinois+60654&amp;t=m&amp;ie=UTF8&amp;hq=&amp;ll=41.895697,-87.636566&amp;spn=0.011181,0.025749&amp;z=15&amp;iwloc=A&amp;output=embed' width='100%'></iframe>
-        </div>
-        <div class='four columns'>
-          <h6>
-            Get in Touch!
-          </h6>
-          <ul class='get-in-touch'>
-            <li>
-              <i class='fa fa-home'></i>
-              <span>314 West Superior LL-E Chicago IL 60654</span>
-            </li>
-            <li>
-              <i class='fa fa-phone'></i>
-              <span>312.291.9466</span>
-            </li>
-            <li>
-              <i class='fa fa-phone'></i>
-              <span>312.291.9726 (fax)</span>
-            </li>
-            <li>
-              <i class='fa fa-envelope'></i>
-              <a href="mailto:info@trainlateral.com">info@trainlateral.com</a>
-            </li>
-          </ul>
-          <h6>
-            Subscribe to our Newsletter
-          </h6>
-          <script src='http://www.formstack.com/forms/js.php?1357687-sHzEIZBGIH-v3&amp;jsonp' type='text/javascript'></script>
-          <noscript>
-            <a href='http://www.formstack.com/forms/?1357687-sHzEIZBGIH' title='Online Form'>
-              Online Form - Constant Contact List Signup
-            </a>
-          </noscript>
-          <div style='text-align:right; font-size:x-small;'>
-            <a href='http://www.formstack.com/try-formstack?utm_source=h&amp;utm_medium=jsembed&amp;utm_campaign=fa&amp;fa=h,1357687' title='Online Form Maker'>
-              Online Form Maker
-            </a>
+            <h6>
+              Subscribe to our Newsletter
+            </h6>
+            <script src='http://www.formstack.com/forms/js.php?1357687-sHzEIZBGIH-v3&amp;jsonp' type='text/javascript'></script>
+            <noscript>
+              <a href='http://www.formstack.com/forms/?1357687-sHzEIZBGIH' title='Online Form'>
+                Online Form - Constant Contact List Signup
+              </a>
+            </noscript>
+            <div style='text-align:right; font-size:x-small;'>
+              <a href='http://www.formstack.com/try-formstack?utm_source=h&amp;utm_medium=jsembed&amp;utm_campaign=fa&amp;fa=h,1357687' title='Online Form Maker'>
+                Online Form Maker
+              </a>
+            </div>
           </div>
         </div>
+        <div class='row footer'>
+          <div class='small-7 columns'>
+            <a href='/'>
+              <img alt="Lateral Fitness Chicago" width="250" height="48" class="hide-for-small" src="../images/branding/logo.png" />
+            </a>
+          </div>
+          <div class='small-5 columns address'>
+            <ul class='footer_list'>
+              <li class='footer_item'>314 West Superior LL-E, Chicago, IL 60654</li>
+            </ul>
+            <ul class='footer_list'>
+              <li class='footer_item'>312-291-9466 | <a href="mailto:info@trainlateral.com">info@trainlateral.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <a class='exit-off-canvas'></a>
       </div>
-      <footer class='row'>
-        <div class='seven columns'>
-          <a href='/'>
-            <img alt="Lateral Fitness Chicago" width="250" height="48" class="hide-for-small" src="../images/branding/logo.png" />
-          </a>
-        </div>
-        <div class='five columns address'>
-          <ul class='footer_list'>
-            <li class='footer_item'>314 West Superior LL-E, Chicago, IL 60654</li>
-          </ul>
-          <ul class='footer_list'>
-            <li class='footer_item'>312-291-9466 | <a href="mailto:info@trainlateral.com">info@trainlateral.com</a></li>
-          </ul>
-        </div>
-      </footer>
-    </section>
-    <script src="../javascripts/app.js" type="text/javascript"></script>
-    <script src="../javascripts/main.js" type="text/javascript"></script>
+    </div>
+    <script src="../javascripts/all.js" type="text/javascript"></script>
     <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-37734676-1']);

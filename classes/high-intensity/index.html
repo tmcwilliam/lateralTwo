@@ -2,7 +2,7 @@
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8] -->
-<html lang='en'>
+<html class='no-js' dir='ltr' lang='en'>
   <!-- <![endif] -->
   <head>
     <meta charset='utf-8'>
@@ -12,349 +12,424 @@
     <meta content='Lateral Fitness is a boutique gym located in the River North neighborhood of Chicago Illinois featuring Muscle Activation Technique, Endurance Training, Group Classes and Personal Training' name='description'>
     <!-- Included CSS Files -->
     <link href="../../stylesheets/app.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="../../stylesheets/fonts.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="../../stylesheets/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="../../stylesheets/colors.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../../stylesheets/font-awesome/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="../../stylesheets/lateral.css" media="screen" rel="stylesheet" type="text/css" />
-    <script src="../../javascripts/foundation/modernizr.foundation.js" type="text/javascript"></script>
+    <script src="../../javascripts/vendor/modernizr.foundation.js" type="text/javascript"></script>
   </head>
   <body class='classes classes_high-intensity classes_high-intensity_index'>
-    <div class='show-for-small' id='sidebar' role='complementary'>
-      <nav id='sideMenu' role='navigation'>
-        <ul class='nav-bar' id='sideMainNav'>
-          <li>
-            <a href="../../">Home</a>
-          </li>
-          <li>
-            <a href="../../about/">About</a>
-          </li>
-          <li>
-            <a href="../../services/">Services</a>
-          </li>
-          <li class='active'>
-            <a href="../">Classes</a>
-          </li>
-          <li>
-            <a href="../../trainers/">Trainers</a>
-          </li>
-          <li>
-            <a href="../../instructors/">Instructors</a>
-          </li>
-          <li>
-            <a href="../../pricing/">Packages</a>
-          </li>
-          <li>
-            <a href="../../news/">News</a>
-          </li>
-          <li>
-            <a href="../../contact/">Contact Us</a>
-          </li>
-          <li>
-            <a href="http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=-7&sView=week">Schedule a Class</a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/LATERALFITNESS">Facebook Page</a>
-          </li>
-          <li>
-            <a href="https://twitter.com/LateralFitness">Twitter</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <section class='main-content' role='main'>
-      <div class='row header'>
-        <div class='mobile-one columns show-for-small'>
-          <a class='sidebar-button' href='#sidebar' id='sidebarButton'>
-            <i class='fa fa-bars'></i>
-          </a>
-        </div>
-        <div class='seven mobile-three columns'>
-                    <a href="../../"><img alt="Lateral Fitness Chicago" src="../../images/branding/logo.png" />
-          </a>
-
-        </div>
-        <div class='five columns hide-for-small'>
+    <div class='off-canvas-wrap'>
+      <div class='inner-wrap'>
+        <aside class='left-off-canvas-menu'>
+          <ul class='nav-bar' id='sideMainNav'>
+            <li>
+              <a href="../../">Home</a>
+            </li>
+            <li>
+              <a href="../../about/">About</a>
+            </li>
+            <li>
+              <a href="../../services/">Services</a>
+            </li>
+            <li class='active'>
+              <a href="../">Classes</a>
+            </li>
+            <li>
+              <a href="../../trainers/">Trainers</a>
+            </li>
+            <li>
+              <a href="/instructors">Instructors</a>
+            </li>
+            <li>
+              <a href="pricing.html">Packages</a>
+            </li>
+            <li>
+              <a href="../../news/">News</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="http://clients.mindbodyonline.com/ws.asp?studioid=33786&amp;stype=-7&amp;sView=week">Schedule a class</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/LATERALFITNESS">Facebook Page</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/LateralFitness">Twitter</a>
+            </li>
+          </ul>
+        </aside>
+        <section class='main-content' role='main'>
           <div class='row header'>
-            <div class='six columns'>
-              <ul class='header-links'>
-                <li>
-                  <a href="../../">Home</a>
-                </li>
-                <li>
-                  <a href="../../about/">About</a>
-                </li>
-                <li>
-                  <a href="../../contact/">Contact Us</a>
-                </li>
-              </ul>
+            <div class='small-2 columns hide-for-large-up'>
+              <a class='left-off-canvas-toggle'>
+                <i class='fa fa-bars'></i>
+              </a>
             </div>
-            <div class='six columns header_social hide-for-small'>
-              <ul class='headline_socials main_socials'>
-                <li>
-                  <a class='facebook' href='https://www.facebook.com/LATERALFITNESS' target='_blank'>
-                    <i class='fa fa-facebook-square'></i>
-                  </a>
-                </li>
-                <li>
-                  <a class='twitter' href='https://twitter.com/LateralFitness' target='_blank'>
-                    <i class='fa fa-twitter-square'></i>
-                  </a>
-                </li>
-                <li>
-                  <a class='googleplus' href='//plus.google.com/106841841915858979964?prsrc=3' target='_blank'>
-                    <i class='fa fa-google-plus-square'></i>
-                  </a>
-                </li>
-                <li>
-                  <a class='instagram' href='http://instagram.com/lateralfitness?ref=badge' target='_blank'>
-                    <i class='fa fa-camera-retro'></i>
-                  </a>
-                </li>
-              </ul>
+            <div class='small-10 large-7 columns'>
+                            <a href="../../"><img alt="Lateral Fitness Chicago" src="../../images/branding/logo.png" />
+              </a>
+
+            </div>
+            <div class='medium-5 large-5 columns show-for-large-up'>
+              <div class='row header'>
+                <div class='large-6 columns'>
+                  <ul class='header-links'>
+                    <li>
+                      <a href="../../">Home</a>
+                    </li>
+                    <li>
+                      <a href="../../about/">About</a>
+                    </li>
+                    <li>
+                      <a href="../../contact/">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class='large-6 columns header_social show-for-large-up'>
+                  <ul class='headline_socials main_socials'>
+                    <li>
+                      <a class='facebook' href='https://www.facebook.com/LATERALFITNESS' target='_blank'>
+                        <i class='fa fa-facebook-square'></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class='twitter' href='https://twitter.com/LateralFitness' target='_blank'>
+                        <i class='fa fa-twitter-square'></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class='googleplus' href='//plus.google.com/106841841915858979964?prsrc=3' target='_blank'>
+                        <i class='fa fa-google-plus-square'></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class='instagram' href='http://instagram.com/lateralfitness?ref=badge' target='_blank'>
+                        <i class='fa fa-camera-retro'></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
+          <div class='row navigation show-for-large-up'>
+            <div class='large-12 columns'>
+              <nav class='top-bar' data='topbar'>
+                <ul class='title-area'>
+                  <li class='name'></li>
+                  <li class='toggle-topbar'>
+                    <a href='#'></a>
+                  </li>
+                </ul>
+                <section class='top-bar-section'>
+                  <ul class='nav-links left'>
+                    <li class='has-dropdown not-click'>
+                      <a href="../../services/">Services</a>
+                      <ul class='dropdown nav-dropdown'>
+                        <li>
+                          <a href="../../services/personal-training/">Personal Training</a>
+                        </li>
+                        <li>
+                          <a href="../../services/muscle-activation-technique/">Muscle Activation Technique</a>
+                        </li>
+                        <!-- %li -->
+                        <!-- = link_to 'Massage and Soul Therapy', '/services/soul.html' -->
+                        <li>
+                          <a href="../../services/corporate/">Corporate Wellness Program</a>
+                        </li>
+                        <li>
+                          <a href="../../services/lunch/">Lunchtime Membership</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class='active has-dropdown not-click'>
+                      <a href="../">Classes</a>
+                      <ul class='dropdown nav-dropdown'>
+                        <li>
+                          <a href="../endurance-training/">Running/Triathalon</a>
+                        </li>
+                        <li>
+                          <a href="../yoga/">Yoga & Pilates</a>
+                        </li>
+                        <li>
+                          <a href="./">High Intensity</a>
+                        </li>
+                        <li>
+                          <a href="../kettlebell/">Kettlebell</a>
+                        </li>
+                        <li>
+                          <a href="../challenge/">6 Week Challenge</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class='has-dropdown not-click'>
+                      <a href="../../trainers/">Trainers</a>
+                      <ul class='dropdown nav-dropdown'>
+                        <li>
+                          <a href="../../trainers/scott-mcwilliam/">Scott McWilliam</a>
+                        </li>
+                        <li>
+                          <a href="../../trainers/erik-marthaler/">Erik Marthaler</a>
+                        </li>
+                        <li>
+                          <a href="../../trainers/becky-williamson/">Becky Williamson</a>
+                        </li>
+                        <li>
+                          <a href="../../trainers/adrienne-marie/">Adrienne Marie</a>
+                        </li>
+                        <li>
+                          <a href="../../trainers/daniel-lona/">Daniel Lona</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class='has-dropdown not-click'>
+                      <a href="../../instructors/">Instructors</a>
+                      <ul class='dropdown nav-dropdown'>
+                        <li>
+                          <a href="../../instructors/katarina-arneric/">Katarina Arneric</a>
+                        </li>
+                        <li>
+                          <a href="../../instructors/jenny-finkel/">Jenny Finkel</a>
+                        </li>
+                        <li>
+                          <a href="../../instructors/sarah-elizabeth-helt/">Sarah Elizabeth Helt</a>
+                        </li>
+                        <li>
+                          <a href="../../instructors/adrienne-marie/">Adrienne Marie</a>
+                        </li>
+                        <li>
+                          <a href="../../instructors/molly-lersten/">Molly Lersten</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="../../pricing/">Packages</a>
+                    </li>
+                    <li>
+                      <a href="../../news/">News</a>
+                    </li>
+                  </ul>
+                  <ul class='right'>
+                    <li>
+                      <a target="_blank" href="http://clients.mindbodyonline.com/ws.asp?studioid=33786&amp;stype=-7&amp;sView=week"><i class='fa fa-calendar'></i> Schedule a Class</a>
+                    </li>
+                  </ul>
+                </section>
+              </nav>
+            </div>
+          </div>
+        </section>
+        <div class='row'>
+          <div class='large-12 columns'>
+            <h4 class='page-title'>High Intensity Classes</h4>
+          </div>
         </div>
-      </div>
-      <div class='row navigation hide-for-small'>
-        <div class='twelve columns'>
-          <nav class='top-bar'>
-            <ul>
-              <li class='name'></li>
-              <li class='toggle-topbar'>
-                <a href='#'></a>
+        <div class='row puff-bottom'>
+          <div class='large-4 columns hide-for-small'>
+            <img class="class-image" src="../../images/classes/high2.jpg" />
+            <div class='panel radiusclass'>
+              <h5 class='alt'>Referral Program</h5>
+              <p>Refer 3 friends who purchase any training or group class package and choose a complimentary group class of your choice. ($25 value)</p>
+            </div>
+            <ul class='side-nav'>
+              <li>
+                <a data-reveal-id='modal-policy' href='#'>
+                  Class Policy
+                </a>
+              </li>
+              <li>
+                <a data-reveal-id='modal-cancel' href='#'>
+                  Cancellations
+                </a>
               </li>
             </ul>
-            <section>
-              <ul class='nav-links'>
-                <li class='has-dropdown'>
-                  <a href="../../services/">Services</a>
-                  <ul class='dropdown nav-dropdown'>
-                    <li>
-                      <a href="../../services/personal-training/">Personal Training</a>
-                    </li>
-                    <li>
-                      <a href="../../services/muscle-activation-technique/">Muscle Activation Technique</a>
-                    </li>
-                    <!-- %li -->
-                    <!-- = link_to 'Massage and Soul Therapy', '/services/soul.html' -->
-                    <li>
-                      <a href="../../services/corporate/">Corporate Wellness Program</a>
-                    </li>
-                    <li>
-                      <a href="../../services/lunch/">Lunchtime Membership</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class='active has-dropdown'>
-                  <a href="../">Classes</a>
-                  <ul class='dropdown nav-dropdown'>
-                    <li>
-                      <a href="../endurance-training/">Running/Triathalon</a>
-                    </li>
-                    <li>
-                      <a href="../yoga/">Yoga & Pilates</a>
-                    </li>
-                    <li>
-                      <a href="./">High Intensity</a>
-                    </li>
-                    <li>
-                      <a href="../kettlebell/">Kettlebell</a>
-                    </li>
-                    <li>
-                      <a href="../challenge/">6 Week Challenge</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class='has-dropdown'>
-                  <a href="../../trainers/">Trainers</a>
-                  <ul class='dropdown nav-dropdown'>
-                    <li>
-                      <a href="../../trainers/scott-mcwilliam/">Scott McWilliam</a>
-                    </li>
-                    <li>
-                      <a href="../../trainers/erik-marthaler/">Erik Marthaler</a>
-                    </li>
-                    <li>
-                      <a href="../../trainers/becky-williamson/">Becky Williamson</a>
-                    </li>
-                    <li>
-                      <a href="../../trainers/adrienne-marie/">Adrienne Marie</a>
-                    </li>
-                    <li>
-                      <a href="../../trainers/daniel-lona/">Daniel Lona</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class='has-dropdown'>
-                  <a href="../../instructors/">Instructors</a>
-                  <ul class='dropdown nav-dropdown'>
-                    <li>
-                      <a href="../../instructors/katarina-arneric/">Katarina Arneric</a>
-                    </li>
-                    <li>
-                      <a href="../../instructors/jenny-finkel/">Jenny Finkel</a>
-                    </li>
-                    <li>
-                      <a href="../../instructors/sarah-elizabeth-helt/">Sarah Elizabeth Helt</a>
-                    </li>
-                    <li>
-                      <a href="../../instructors/adrienne-marie/">Adrienne Marie</a>
-                    </li>
-                    <li>
-                      <a href="../../instructors/molly-lersten/">Molly Lersten</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="../../pricing/">Packages</a>
-                </li>
-                <li>
-                  <a href="../../news/">News</a>
-                </li>
-              </ul>
-              <ul class='right'>
-                <li>
-                  <a target="_blank" href="http://clients.mindbodyonline.com/ws.asp?studioid=33786&stype=-7&sView=week"><i class='fa fa-calendar'></i> Schedule a Class</a>
-                </li>
-              </ul>
-            </section>
-          </nav>
+          </div>
+          <div class='small-12 large-8 columns classes'>
+            <table width='100%'>
+              <thead>
+                <tr>
+                  <th>
+                    Class
+                  </th>
+                  <th>
+                    Level
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a data-reveal-id='modal-1' href='#'>
+                      Recruit
+                    </a>
+                    <div class='reveal-modal small' data-reveal='' id='modal-1'>
+                      <h2>Recruit</h2>
+                      <p>RECRUIT is a high intensity circuit training interval bootcamp class that works the muscular and cardiovascular system as a whole. High intensity interval training has been proven to burn more calories, while making you stronger than many other workouts out there. In this class we incorporate bodyweight, free weight and cardiovascular intervals into one intense and fun hour. Using a heart rate monitor and calorie counter has proven this class can burn in the upwards of up to 800 calories an hour!</p>
+                      <a class='close-reveal-modal'>
+                        &#215;
+                      </a>
+                    </div>
+                  </td>
+                  <td>
+                    Intermediate to Advanced
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a data-reveal-id='modal-2' href='#'>
+                      QuickFit
+                    </a>
+                    <div class='reveal-modal small' data-reveal='' id='modal-2'>
+                      <h2>QuickFit</h2>
+                      <p>QuickFit is a 30 minute circuit training class that uses weights and cardio in timed intervals. This is a great class to get a quick workout in, that will still make you stronger and burn those calories, during a lunch break or when you thought you didn't have time to get to the gym! Knowledge of how to use weights is suggested.</p>
+                      <a class='close-reveal-modal'>
+                        &#215;
+                      </a>
+                    </div>
+                  </td>
+                  <td>
+                    All Levels
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a data-reveal-id='modal-3' href='#'>
+                      20/20/20
+                    </a>
+                    <div class='reveal-modal small' data-reveal='' id='modal-3'>
+                      <h2>20/20/20</h2>
+                      <p>Can’t decide what class to take? Take them ALL-IN-ONE! 20/20/20 is a fusion class incorporating 20 minutes of strength training with weights. 20 minutes of cardio training with H.I.I.T. (High Intensity Interval Training) then finishes with 20 minutes of ab and core work on the floor.</p>
+                      <a class='close-reveal-modal'>
+                        &#215;
+                      </a>
+                    </div>
+                  </td>
+                  <td>
+                    All Levels
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a data-reveal-id='modal-4' href='#'>
+                      Sculpt
+                    </a>
+                    <div class='reveal-modal small' data-reveal='' id='modal-4'>
+                      <h2>Sculpt</h2>
+                      <p>If you’re looking to add more weight training into your workout routine, this is the class for you.  This is total body toning, firming and sculpting class using free weights, your own body weight and resistance bands. Sculpt focuses on each muscle group throughout your body so that everything gets targeted equally and nothing is left behind.</p>
+                      <a class='close-reveal-modal'>
+                        &#215;
+                      </a>
+                    </div>
+                  </td>
+                  <td>
+                    All Levels
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a data-reveal-id='modal-5' href='#'>
+                      Sweat Shop
+                    </a>
+                    <div class='reveal-modal small' data-reveal='' id='modal-5'>
+                      <h2>Sweat Shop</h2>
+                      <p>If you don’t like to sweat, this isn’t the class for you! Sweat Shop is a circuit training based class where you work station by station. Sweat Shop uses functional exercises, weight training, plyometrics/high impact, low impact and isometric exercises to keep that heart rate moving up and down so you effectively and efficiently burn calories while getting a total body workout.</p>
+                      <a class='close-reveal-modal'>
+                        &#215;
+                      </a>
+                    </div>
+                  </td>
+                  <td>
+                    All Levels
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a data-reveal-id='modal-6' href='#'>
+                      Cardio Kick
+                    </a>
+                    <div class='reveal-modal small' data-reveal='' id='modal-6'>
+                      <h2>Cardio Kick</h2>
+                      <p>Cardio Kick is a non stop, up tempo cardio fusion class intermixing H.I.I.T. (High Intensity Interval Training), cardio kick boxing and light resistance training to give you that total body high caloric burn.</p>
+                      <a class='close-reveal-modal'>
+                        &#215;
+                      </a>
+                    </div>
+                  </td>
+                  <td>
+                    Intermediate to Advanced
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a data-reveal-id='modal-7' href='#'>
+                      Simply Shredded
+                    </a>
+                    <div class='reveal-modal small' data-reveal='' id='modal-7'>
+                      <h2>Simply Shredded</h2>
+                      <p>Simply Shredded is a 1 hour total body, cardio, strength and conditioning workout. We isolate one muscle group at a time while taking you through 3 stages of the movement: Stage 1- Easy, Stage 2- Moderate and Stage 3 - Advanced. Each stage is 20 seconds long. Three stages of the exercise are shown, you have 3 choices of which level you'd like to stay at or go to every 20 seconds. Simply Shredded uses hand weights, bands, yoga mats and pilates rings to make sure all muscle groups are taken to failure. The circuits are intermixed with spurts of H.I.I.T. (High Intensity Interval Training) to keep your heart rate moving up and down throughout class which will get you closer to getting Shredded! This class is for the intense class seekers!</p>
+                      <a class='close-reveal-modal'>
+                        &#215;
+                      </a>
+                    </div>
+                  </td>
+                  <td>
+                    Intermediate to Advanced
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a data-reveal-id='modal-8' href='#'>
+                      Piloxing
+                    </a>
+                    <div class='reveal-modal small' data-reveal='' id='modal-8'>
+                      <h2>Piloxing</h2>
+                      <p>A hot new Hollywood workout that was created by Swedish Fitness Icon –Viveca Jenson. This class combines the powerful moves of boxing, standing pilates and a touch of dance. You will experience an interval based workout which raises your heart rate and allows for recovery periods. Each class ends with 15mn of butt and abs work and a powerful cool down message.</p>
+                      <a class='close-reveal-modal'>
+                        &#215;
+                      </a>
+                    </div>
+                  </td>
+                  <td>
+                    All Levels
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
+        <div class='row'>
+          <div class='large-12 columns'>
+            <p class='large centered'>Please keep checking back! Classes are added monthly!</p>
+          </div>
+        </div>
+        <div class='reveal-modal small' data-reveal='' id='modal-policy'>
+          <h2>Class Policy</h2>
+          <p>Please show up 15 minutes before the start of the class for equipment set up. Since Lateral Fitness wants to keep each class moving smoothly you are not allowed to show up after the start of the class. Please notify Lateral Fitness if you are running late. We will release your reservation if you are not present at the start of class.</p>
+        </div>
+        <div class='reveal-modal small' data-reveal='' id='modal-cancel'>
+          <h2>Cancellations</h2>
+          <p>Do to our limit class sizes (15-20) Yoga (15-20) Pilates (8-10) Bootcamps, it is imperative for you to cancel your scheduled appointment within 12 hours of class time. If you fail to cancel within the allotted time you will be charged for the single price of the class or if you have purchased a package you will forfeit a session.</p>
+        </div>
+        <div class='row footer'>
+          <div class='small-7 columns'>
+            <a href='/'>
+              <img alt="Lateral Fitness Chicago" width="250" height="48" class="hide-for-small" src="../../images/branding/logo.png" />
+            </a>
+          </div>
+          <div class='small-5 columns address'>
+            <ul class='footer_list'>
+              <li class='footer_item'>314 West Superior LL-E, Chicago, IL 60654</li>
+            </ul>
+            <ul class='footer_list'>
+              <li class='footer_item'>312-291-9466 | <a href="mailto:info@trainlateral.com">info@trainlateral.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <a class='exit-off-canvas'></a>
       </div>
-      <div class='row'>
-  <div class='twelve columns'>
-    <h4 class='page-title'>High Intensity Classes</h4>
-  </div>
-</div>
-<div class='row puff-bottom'>
-  <div class='four columns hide-for-small'>
-    <img class="class-image" src="../../images/classes/high2.jpg" />
-    <div class='panel radiusclass'>
-      <h5 class='alt'>Referral Program</h5>
-      <p>Refer 3 friends who purchase any training or group class package and choose a complimentary group class of your choice. ($25 value)</p>
     </div>
-  </div>
-  <div class='eight columns classes'>
-    <ul class='accordion'>
-      <li>
-        <div class='title'>
-          Recruit
-          <span class='level'>
-            Intermediate to Advanced
-          </span>
-        </div>
-        <div class='content'>
-          RECRUIT is a high intensity circuit training interval bootcamp class that works the muscular and cardiovascular system as a whole. High intensity interval training has been proven to burn more calories, while making you stronger than many other workouts out there. In this class we incorporate bodyweight, free weight and cardiovascular intervals into one intense and fun hour. Using a heart rate monitor and calorie counter has proven this class can burn in the upwards of up to 800 calories an hour!
-        </div>
-      </li>
-      <li>
-        <div class='title'>
-          QuickFit
-          <span class='level'>
-            All Levels
-          </span>
-        </div>
-        <div class='content'>
-          QuickFit is a 30 minute circuit training class that uses weights and cardio in timed intervals. This is a great class to get a quick workout in, that will still make you stronger and burn those calories, during a lunch break or when you thought you didn't have time to get to the gym! Knowledge of how to use weights is suggested.
-        </div>
-      </li>
-      <li>
-        <div class='title'>
-          20/20/20
-          <span class='level'>
-            All Levels
-          </span>
-        </div>
-        <div class='content'>
-          Can’t decide what class to take? Take them ALL-IN-ONE! 20/20/20 is a fusion class incorporating 20 minutes of strength training with weights. 20 minutes of cardio training with H.I.I.T. (High Intensity Interval Training) then finishes with 20 minutes of ab and core work on the floor.
-        </div>
-      </li>
-      <li>
-        <div class='title'>
-          Sculpt
-          <span class='level'>
-            All Levels
-          </span>
-        </div>
-        <div class='content'>
-          If you’re looking to add more weight training into your workout routine, this is the class for you.  This is total body toning, firming and sculpting class using free weights, your own body weight and resistance bands. Sculpt focuses on each muscle group throughout your body so that everything gets targeted equally and nothing is left behind.
-        </div>
-      </li>
-      <li>
-        <div class='title'>
-          Sweat Shop
-          <span class='level'>
-            All Levels
-          </span>
-        </div>
-        <div class='content'>
-          If you don’t like to sweat, this isn’t the class for you! Sweat Shop is a circuit training based class where you work station by station. Sweat Shop uses functional exercises, weight training, plyometrics/high impact, low impact and isometric exercises to keep that heart rate moving up and down so you effectively and efficiently burn calories while getting a total body workout.
-        </div>
-      </li>
-      <li>
-        <div class='title'>
-          Cardio Kick
-          <span class='level'>
-            Intermediate to Advanced
-          </span>
-        </div>
-        <div class='content'>
-          Cardio Kick is a non stop, up tempo cardio fusion class intermixing H.I.I.T. (High Intensity Interval Training), cardio kick boxing and light resistance training to give you that total body high caloric burn.
-        </div>
-      </li>
-      <li>
-        <div class='title'>
-          Simply Shredded
-          <span class='level'>
-            Intermediate to Advanced
-          </span>
-        </div>
-        <div class='content'>
-          Simply Shredded is a 1 hour total body, cardio, strength and conditioning workout. We isolate one muscle group at a time while taking you through 3 stages of the movement: Stage 1- Easy, Stage 2- Moderate and Stage 3 - Advanced. Each stage is 20 seconds long. Three stages of the exercise are shown, you have 3 choices of which level you'd like to stay at or go to every 20 seconds. Simply Shredded uses hand weights, bands, yoga mats and pilates rings to make sure all muscle groups are taken to failure. The circuits are intermixed with spurts of H.I.I.T. (High Intensity Interval Training) to keep your heart rate moving up and down throughout class which will get you closer to getting Shredded! This class is for the intense class seekers!
-        </div>
-      </li>
-      <li>
-        <div class='title'>
-          Piloxing
-          <span class='level'>
-            All Levels
-          </span>
-        </div>
-        <div class='content'>
-          A hot new Hollywood workout that was created by Swedish Fitness Icon –Viveca Jenson. This class combines the powerful moves of boxing, standing pilates and a touch of dance. You will experience an interval based workout which raises your heart rate and allows for recovery periods. Each class ends with 15mn of butt and abs work and a powerful cool down message.
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-<div class='row'>
-  <div class='twelve columns'>
-    <p class='large centered'>Please keep checking back! Classes are added monthly!</p>
-    <hr class='colored eight columns centered puff-bottom'>
-    <span class='note'>Class Policy</span>
-    <p class='small'>Please show up 15 minutes before the start of the class for equipment set up. Since Lateral Fitness wants to keep each class moving smoothly you are not allowed to show up after the start of the class. Please notify Lateral Fitness if you are running late. We will release your reservation if you are not present at the start of class.</p>
-    <span class='note'>Cancellations</span>
-    <p class='small'>Do to our limit class sizes (15-20) Yoga (15-20) Pilates (8-10) Bootcamps, it is imperative for you to cancel your scheduled appointment within 12 hours of class time. If you fail to cancel within the allotted time you will be charged for the single price of the class or if you have purchased a package you will forfeit a session.</p>
-  </div>
-</div>
-      <footer class='row'>
-        <div class='seven columns'>
-          <a href='/'>
-            <img alt="Lateral Fitness Chicago" width="250" height="48" class="hide-for-small" src="../../images/branding/logo.png" />
-          </a>
-        </div>
-        <div class='five columns address'>
-          <ul class='footer_list'>
-            <li class='footer_item'>314 West Superior LL-E, Chicago, IL 60654</li>
-          </ul>
-          <ul class='footer_list'>
-            <li class='footer_item'>312-291-9466 | <a href="mailto:info@trainlateral.com">info@trainlateral.com</a></li>
-          </ul>
-        </div>
-      </footer>
-    </section>
-    <script src="../../javascripts/app.js" type="text/javascript"></script>
-    <script src="../../javascripts/main.js" type="text/javascript"></script>
+    <script src="../../javascripts/all.js" type="text/javascript"></script>
     <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-37734676-1']);

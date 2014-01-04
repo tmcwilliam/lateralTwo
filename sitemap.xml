@@ -9,35 +9,39 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/classes</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/bower_components/modernizr/test/basic</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/contact</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/bower_components/modernizr/test/caniuse</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/index.html</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/bower_components/modernizr/test/caniuse_files/form_validation</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/instructors</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/bower_components/modernizr/test/caniuse_files/hashchange</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/news</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/bower_components/modernizr/test/caniuse_files/mathml</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/pricing</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/bower_components/modernizr/test/caniuse_files/pushstate</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/services</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/bower_components/modernizr/test/caniuse_files/xhtml</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/trainers</loc>
+    <loc>http://tmcwilliam.github.io/lateralTwo/bower_components/modernizr/test</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/bower_components/modernizr/test/js/basic</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -58,6 +62,18 @@
   </url>
   <url>
     <loc>http://tmcwilliam.github.io/lateralTwo/classes/yoga</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/classes</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/contact</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/index.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -89,6 +105,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/instructors</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/news</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/pricing</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://tmcwilliam.github.io/lateralTwo/services/corporate</loc>
     <priority>0.7</priority>
   </url>
@@ -109,15 +137,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/services</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://tmcwilliam.github.io/lateralTwo/trainers/adrienne-marie</loc>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://tmcwilliam.github.io/lateralTwo/trainers/becky-williamson</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://tmcwilliam.github.io/lateralTwo/trainers/charlie-cates</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -130,6 +158,10 @@
   </url>
   <url>
     <loc>http://tmcwilliam.github.io/lateralTwo/trainers/scott-mcwilliam</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://tmcwilliam.github.io/lateralTwo/trainers</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
