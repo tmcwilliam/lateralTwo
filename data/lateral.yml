@@ -99,6 +99,11 @@ photos:
     #     filename: shower.jpg
 
 events:
+  - name: Anniversary Party
+    date: "Saturday, February 1"
+    image: anniversary.jpg
+    body: "Come celebrate our 1 year anniversary! Drinks, hors d'oeuvres, and gifts."
+    link: "http://www.evite.com/event/0131MHFBCL2CV44GYEPDOPGBO5BF2E?gid=0131DF26FJCGXQFQEEPDO32F6MXHNA"
 
 pastevents:
   -
@@ -119,6 +124,21 @@ pastevents:
   #   body: "blah blah blah"
 
 press:
+  - name: Get Fit
+    date: "January 2014"
+    image: cs_getfit.jpg
+    body: "Check us out in the latest edition of Modern Luxury"
+    link: "http://digital.modernluxury.com/publication/?i=190267&ver=html5&p=140"
+  - name: 5 Trainers to Know
+    date: "January 2014"
+    image: erik-bio.jpg
+    body: "We caught up with 5 of Chicago's best-known trainers and learned more about staying healthy and fit throughout 2014 and beyond."
+    link: "http://michiganavemag.com/living/articles/5-trainers-give-health-tips-equinox-lateral-fitness-trainology-equinox-fitness-formula-clubs-5th-line-studio#EgA0yrMXikriGtOU.01"
+  - name: Evolution
+    date: "January 2014"
+    image: evolution.jpg
+    body: "Workout studios are hot, hot, hot...but why?"
+    link: http://content.yudu.com/Library/A2ljn2/ChicagoAthleteMagazi/resources/28.htm
   -
     name: Nonstop Activation
     date: "November 2013"
@@ -149,3 +169,6 @@ press:
     image: natural.jpg
     body: "Lateral Fitness is a new, one-of-a-kind, boutique gym in River North, offering yoga, mat Pilates, high-intensity interval training classes, muscle activation technique (MAT), half and full marathon and triathlon programs coached by a Team USA athlete, personal training and nutrition."
     link: http://www.nachicagonorth.com/CHI/April-2013/Lateral-Fitness-Gym-Open-in-River-North/
+
+tour: 
+  src: "https://maps.google.com/maps?q=&layer=c&sll=41.895852,-87.636599&cid=9969609811305301754&panoid=L_L8ceWvlMgAAAAGOnG1og&cbp=13,90.07,,0,6.4&gl=US&hl=en&ie=UTF8&hq=+loc:+&hnear=&t=m&cbll=41.895727,-87.63655&source=embed&ll=41.893928,-87.636545&spn=0.006293,0.01502&z=16&output=svembed"
