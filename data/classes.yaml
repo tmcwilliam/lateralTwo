@@ -7,22 +7,10 @@ yoga:
     title: Barefoot Bootcamp
     content: "This class infuses the heart-pumping qualities of  classical calisthenics, body-weight exercises, plyometrics and traditional yoga inspired sun salutations to strengthen and tone your entire body. If you want to achieve the fitness benefits of a bootcamp without all the screaming and yelling, enlist in Barefoot Bootcamp!"
     level: All Levels
-  # -
-  #   title: Barre Infusion
-  #   content: "Quickly and safely reshapes the entire body in a fat burning fashion. This class is a low impact, 45 minute workout that features 25 minutes of muscle-shaping isometrics at the barre and 20 minutes of Pilates inspired core work.  This class targets all major muscle groups and improves posture. The results feature tighter legs and butt, sculpted arms, and a stronger core."
-  #   level: All Levels
-  # - 
-  #   title: Body Tone
-  #   content: "Work your deep muscles and tone those ‘hard to reach’ areas! Body Tone uses functional and bodyweight exercises in partnership with isometric and small movements to leave you feeling sculpted and ready to take on the day!"
-  #   level: All Levels
   - 
     title: Core Inferno
     content: "You will surely feel the burn in this heated core class. Using core strengthening techniques from Floor Pilates, yoga and Barre classes, you will heat up from the inside out. Combinations and exercises target deep muscles, toning and strengthening the abdomen. The room will also be heated to around 85 degrees."
     level: All Levels
-  # - 
-  #   title: Power Yoga
-  #   content: "This class is more rigorous than a normal yoga flow and will raise your vitality and physical power. Incorporating simple but challenging poses, core work, and focused breath, this practice will amplify your personal power on the mat. Focus your mind and body in new ways to create exciting change. Suggested for those with some previous yoga experience, but suitable for all levels."
-  #   level: All Levels
   -
     title: Vinyasa Yoga
     content: "This flow class is all about connecting breath (pranayama) to movement (asana). Expect a mix of vigorous standing postures and balances with heart opening back bends and hip opening postures, ending with a deep relaxation. Through the practice you will focus your mind, challenge your body, and ease stress. Each class will be structured differently by our expert instructors, so you’ll never get bored. Basic yoga experience suggested. (We also have Beginner Vinyasa and Power Vinyasa - for the advanced as well)"
@@ -54,18 +42,6 @@ high:
     title: 20/20/20
     content: "Can’t decide what class to take? Take them ALL-IN-ONE! 20/20/20 is a fusion class incorporating 20 minutes of strength training with weights. 20 minutes of cardio training with H.I.I.T. (High Intensity Interval Training) then finishes with 20 minutes of ab and core work on the floor."
     level: All Levels
-  # - 
-  #   title: B.A.C. Attack
-  #   content: "Alternating every other week with Just Buns, this class works your Arms, Abs & Chest. This class focuses on strengthening, toning and defining all of your upper body muscles while teaching you proper form and technique for optimum results in just 30 minutes!"
-  #   level: All Levels
-  # - 
-  #   title: Body Tone
-  #   content: "Work your deep muscles and tone those ‘hard to reach’ areas! Body Tone uses functional and bodyweight exercises in partnership with isometric and small movements to leave you feeling sculpted and ready to take on the day!"
-  #   level: All Levels
-  # - 
-  #   title: Just Buns
-  #   content: "Alternating every other week with B.A.C Attack, this class focuses only on hamstrings, buns and inner/outer thighs! If you’re looking to help reshape, lift and tighten your backside, this is the class for you!"
-  #   level: All Levels
   - 
     title: Sculpt
     content: "If you’re looking to add more weight training into your workout routine, this is the class for you.  This is total body toning, firming and sculpting class using free weights, your own body weight and resistance bands. Sculpt focuses on each muscle group throughout your body so that everything gets targeted equally and nothing is left behind."
@@ -74,10 +50,6 @@ high:
     title: Sweat Shop
     content: "If you don’t like to sweat, this isn’t the class for you! Sweat Shop is a circuit training based class where you work station by station. Sweat Shop uses functional exercises, weight training, plyometrics/high impact, low impact and isometric exercises to keep that heart rate moving up and down so you effectively and efficiently burn calories while getting a total body workout."
     level: All Levels
-  # - 
-  #   title: Quick H.I.I.T
-  #   content: "Quick H.I.I.T is half of SweatShop + boxing! Station training for 30 minutes targeting all muscle groups, cardio and boxing with gloves and pads!"
-  #   level: All Levels
   - 
     title: Cardio Kick
     content: "Cardio Kick is a non stop, up tempo cardio fusion class intermixing H.I.I.T. (High Intensity Interval Training), cardio kick boxing and light resistance training to give you that total body high caloric burn."
@@ -86,10 +58,6 @@ high:
     title: Simply Shredded
     content: "Simply Shredded is a 1 hour total body, cardio, strength and conditioning workout. We isolate one muscle group at a time while taking you through 3 stages of the movement: Stage 1- Easy, Stage 2- Moderate and Stage 3 - Advanced. Each stage is 20 seconds long. Three stages of the exercise are shown, you have 3 choices of which level you'd like to stay at or go to every 20 seconds. Simply Shredded uses hand weights, bands, yoga mats and pilates rings to make sure all muscle groups are taken to failure. The circuits are intermixed with spurts of H.I.I.T. (High Intensity Interval Training) to keep your heart rate moving up and down throughout class which will get you closer to getting Shredded! This class is for the intense class seekers!"
     level: Intermediate to Advanced
-  -
-    title: Piloxing
-    content: "A hot new Hollywood workout that was created by Swedish Fitness Icon –Viveca Jenson. This class combines the powerful moves of boxing, standing pilates and a touch of dance. You will experience an interval based workout which raises your heart rate and allows for recovery periods. Each class ends with 15mn of butt and abs work and a powerful cool down message."
-    level: All Levels
 
 challenge:
   -
