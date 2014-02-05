@@ -9,8 +9,8 @@ page_id: news
     %dl.tabs
       %dd.active
         = link_to "Press", "#press"
-      %dd
-        = link_to "Upcoming Events", "#events"
+      / %dd
+      /   = link_to "Upcoming Events", "#events"
       %dd
         = link_to "Past Events", "#past"
       %dd
@@ -33,19 +33,19 @@ page_id: news
                   Read more
                   %i.fa.fa-chevron-right.small
 
-      %li#eventsTab
-        %ul.block-grid.three-up.mobile-one-up
-          - data.lateral.events.each do |e|
-            %li.member
-              .panel.constant
-                %h5.name= e.name
-                %p.subheader.date= e.date
-                = link_to "#{e.link}", :target => "_blank" do
-                  = image_tag "/images/events/#{e.image}", :class => "th"
-                %p.body.ellipsis= e.body
-                = link_to "#{e.link}", :target => "_blank" do
-                  Read more
-                  %i.fa.fa-chevron-right.small
+      / %li#eventsTab
+      /   %ul.block-grid.three-up.mobile-one-up
+      /     - data.lateral.events.each do |e|
+      /       %li.member
+      /         .panel.constant
+      /           %h5.name= e.name
+      /           %p.subheader.date= e.date
+      /           = link_to "#{e.link}", :target => "_blank" do
+      /             = image_tag "/images/events/#{e.image}", :class => "th"
+      /           %p.body.ellipsis= e.body
+      /           = link_to "#{e.link}", :target => "_blank" do
+      /             Read more
+      /             %i.fa.fa-chevron-right.small
 
       %li#pastTab
         %ul.block-grid.three-up.mobile-one-up

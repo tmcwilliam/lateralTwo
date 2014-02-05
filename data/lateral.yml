@@ -99,13 +99,13 @@ photos:
     #     filename: shower.jpg
 
 events:
+
+pastevents:
   - name: Anniversary Party
     date: "Saturday, February 1"
     image: anniversary.jpg
     body: "Come celebrate our 1 year anniversary! Drinks, hors d'oeuvres, and gifts."
     link: "http://www.evite.com/event/0131MHFBCL2CV44GYEPDOPGBO5BF2E?gid=0131DF26FJCGXQFQEEPDO32F6MXHNA"
-
-pastevents:
   -
     name: Vino and Vinyasa
     date: "August 16, 2013"
