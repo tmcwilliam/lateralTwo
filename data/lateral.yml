@@ -124,10 +124,20 @@ pastevents:
   #   body: "blah blah blah"
 
 press:
+  - name: Speaking Volume
+    date: "January 31, 2014"
+    image: dennis.jpg
+    body: "Gold Coast salon owner Dennis Bartolomei shares style and beauty items to keep you looking good from head to toe."
+    link: http://splash.suntimes.com/2014/01/31/trending-now-speaking-volume/
+  - name: Top Five
+    date: "February 2014"
+    image: cs_feb.jpg
+    body: "Check us out in the latest edition of Modern Luxury"
+    link: "/images/events/Lateral_Top5.pdf"
   - name: Get Fit
     date: "January 2014"
     image: cs_getfit.jpg
-    body: "Check us out in the latest edition of Modern Luxury"
+    body: "Check us out in the January edition of Modern Luxury"
     link: "http://digital.modernluxury.com/publication/?i=190267&ver=html5&p=140"
   - name: 5 Trainers to Know
     date: "January 2014"

@@ -187,6 +187,9 @@ $lines-to-show: 5;
     line-height:46px;
     text-transform:uppercase;
   }
+  .description.double {
+    padding: 2.5px;
+  }
   &.most-popular .title {
     background-color: red;
   }
