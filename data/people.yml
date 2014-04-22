@@ -1,12 +1,12 @@
 trainers:
-  - 
-    name: Scott McWilliam
-    title: "Co-Founder, RTSm &amp; MAT Specialist"
-    page: scott-mcwilliam.html
-    thumb: scott-mcwilliam.jpg
-    image: scott-mcwilliam-large.jpg
-    blurb: "Scott, co-founder of Lateral Fitness, has been training since 2004. Scott has a firm belief that education is key to the foundation of a trainer"
-    facebook: scott.mcwilliam.75
+  # - 
+  #   name: Scott McWilliam
+  #   title: "Co-Founder, RTSm &amp; MAT Specialist"
+  #   page: scott-mcwilliam.html
+  #   thumb: scott-mcwilliam.jpg
+  #   image: scott-mcwilliam-large.jpg
+  #   blurb: "Scott, co-founder of Lateral Fitness, has been training since 2004. Scott has a firm belief that education is key to the foundation of a trainer"
+  #   facebook: scott.mcwilliam.75
   -
     name: Erik Marthaler
     title: "Co-Founder, Endurance &amp; Weight Loss Specialist"
@@ -31,6 +31,27 @@ trainers:
     image: daniel-lona-large.jpg
     blurb: "Daniel helps women achieve their leanest, firmest, and best bodies through strength training"
     facebook: lonafitnes.com
+  -
+    name: Mike George
+    title: "Personal Trainer"
+    page: mike-george.html
+    thumb: mike_george.jpg
+    image: mike-george-large.jpg
+    blurb: "Mike has earned multiple certifications over his 20 years as a personal trainer from organizations such as ACE and ACSM."
+  -
+    name: Shelby Heator
+    title: "Personal Trainer"
+    page: shelby-heator.html
+    thumb: shelby-heator.jpg
+    image: shelby-heator-large.jpg
+    blurb: "Shelby believes that fitness is an integral part of living a long and happy life and as a personal trainer"
+  -
+    name: Sharrod Graham
+    title: "Athletic Trainer"
+    page: sharrod-graham.html
+    thumb: sharrod.jpg
+    image: sharrod-large.jpg
+    blurb: "Sharrod is a Certified/Licensed Athletic Trainer (ATC/L) and a Certified Strength and Conditioning Specialist (CSCS)."
 
 instructors:
   - 
