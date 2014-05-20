@@ -4,24 +4,8 @@ yoga:
     content: "Mat Pilates is a class that uses mindful movement to build strength, beginning with the abdomen, lower back and hips. While taking this class, you will also emphasize on body alignment, posture and breathing. A series of consecutive stretching and strengthening exercises are performed on the floor using tools such as your own body weight, Pilates rings, blocks and light dumbbells."
     level: All Levels
   - 
-    title: Barefoot Bootcamp
-    content: "This class infuses the heart-pumping qualities of  classical calisthenics, body-weight exercises, plyometrics and traditional yoga inspired sun salutations to strengthen and tone your entire body. If you want to achieve the fitness benefits of a bootcamp without all the screaming and yelling, enlist in Barefoot Bootcamp!"
-    level: All Levels
-  - 
-    title: Core Inferno
-    content: "You will surely feel the burn in this heated core class. Using core strengthening techniques from Floor Pilates, yoga and Barre classes, you will heat up from the inside out. Combinations and exercises target deep muscles, toning and strengthening the abdomen. The room will also be heated to around 85 degrees."
-    level: All Levels
-  -
-    title: Vinyasa Yoga
-    content: "This flow class is all about connecting breath (pranayama) to movement (asana). Expect a mix of vigorous standing postures and balances with heart opening back bends and hip opening postures, ending with a deep relaxation. Through the practice you will focus your mind, challenge your body, and ease stress. Each class will be structured differently by our expert instructors, so you’ll never get bored. Basic yoga experience suggested. (We also have Beginner Vinyasa and Power Vinyasa - for the advanced as well)"
-    level: All Levels
-  - 
     title: Yin Athletica
     content: "Yin Athletica is a deep restorative class with long passive stretching sequences which includes some prone and kneeling postures. Addressing the opening and release of the major joints: deep spinal twists, profound shoulder and hip openers, to access the deeper layer of tissue (fascia) done with long 3 - 5 minute holds. Following a yin class, your body can feel deeply relaxed and often the effects of the release can last long after, releasing deep seated tension and emotions. Come enjoy and discover as you unfold! This class is for all levels for the 'athlete' in all of us! (We also offer a Yin Yoga class for the non-athlete)"
-    level: All Levels
-  -
-    title: Ying / Yang Yoga
-    content: "Yin/Yang Yoga is based on the Taoist concept of yin and yang, opposite and complementary principles in nature. Yin/Yang yoga combines passive and active asanas (postures) to strengthen the joints and muscles of the body. Please expect long relaxing holds to open the joints, Sun Salutations, standing balance poses, and core work."
     level: All Levels
   - 
     title: Yoga Sculpt
@@ -30,6 +14,10 @@ yoga:
 
 
 high:
+  -
+    title: Pure Fusion
+    content: "Divide the room in half - one side pure cardio and core, the other is total body resistance/functional training, body weight exercises, barre work and muscle isolation and you have yourself Pure Fusion! By constantly moving back and forth causing muscular confusion and a constant elevation of the heart rate, one burns more calories and fat while strengthening the muscular and cardiovascular system at the same time! This is your one stop shop!"
+    level: All Levels
   - 
     title: Recruit
     content: "RECRUIT is a high intensity circuit training interval bootcamp class that works the muscular and cardiovascular system as a whole. High intensity interval training has been proven to burn more calories, while making you stronger than many other workouts out there. In this class we incorporate bodyweight, free weight and cardiovascular intervals into one intense and fun hour. Using a heart rate monitor and calorie counter has proven this class can burn in the upwards of up to 800 calories an hour!"
@@ -39,10 +27,6 @@ high:
     content: "QuickFit is a 30 minute circuit training class that uses weights and cardio in timed intervals. This is a great class to get a quick workout in, that will still make you stronger and burn those calories, during a lunch break or when you thought you didn't have time to get to the gym! Knowledge of how to use weights is suggested."
     level: All Levels
   - 
-    title: 20/20/20
-    content: "Can’t decide what class to take? Take them ALL-IN-ONE! 20/20/20 is a fusion class incorporating 20 minutes of strength training with weights. 20 minutes of cardio training with H.I.I.T. (High Intensity Interval Training) then finishes with 20 minutes of ab and core work on the floor."
-    level: All Levels
-  - 
     title: Sculpt
     content: "If you’re looking to add more weight training into your workout routine, this is the class for you.  This is total body toning, firming and sculpting class using free weights, your own body weight and resistance bands. Sculpt focuses on each muscle group throughout your body so that everything gets targeted equally and nothing is left behind."
     level: All Levels
@@ -50,10 +34,6 @@ high:
     title: Sweat Shop
     content: "If you don’t like to sweat, this isn’t the class for you! Sweat Shop is a circuit training based class where you work station by station. Sweat Shop uses functional exercises, weight training, plyometrics/high impact, low impact and isometric exercises to keep that heart rate moving up and down so you effectively and efficiently burn calories while getting a total body workout."
     level: All Levels
-  - 
-    title: Cardio Kick
-    content: "Cardio Kick is a non stop, up tempo cardio fusion class intermixing H.I.I.T. (High Intensity Interval Training), cardio kick boxing and light resistance training to give you that total body high caloric burn."
-    level: Intermediate to Advanced
   - 
     title: Simply Shredded
     content: "Simply Shredded is a 1 hour total body, cardio, strength and conditioning workout. We isolate one muscle group at a time while taking you through 3 stages of the movement: Stage 1- Easy, Stage 2- Moderate and Stage 3 - Advanced. Each stage is 20 seconds long. Three stages of the exercise are shown, you have 3 choices of which level you'd like to stay at or go to every 20 seconds. Simply Shredded uses hand weights, bands, yoga mats and pilates rings to make sure all muscle groups are taken to failure. The circuits are intermixed with spurts of H.I.I.T. (High Intensity Interval Training) to keep your heart rate moving up and down throughout class which will get you closer to getting Shredded! This class is for the intense class seekers!"

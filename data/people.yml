@@ -52,14 +52,15 @@ trainers:
     thumb: sharrod.jpg
     image: sharrod-large.jpg
     blurb: "Sharrod is a Certified/Licensed Athletic Trainer (ATC/L) and a Certified Strength and Conditioning Specialist (CSCS)."
+  -
+    name: Kara Schabecker
+    title: "Myofascial Release Therapist"
+    page: kara-schabecker.html
+    thumb: kara-schabecker.jpg
+    image: kara-schabecker-large.jpg
+    blurb: "Kara attended the SOMA Institute of Chicago where she graduated valedictorian of her class and received a degree in clinical massage therapy."
 
 instructors:
-  - 
-    name: Katarina Arneric
-    title: Yoga Instructor
-    page: katarina-arneric.html
-    thumb: katarina.jpg
-    blurb: "Katarina Arneric is a yoga instructor, health coach, dance teacher, food blogger, photographer"
   - 
     name: Jenny Finkel
     title: Yoga Instructor
@@ -87,3 +88,10 @@ instructors:
     thumb: molly-lersten.jpg
     image: molly-lersten-large.jpg
     blurb: "Molly discovered pilates in 2008 as a new way to challenge her exercise routine"
+  -
+    name: Carla Coelho
+    title: Pilates Instructor
+    page: carla-coelho.html
+    thumb: carla-coelho.jpg
+    image: carla-coelho-large.jpg
+    blurb: "Carla Coelho has worked in the fitness industry for over seven years as a group fitness instructor"

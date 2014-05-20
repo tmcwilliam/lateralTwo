@@ -9,16 +9,16 @@ services:
     page: muscle-activation-technique.html
     thumb: mat.jpg
     blurb: "A muscle contraction evaluation process that complements exercise and injury rehab."
+  - 
+    name: Muscle System Specialist
+    page: mss.html
+    thumb: mss_thumb.jpg
+    blurb: "Improving your human performance"
   -
     name: Corporate Wellness Program
     page: corporate.html
     thumb: default.jpg
     blurb: "Join the Corporate Wellness Family at Lateral Fitness!"
-  # - 
-  #   name: Massage and Soul Therapy
-  #   page: soul
-  #   thumb: kettlebell_thumb.jpg
-  #   blurb: "Need to get out of the office during lunch? Lateral fitness is happy to offer a lunch-time membership."
   - 
     name: Lunchtime Membership
     page: lunch.html
@@ -42,10 +42,10 @@ classes:
     thumb: high3.jpg
     blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
   -
-    name: Kettlebell Classes
+    name: Kettlebell Program
     page: kettlebell.html
     thumb: kettlebell_thumb.jpg
-    blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
+    blurb: Program to fit everyone's needs and goals by top professionals in the Chicago land area.
   -
     name: 6 Week Challenge
     page: challenge.html
@@ -124,6 +124,11 @@ pastevents:
   #   body: "blah blah blah"
 
 press:
+  - name: "It's more than the Miles"
+    date: "May 2014"
+    image: chicago-athlete.jpg
+    body: "Cross training allows runner of all abilities to reach their peak performance levels and helps ward off those pesky injuries."
+    link: http://issuu.com/klambo44/docs/camay2014/37?e=2640429/7533079
   - name: Speaking Volume
     date: "January 31, 2014"
     image: dennis.jpg

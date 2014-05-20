@@ -598,6 +598,23 @@ blockquote.left .blockquote_wrapper {
   line-height: 12px;
 }
 
+.mss_top_panel {
+  background: url(/images/services/scott_active.jpg) 0 0 transparent;
+  height: 300px;
+  .panel {
+    margin-top: 80px;
+    text-align: center;
+    background: rgba(242, 242, 242, 0.62);
+    border: none;
+  }
+}
+.mss_row {
+  padding: 20px;
+}
+.benefit {
+  padding-top: 60px;
+}
+
 @media only screen and (max-width: 767px) {
   .promos .panel {
     min-height: 100px;
