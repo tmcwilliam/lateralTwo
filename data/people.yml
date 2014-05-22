@@ -1,12 +1,14 @@
+mss: 
+  - 
+    name: Scott McWilliam
+    title: "Co-Founder, MSS, RTSm &amp; MAT Specialist"
+    page: scott-mcwilliam.html
+    thumb: scott-mcwilliam.jpg
+    image: scott-mcwilliam-large.jpg
+    blurb: "Scott McWilliam, co-founder of Lateral Fitness, has been involved in the fitness industry since 2004"
+    facebook: scott.mcwilliam.75
+
 trainers:
-  # - 
-  #   name: Scott McWilliam
-  #   title: "Co-Founder, RTSm &amp; MAT Specialist"
-  #   page: scott-mcwilliam.html
-  #   thumb: scott-mcwilliam.jpg
-  #   image: scott-mcwilliam-large.jpg
-  #   blurb: "Scott, co-founder of Lateral Fitness, has been training since 2004. Scott has a firm belief that education is key to the foundation of a trainer"
-  #   facebook: scott.mcwilliam.75
   -
     name: Erik Marthaler
     title: "Co-Founder, Endurance &amp; Weight Loss Specialist"

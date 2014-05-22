@@ -122,9 +122,17 @@
                 %li.has-dropdown{nav_active("trainers")}
                   = link_to 'Trainers', '/trainers.html'
                   %ul.dropdown.nav-dropdown
+                    %li
+                      %label Class
                     - data.people.trainers.each do |t|
                       %li
                         = link_to "#{t.name}", "/trainers/#{t.page}"
+                    %li.divider
+                    %li
+                      %label MSS
+                    - data.people.mss.each do |m|
+                      %li
+                        = link_to "#{m.name}", "/trainers/#{m.page}"
                 %li.has-dropdown{nav_active("instructors")}
                   = link_to 'Instructors', '/instructors.html'
                   %ul.dropdown.nav-dropdown
