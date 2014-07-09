@@ -55,11 +55,11 @@ trainers:
     image: sharrod-large.jpg
     blurb: "Sharrod is a Certified/Licensed Athletic Trainer (ATC/L) and a Certified Strength and Conditioning Specialist (CSCS)."
   -
-    name: Kara Schabecker
+    name: Kara Schabacker
     title: "Myofascial Release Therapist"
-    page: kara-schabecker.html
-    thumb: kara-schabecker.jpg
-    image: kara-schabecker-large.jpg
+    page: kara-schabacker.html
+    thumb: kara-schabacker.jpg
+    image: kara-schabacker-large.jpg
     blurb: "Kara attended the SOMA Institute of Chicago where she graduated valedictorian of her class and received a degree in clinical massage therapy."
 
 instructors:
