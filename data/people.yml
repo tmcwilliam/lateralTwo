@@ -1,5 +1,5 @@
-mss: 
-  - 
+mss:
+  -
     name: Scott McWilliam
     title: "Co-Founder, MSS, RTSm &amp; MAT Specialist"
     page: scott-mcwilliam.html
@@ -61,15 +61,22 @@ trainers:
     thumb: kara-schabacker.jpg
     image: kara-schabacker-large.jpg
     blurb: "Kara attended the SOMA Institute of Chicago where she graduated valedictorian of her class and received a degree in clinical massage therapy."
+  -
+    name: Sunny Ammons
+    title: Personal Trainer
+    page: sunny-ammons.html
+    thumb: sunny-ammons.jpg
+    image: sunny-ammons-large.jpg
+    blurb: "A graduate from Grand Valley State University and the National Personal Training Institute"
 
 instructors:
-  - 
+  -
     name: Jenny Finkel
     title: Yoga Instructor
     page: jenny-finkel.html
     thumb: jenny.jpg
     blurb: "Jenny Finkel began doing yoga as a scoliotic, asthmatic 12-year-old after reading an article"
-  - 
+  -
     name: Sarah Elizabeth Helt
     title: Yoga Instructor
     page: sarah-elizabeth-helt.html

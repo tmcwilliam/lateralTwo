@@ -9,7 +9,7 @@ services:
     page: muscle-activation-technique.html
     thumb: mat.jpg
     blurb: "A muscle contraction evaluation process that complements exercise and injury rehab."
-  - 
+  -
     name: Muscle System Specialist
     page: mss.html
     thumb: mss_thumb.jpg
@@ -19,7 +19,7 @@ services:
     page: corporate.html
     thumb: default.jpg
     blurb: "Join the Corporate Wellness Family at Lateral Fitness!"
-  - 
+  -
     name: Lunchtime Membership
     page: lunch.html
     thumb: lunch2.jpg
@@ -124,6 +124,11 @@ pastevents:
   #   body: "blah blah blah"
 
 press:
+  - name: Get Fit
+    date: July 2014
+    image: scott_active_thumb.jpg
+    body: "Check us out in the July edition of Modern Luxury"
+    link: "http://digital.modernluxury.com/publication/?i=215325&ver=html5&p=146"
   - name: "It's more than the Miles"
     date: "May 2014"
     image: chicago-athlete.jpg
@@ -185,5 +190,5 @@ press:
     body: "Lateral Fitness is a new, one-of-a-kind, boutique gym in River North, offering yoga, mat Pilates, high-intensity interval training classes, muscle activation technique (MAT), half and full marathon and triathlon programs coached by a Team USA athlete, personal training and nutrition."
     link: http://www.nachicagonorth.com/CHI/April-2013/Lateral-Fitness-Gym-Open-in-River-North/
 
-tour: 
+tour:
   src: "https://maps.google.com/maps?q=&layer=c&sll=41.895852,-87.636599&cid=9969609811305301754&panoid=L_L8ceWvlMgAAAAGOnG1og&cbp=13,90.07,,0,6.4&gl=US&hl=en&ie=UTF8&hq=+loc:+&hnear=&t=m&cbll=41.895727,-87.63655&source=embed&ll=41.893928,-87.636545&spn=0.006293,0.01502&z=16&output=svembed"
