@@ -10,7 +10,7 @@ services:
     thumb: mat.jpg
     blurb: "A muscle contraction evaluation process that complements exercise and injury rehab."
   -
-    name: Muscle System Specialist
+    name: MAT Master Level Specialist
     page: mss.html
     thumb: mss_thumb.jpg
     blurb: "Improving your human performance"

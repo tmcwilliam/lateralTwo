@@ -61,13 +61,6 @@ trainers:
     thumb: kara-schabacker.jpg
     image: kara-schabacker-large.jpg
     blurb: "Kara attended the SOMA Institute of Chicago where she graduated valedictorian of her class and received a degree in clinical massage therapy."
-  -
-    name: Sunny Ammons
-    title: Personal Trainer
-    page: sunny-ammons.html
-    thumb: sunny-ammons.jpg
-    image: sunny-ammons-large.jpg
-    blurb: "A graduate from Grand Valley State University and the National Personal Training Institute"
 
 instructors:
   -
@@ -104,3 +97,10 @@ instructors:
     thumb: carla-coelho.jpg
     image: carla-coelho-large.jpg
     blurb: "Carla Coelho has worked in the fitness industry for over seven years as a group fitness instructor"
+  -
+    name: Sunny Ammons
+    title: Tabata Instructor
+    page: sunny-ammons.html
+    thumb: sunny-ammons.jpg
+    image: sunny-ammons-large.jpg
+    blurb: "A graduate from Grand Valley State University and the National Personal Training Institute"
