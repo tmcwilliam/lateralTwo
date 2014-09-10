@@ -61,6 +61,13 @@ trainers:
     thumb: kara-schabacker.jpg
     image: kara-schabacker-large.jpg
     blurb: "Kara attended the SOMA Institute of Chicago where she graduated valedictorian of her class and received a degree in clinical massage therapy."
+  -
+    name: Megan Linge
+    title: Personal Trainer
+    page: megan-linge.html
+    thumb: megan-linge.jpg
+    image: megan-linge-large.jpg
+    blurb: "Megan’s fitness journey began when she was in high school, overweight and inactive"
 
 instructors:
   -
@@ -87,8 +94,8 @@ instructors:
     name: Molly Lersten
     title: Pilates Instructor
     page: molly-lersten.html
-    thumb: molly-lersten.jpg
-    image: molly-lersten-large.jpg
+    thumb: molly-lersten-small.jpg
+    image: molly-lersten-large3.jpg
     blurb: "Molly discovered pilates in 2008 as a new way to challenge her exercise routine"
   -
     name: Sunny Ammons
@@ -97,3 +104,10 @@ instructors:
     thumb: sunny-ammons.jpg
     image: sunny-ammons-large.jpg
     blurb: "A graduate from Grand Valley State University and the National Personal Training Institute"
+  -
+    name: Megan Linge
+    title: Personal Trainer
+    page: megan-linge.html
+    thumb: megan-linge.jpg
+    image: megan-linge-large.jpg
+    blurb: "Megan’s fitness journey began when she was in high school, overweight and inactive"
