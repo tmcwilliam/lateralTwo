@@ -13,8 +13,6 @@ page_id: news
       /   = link_to "Upcoming Events", "#events"
       %dd
         = link_to "Past Events", "#past"
-      %dd
-        = link_to "Gallery", "#gallery"
 
     %ul.tabs-content
       %li#pressTab.active
@@ -58,11 +56,4 @@ page_id: news
                 = link_to "#{e.link}", :target => "_blank" do
                   Read more
                   %i.fa.fa-chevron-right.small
-
-      %li#galleryTab
-        %ul{:class => "block-grid three-up mobile-two-up", :data => {:clearing => ""}}
-          - data.lateral.photos.each do |t|
-            %li
-              = link_to "/images/gallery/#{t.filename}" do
-                = image_tag "/images/gallery/#{t.filename}"
 

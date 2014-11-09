@@ -15,15 +15,15 @@ services:
     thumb: mss_thumb.jpg
     blurb: "Improving your human performance"
   -
-    name: Corporate Wellness Program
-    page: corporate.html
-    thumb: default.jpg
-    blurb: "Join the Corporate Wellness Family at Lateral Fitness!"
-  -
     name: Lunchtime Membership
     page: lunch.html
     thumb: lunch2.jpg
     blurb: "Workout over lunch"
+  -
+    name: Corporate Wellness Program
+    page: corporate.html
+    thumb: default.jpg
+    blurb: "Join the Corporate Wellness Family at Lateral Fitness!"
 
 classes:
   -
@@ -39,7 +39,7 @@ classes:
   -
     name: High Intensity Classes
     page: high-intensity.html
-    thumb: high3.jpg
+    thumb: high4.jpg
     blurb: Classes to fit everyone's needs and goals by top professionals in the Chicago land area.
   -
     name: Kettlebell Program

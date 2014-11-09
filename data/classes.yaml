@@ -7,11 +7,14 @@ yoga:
     title: Yin Athletica
     content: "Yin Athletica is a deep restorative class with long passive stretching sequences which includes some prone and kneeling postures. Addressing the opening and release of the major joints: deep spinal twists, profound shoulder and hip openers, to access the deeper layer of tissue (fascia) done with long 3 - 5 minute holds. Following a yin class, your body can feel deeply relaxed and often the effects of the release can last long after, releasing deep seated tension and emotions. Come enjoy and discover as you unfold! This class is for all levels for the 'athlete' in all of us! (We also offer a Yin Yoga class for the non-athlete)"
     level: All Levels
-  - 
-    title: Yoga Sculpt
-    content: "This class is a combination of yoga inspired movements and free weights for increased muscle endurance, strength, stamina, and flexibility. Our Yoga Sculpt is a total body workout designed to tone or ‘sculpt’ every major muscle group. Free weights serve as your own personal adjuster as you move through sun salutations and other yoga postures, enabling extra length and depth in each pose. Strength training is great way to build lean muscle, which in return, will have greater long term impact on your metabolism, even while resting."
+  -
+    title: Vinyasa Yoga
+    content: "This flow class is all about connecting breath (pranayama) to movement (asana). Expect a mix of vigorous standing postures and balances with heart opening back bends and hip opening postures, ending with a deep relaxation. Through the practice you will focus your mind, challenge your body, and ease stress. Each class will be structured differently by our expert instructors, so you'll never get bored. All levels welcome."
     level: All Levels
-
+  -
+    title: Workplace Restorative Yoga
+    content: "This class begins on our feet with slow motion sun salutations to stretch the body from head to toe. Integrating Yin yoga sequences with standing and kneeling postures, this class is the perfect class to reset after a stressful week or a long run. This class is for those of us who work hard so we can train hard and need to relax."
+    level: All Levels
 
 high:
   -
@@ -31,13 +34,21 @@ high:
     content: "If you’re looking to add more weight training into your workout routine, this is the class for you.  This is total body toning, firming and sculpting class using free weights, your own body weight and resistance bands. Sculpt focuses on each muscle group throughout your body so that everything gets targeted equally and nothing is left behind."
     level: All Levels
   - 
-    title: Sweat Shop
-    content: "If you don’t like to sweat, this isn’t the class for you! Sweat Shop is a circuit training based class where you work station by station. Sweat Shop uses functional exercises, weight training, plyometrics/high impact, low impact and isometric exercises to keep that heart rate moving up and down so you effectively and efficiently burn calories while getting a total body workout."
-    level: All Levels
-  - 
     title: Simply Shredded
     content: "Simply Shredded is a 1 hour total body, cardio, strength and conditioning workout. We isolate one muscle group at a time while taking you through 3 stages of the movement: Stage 1- Easy, Stage 2- Moderate and Stage 3 - Advanced. Each stage is 20 seconds long. Three stages of the exercise are shown, you have 3 choices of which level you'd like to stay at or go to every 20 seconds. Simply Shredded uses hand weights, bands, yoga mats and pilates rings to make sure all muscle groups are taken to failure. The circuits are intermixed with spurts of H.I.I.T. (High Intensity Interval Training) to keep your heart rate moving up and down throughout class which will get you closer to getting Shredded! This class is for the intense class seekers!"
     level: Intermediate to Advanced
+  -
+    title: Tabata Challenge
+    content: "Tabata Challenge is a fusion of strength exercises followed by High Intensity Interval bursts (H.I.I.T) that you complete as fast as you safely can in 20 seconds followed by 10 seconds of rest. This is a great way to work the muscular system, cardiovascular system, increase your metabolism and burn a ton of calories! Although Tabata Challenge is a challenging workout, one can go at their own pace, making Tabata Challenge friendly to all levels. Think 30 minutes isn't enough time to get a good workout in? Lateral Fitness is known for their 30 minute calorie burners! Come prepared to get worked!"
+    level: All Levels
+  - 
+    title: TripleSet
+    content: "This high intensity class focuses on improving your aerobic capacity, muscular endurance and core strength. During the first half of class, you will complete 'triple sets' that incorporate 30 seconds of aerobic exercise, followed by 30 seconds of a strength based move, ending with 30 seconds of a core inspired exercise. We will incorporate medicine balls, dumbbells, resistance bands and body weight moves to elevate the heart rate and fatigue the muscles. The last half of class will consist of isolation moves for the abdominals, legs and upper body."
+    level: All Levels
+  - 
+    title: Unify
+    content: "This low impact class incorporates pushups, squats, lunges, and planks into a series of high repetition exercises using your own bodyweight and minimal equipment. By adding variations to these basic moves, we will integrate additional muscle groups and recruit stabilizing muscles to work the entire body, feeling exhaustingly invigorated at the end!"
+    level: All Levels
 
 challenge:
   -

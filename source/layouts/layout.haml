@@ -62,13 +62,13 @@
             .six.columns
               %ul.header-links
                 %li
-                  = link_to 'Home', '/index.html'
-                %li
                   = link_to 'About', '/about.html'
                 %li
                   = link_to 'Contact Us', '/contact.html'
                 %li
                   = link_to 'Virtual Tour', '/tour.html'
+                %li
+                  = link_to 'Gallery', '/media/gallery.html'
             .six.columns.header_social.hide-for-small
               %ul.headline_socials.main_socials
                 %li
@@ -103,9 +103,16 @@
                     %li
                       = link_to 'MATm Specialist', '/services/mss.html'
                     %li
-                      = link_to 'Corporate Wellness Program', '/services/corporate.html'
-                    %li
                       = link_to 'Lunchtime Membership', '/services/lunch.html'
+                    %li.divider
+                    %li
+                      %label Wellness
+                      %li
+                        = link_to 'Corporate Wellness', '/services/corporate.html'
+                      %li
+                        = link_to 'Massage', '/services/massage.html'
+                      %li
+                        = link_to 'Acupuncture', '/services/acupuncture.html'
                 %li.has-dropdown{nav_active("classes")}
                   = link_to 'Classes', '/classes.html'
                   %ul.dropdown.nav-dropdown

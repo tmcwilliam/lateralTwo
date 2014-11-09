@@ -1,0 +1,19 @@
+---
+title: Lateral Fitness Chicago
+page_id: massage
+---
+
+.row.grid-layout
+  .twelve.columns
+    %ul.block-grid.three-up.mobile-one-up 
+      - data.people.massage.each do |t|
+        %li.member
+          .panel.instructor-panel
+            = link_to "/services/massage/#{t.page}" do
+              = image_tag "/images/massage/#{t.thumb}", :class => "th"
+            .member_name
+              = link_to "/services/massage/#{t.page}" do
+                %h5.subheader= t.name
+              .op= t.title
+            .member_desc
+              .exc #{t.blurb}...#{link_to 'more', "/services/massage/#{t.page}"}

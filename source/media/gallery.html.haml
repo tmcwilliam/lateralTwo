@@ -1,0 +1,15 @@
+---
+title: Pictures - Lateral Fitness Chicago
+page_id: gallery
+---
+
+.row
+  .twelve.columns
+    %h4 Pictures of Lateral Fitness
+.row.puff-bottom
+  .twelve.columns
+    %ul{:class => "block-grid three-up mobile-two-up", :data => {:clearing => ""}}
+      - data.lateral.photos.each do |t|
+        %li
+          = link_to "/images/gallery/#{t.filename}" do
+            = image_tag "/images/gallery/#{t.filename}"

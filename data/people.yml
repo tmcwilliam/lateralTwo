@@ -55,13 +55,6 @@ trainers:
     image: sharrod-large.jpg
     blurb: "Sharrod is a Certified/Licensed Athletic Trainer (ATC/L) and a Certified Strength and Conditioning Specialist (CSCS)."
   -
-    name: Kara Schabacker
-    title: "Myofascial Release Therapist"
-    page: kara-schabacker.html
-    thumb: kara-schabacker.jpg
-    image: kara-schabacker-large.jpg
-    blurb: "Kara attended the SOMA Institute of Chicago where she graduated valedictorian of her class and received a degree in clinical massage therapy."
-  -
     name: Megan Linge
     title: Personal Trainer
     page: megan-linge.html
@@ -76,12 +69,6 @@ instructors:
     page: jenny-finkel.html
     thumb: jenny.jpg
     blurb: "Jenny Finkel began doing yoga as a scoliotic, asthmatic 12-year-old after reading an article"
-  -
-    name: Sarah Elizabeth Helt
-    title: Yoga Instructor
-    page: sarah-elizabeth-helt.html
-    thumb: sarah-helt.jpg
-    blurb: "Sarah Elizabeth Helt is delighted to be working with the talented and knowledgable team at Lateral"
   -
     slug: adrienne-marie
     name: Adrienne Marie
@@ -111,3 +98,19 @@ instructors:
     thumb: megan-linge.jpg
     image: megan-linge-large.jpg
     blurb: "Megan’s fitness journey began when she was in high school, overweight and inactive"
+
+massage:
+  -
+    name: Kara Schabacker
+    title: "Myofascial Release Therapist"
+    page: kara-schabacker.html
+    thumb: kara-schabacker.jpg
+    image: kara-schabacker-large.jpg
+    blurb: "Kara attended the SOMA Institute of Chicago where she graduated valedictorian of her class and received a degree in clinical massage therapy."
+  -
+    name: Leslie Walter
+    title: "Massage Therapist"
+    page: leslie-walter.html
+    thumb: leslie-walter.jpg
+    image: leslie-walter.jpg
+    blurb: "Leslie graduated from  Cortiva Institute - Chicago School of Massage Therapy in 2008."
